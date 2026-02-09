@@ -64,7 +64,7 @@ return [
         'assets' => [
             'driver' => 'local',
             'root' => public_path('assets'),
-            'url' => '/assets',
+            'url' => env('STATAMIC_ASSET_URL', '/assets'),
             'visibility' => 'public',
             'throw' => false,
             'report' => false,

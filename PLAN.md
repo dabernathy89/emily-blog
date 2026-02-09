@@ -113,20 +113,16 @@ This document outlines the roadmap for transforming the current Statamic 5 site 
 1. **Configure a Statamic asset container** that uses the `local` filesystem driver, storing files in `storage/app/assets/` (or `public/assets/`). This is Statamic's default behavior.
 2. **Set up Cloudflare R2 bucket** for backups.
 3. **Install `league/flysystem-aws-s3-v3`** (R2 is S3-compatible) and configure a second filesystem disk in `config/filesystems.php` pointing to the R2 bucket.
-4. **Automated backup script:** A scheduled Laravel command or cron job that syncs the local asset directory to R2. Options:
-   - Laravel scheduled command using Flysystem to mirror files.
-   - `rclone` configured with R2 credentials, triggered by cron (simpler, battle-tested).
-   - Statamic event listener that uploads to R2 whenever an asset is uploaded/updated in the CP.
-   - Recommendation: `rclone sync` via cron is the simplest and most reliable. Run it nightly or on whatever cadence makes sense.
+4. **Post-SSG asset sync to R2:** An artisan command that runs after `ssg:generate` in GitHub Actions CI. Uses Laravel's Flysystem S3 adapter to sync the generated assets from the SSG output directory to R2. This replaces the original rclone approach — the sync is part of the build pipeline, not a cron job on the VM.
 5. **Add `storage/app/assets/` (or wherever media lives) to `.gitignore`** — media stays out of git.
 6. **For SSG builds:** Media needs to be accessible during `ssg:generate`. Since the CMS and the build both run on the same VM, local media will be available. The generated static site will reference images at their public URLs — these will need to be served from either R2 directly or a CDN in front of R2 (see Stream 5).
 
-**Image serving:** Images will be served from Cloudflare R2 via a custom domain (e.g., `media.everydayaccountsblog.com`). Static HTML references absolute URLs to the media domain. This keeps Cloudflare Pages deploys lightweight (HTML/CSS/JS only), and R2 has free egress on Cloudflare's network.
+**Image serving:** Images will be served from Cloudflare R2 via a custom domain (`images.everydayaccountsblog.com`). Static HTML references absolute URLs to the media domain. This keeps Cloudflare Pages deploys lightweight (HTML/CSS/JS only), and R2 has free egress on Cloudflare's network.
 
 **Legacy `/wp-content/` image paths:** The current production stack has a dedicated nginx service (`wordpress-images` in `docker-stack.yml` + `nginx-wp-content.conf`) that intercepts `/wp-content/` requests on the main domain and serves images from `public/assets/wp-content/`. This entire mechanism gets replaced when we move to Cloudflare Pages + R2:
 
 - Upload all `/wp-content/uploads/` images to R2, preserving the directory structure.
-- Rewrite image URLs in blog post content to point to the R2 media domain (e.g., `media.everydayaccountsblog.com/wp-content/uploads/2021/09/image.png`).
+- Rewrite image URLs in blog post content to point to the R2 media domain (e.g., `images.everydayaccountsblog.com/wp-content/uploads/2021/09/image.png`).
 - Add a `_redirects` rule on Cloudflare Pages to redirect any remaining `/wp-content/*` requests to the R2 media domain as a safety net for external links.
 - Retire `nginx-wp-content.conf`, the `wordpress-images` Docker service, and the `public/assets/wp-content/` local directory.
 
@@ -237,26 +233,30 @@ This document outlines the roadmap for transforming the current Statamic 5 site 
 Phase 1: Foundation ✓ COMPLETE
 ├── 1.1  ✓ Migrate Eloquent → flat files (Stream 1)
 ├── 1.2  ✓ Verify all content exports correctly (413 articles, 488 taxonomy terms, 7 blueprints, 1 global set)
-├── 1.3  Commit flat-file content to git
-└── 1.4  Update .gitignore for new architecture
+├── 1.3  ✓ Commit flat-file content to git
+└── 1.4  ✓ Update .gitignore for new architecture
 
-Phase 2: Theme
-├── 2.1  Capture WordPress design reference (screenshots, assets)
-├── 2.2  Update Tailwind config (colors, fonts, spacing)
-├── 2.3  Build layout shell (header, nav, sidebar, footer)
-├── 2.4  Build page templates (home, article list, single article, taxonomy, about)
-├── 2.5  Content typography and styling
-├── 2.6  Responsive / mobile polish
-└── 2.7  Navigation tree setup
+Phase 2: Theme ✓ COMPLETE
+├── 2.1  ✓ Capture WordPress design reference (screenshots, assets)
+├── 2.2  ✓ Update Tailwind config (colors, fonts, spacing)
+├── 2.3  ✓ Build layout shell (header, nav, sidebar, footer)
+├── 2.4  ✓ Build page templates (home, article list, single article, taxonomy, about)
+├── 2.5  ✓ Content typography and styling
+├── 2.6  ✓ Responsive / mobile polish
+└── 2.7  ✓ Navigation tree setup
 
 Phase 3: Infrastructure
-├── 3.1  Set up Cloudflare R2 bucket
-├── 3.2  Configure media backup (rclone or similar)
-├── 3.3  Configure asset container URL for R2/CDN
+├── 3.1  ✓ Set up Cloudflare R2 bucket (images.everydayaccountsblog.com)
+├── 3.2  ✓ Install league/flysystem-aws-s3-v3 for R2 sync
+├── 3.3  ✓ Configure asset container URL for R2/CDN (env-based ASSET_URL)
 ├── 3.4  Set up Cloudflare Pages project
-├── 3.5  Configure SSG for clean static output
-├── 3.6  First deploy to Cloudflare Pages
-└── 3.7  Configure articles collection route to match WP URL pattern
+├── 3.5  Rewrite legacy wp-content image URLs in content to use R2 domain
+├── 3.6  Upload wp-content images to R2
+├── 3.7  Add 301 redirect for /wp-content/* on Cloudflare Pages (_redirects)
+├── 3.8  Build post-SSG artisan command to sync generated assets to R2
+├── 3.9  Configure SSG for clean static output
+├── 3.10 First deploy to Cloudflare Pages
+└── 3.11 ✓ Configure articles collection route to match WP URL pattern
 
 Phase 4: VM & Workflow
 ├── 4.1  Set up VM with PHP, Composer, Node
@@ -274,7 +274,7 @@ Phases 1 and 2 can overlap. Phase 3 depends on Phase 1 being complete. Phase 4 c
 ## Decisions (Resolved)
 
 1. **Theme fidelity** → **Modernized successor.** Keep the warmth, color palette, and personality but modernize the layout — cleaner grid, better mobile experience, modern typography. Use the WordPress design as a mood board, not a pixel-perfect spec.
-2. **Image serving** → **R2 with custom domain** (e.g., `media.everydayaccountsblog.com`). Static HTML references absolute URLs to the media domain. Keeps Cloudflare Pages deploys lightweight.
+2. **Image serving** → **R2 with custom domain** (`images.everydayaccountsblog.com`). Static HTML references absolute URLs to the media domain. Keeps Cloudflare Pages deploys lightweight. Asset sync runs post-SSG in GitHub Actions CI using Laravel's Flysystem S3 adapter (not rclone).
 3. **Build pipeline** → **GitHub Actions CI.** Statamic's Git Integration auto-commits and pushes CP changes to GitHub. GitHub Actions builds the static site and deploys to Cloudflare Pages on every push to `main`.
 4. **Comments** → **Keep Disqus.** The WordPress site already uses Disqus, so comments live in Disqus's system. Embed the Disqus widget on article pages in the new theme. Since the URL structure will match WordPress, existing comment threads will automatically appear on the correct posts.
 5. **Navigation** → **Manual top-level, dynamic children.** Top-level nav items (Travel with Me, Travel Tips, Other Series) are manually defined. Sub-menus are auto-populated from child taxonomy terms.
