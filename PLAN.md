@@ -7,12 +7,13 @@ This document outlines the roadmap for transforming the current Statamic 5 site 
 ## Current State
 
 - **Statamic 5 on Laravel 12**, content migrated from WordPress
-- **All content lives in SQLite** via the Eloquent driver — the `content/` directory is empty
+- **All content lives in flat files** in `content/` — Eloquent driver has been removed
+- **413 blog posts imported** from WordPress REST API, plus categories and tags taxonomies
 - **Theme is a minimal starter** — teal accent, Tailwind + Alpine, no resemblance to the WordPress blog
 - **Docker Swarm production stack** with FrankenPHP, Traefik, and nginx for static serving
 - **SSG already configured** — outputs to `storage/app/static`
 - **Two import commands exist**: one from local JSON, one from the WordPress REST API
-- **Blueprints defined**: articles (title, content, excerpt, author), pages (title, content, template), topics taxonomy, global settings (site_name, social grid)
+- **Blueprints defined**: articles (title, content, excerpt, author), pages (title, content, template), categories and tags taxonomies, global settings (site_name, social grid)
 
 ---
 
@@ -233,9 +234,9 @@ This document outlines the roadmap for transforming the current Statamic 5 site 
 ## Recommended Order of Execution
 
 ```
-Phase 1: Foundation
-├── 1.1  Migrate Eloquent → flat files (Stream 1)
-├── 1.2  Verify all content exports correctly
+Phase 1: Foundation ✓ COMPLETE
+├── 1.1  ✓ Migrate Eloquent → flat files (Stream 1)
+├── 1.2  ✓ Verify all content exports correctly (413 articles, 488 taxonomy terms, 7 blueprints, 1 global set)
 ├── 1.3  Commit flat-file content to git
 └── 1.4  Update .gitignore for new architecture
 

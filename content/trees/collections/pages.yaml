@@ -1,0 +1,9 @@
+tree:
+  -
+    entry: home
+  -
+    entry: about
+  -
+    entry: articles
+  -
+    entry: topics

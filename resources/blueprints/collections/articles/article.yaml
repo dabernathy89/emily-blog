@@ -1,32 +1,99 @@
 title: Article
-sections:
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          display: Title
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Title
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - underline
+                - code
+                - horizontalrule
+                - alignleft
+                - aligncenter
+                - alignright
+                - alignjustify
+                - h4
+                - h5
+                - h6
+                - strikethrough
+                - small
+                - superscript
+                - subscript
+                - codeblock
+              remove_empty_nodes: false
+              target_blank: true
+              type: bard
+              display: Content
+              smart_typography: true
+              container: assets
+          -
+            handle: excerpt
+            field:
+              type: textarea
+              display: Excerpt
+              character_limit: 160
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+  sidebar:
+    display: Sidebar
+    sections:
       -
-        handle: content
-        field:
-          type: markdown
-          display: Content
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-      -
-        handle: excerpt
-        field:
-          type: textarea
-          display: Excerpt
-          character_limit: 160
-      -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: categories
+            field:
+              taxonomies:
+                - categories
+              type: terms
+              display: Categories
+              mode: select
+          -
+            handle: tags
+            field:
+              mode: typeahead
+              taxonomies:
+                - tags
+              type: terms
+              display: Tags
+              sortable: false

@@ -15,14 +15,13 @@
         "laravel/tinker": "^2.10.1",
         "spatie/fork": "^1.2",
         "statamic/cms": "^5.0",
-        "statamic/eloquent-driver": "^4.23",
         "statamic/ssg": "^3.1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
         "fakerphp/faker": "^1.23",
         "interaction-design-foundation/coding-standard": "^0.3.3",
-        "laravel/boost": "^1.1",
+        "laravel/boost": "^2.1",
         "laravel/pail": "^1.2.2",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.41",
