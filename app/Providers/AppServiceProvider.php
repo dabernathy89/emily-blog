@@ -3,7 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Statamic\Statamic;
+use Statamic\Facades\Entry;
+use Statamic\StaticSite\SSG;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,9 +21,15 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // Statamic::vite('app', [
-        //     'resources/js/cp.js',
-        //     'resources/css/cp.css',
-        // ]);
+        SSG::addUrls(function () {
+            return Entry::query()
+                ->where('collection', 'articles')
+                ->get()
+                ->map(fn ($entry) => $entry->date()->format('Y/m'))
+                ->unique()
+                ->values()
+                ->map(fn ($path) => '/'.$path)
+                ->all();
+        });
     }
 }
