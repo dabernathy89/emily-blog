@@ -89,7 +89,7 @@ tabs:
               validate:
                 - required
           -
-            handle: categories
+            handle: category
             field:
               taxonomies:
                 - category
@@ -97,7 +97,7 @@ tabs:
               display: Categories
               mode: select
           -
-            handle: tags
+            handle: tag
             field:
               mode: typeahead
               taxonomies:

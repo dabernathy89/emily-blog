@@ -1,4 +1,4 @@
-{{ collection:articles limit="10" as="articles" paginate="true" }}
+{{ collection:articles limit="10" as="articles" paginate="true" on_each_side="1" }}
     {{ if no_results }}
         <p class="font-serif text-xl italic text-warm-gray">No posts yet — check back soon!</p>
     {{ /if }}
@@ -26,35 +26,24 @@
             </div>
             <a href="{{ url }}" class="font-sans text-sm text-peach hover:text-peach-dark no-underline">continue reading</a>
             <div class="text-sm font-sans text-warm-gray">
-                {{ if categories }}
+                {{ if category }}
                     Filed Under:
-                    {{ categories }}
+                    {{ category }}
                         <a href="/category/{{ slug }}" class="text-peach hover:text-peach-dark no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
-                    {{ /categories }}
+                    {{ /category }}
                 {{ /if }}
-                {{ if tags }}
-                    {{ if categories }} &middot; {{ /if }}
+                {{ if tag }}
+                    {{ if category }} &middot; {{ /if }}
                     Tagged With:
-                    {{ tags }}
+                    {{ tag }}
                         <a href="/tag/{{ slug }}" class="text-sage hover:text-peach no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
-                    {{ /tags }}
+                    {{ /tag }}
                 {{ /if }}
             </div>
         </article>
     {{ /articles }}
 
     {{ paginate }}
-        {{ if prev_page || next_page }}
-            <div class="flex items-center justify-between pt-8 font-sans text-sm">
-                {{ if prev_page }}
-                    <a href="{{ prev_page }}" class="text-peach hover:text-peach-dark no-underline">&larr; Newer Posts</a>
-                {{ else }}
-                    <span></span>
-                {{ /if }}
-                {{ if next_page }}
-                    <a href="{{ next_page }}" class="text-peach hover:text-peach-dark no-underline">Older Posts &rarr;</a>
-                {{ /if }}
-            </div>
-        {{ /if }}
+        {{ partial:pagination }}
     {{ /paginate }}
 {{ /collection:articles }}

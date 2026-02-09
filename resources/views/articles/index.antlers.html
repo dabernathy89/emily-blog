@@ -5,7 +5,7 @@
     {{ /if }}
 </header>
 
-{{ collection:articles as="articles" paginate="10" }}
+{{ collection:articles as="articles" paginate="10" on_each_side="1" }}
     {{ if no_results }}
         <p class="font-serif text-xl italic text-warm-gray">No articles found.</p>
     {{ /if }}
@@ -32,17 +32,6 @@
     {{ /articles }}
 
     {{ paginate }}
-        {{ if prev_page || next_page }}
-            <div class="flex items-center justify-between pt-8 font-sans text-sm">
-                {{ if prev_page }}
-                    <a href="{{ prev_page }}" class="text-peach hover:text-peach-dark no-underline">&larr; Newer Posts</a>
-                {{ else }}
-                    <span></span>
-                {{ /if }}
-                {{ if next_page }}
-                    <a href="{{ next_page }}" class="text-peach hover:text-peach-dark no-underline">Older Posts &rarr;</a>
-                {{ /if }}
-            </div>
-        {{ /if }}
+        {{ partial:pagination }}
     {{ /paginate }}
 {{ /collection:articles }}

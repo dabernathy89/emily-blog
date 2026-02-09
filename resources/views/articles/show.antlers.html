@@ -14,20 +14,20 @@
     </div>
 
     <footer class="mt-10 pt-6 border-t border-gray-100 text-sm font-sans text-warm-gray">
-        {{ if categories }}
+        {{ if category }}
             <p class="mb-2">
                 Filed Under:
-                {{ categories }}
+                {{ category }}
                     <a href="/category/{{ slug }}" class="text-peach hover:text-peach-dark no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
-                {{ /categories }}
+                {{ /category }}
             </p>
         {{ /if }}
-        {{ if tags }}
+        {{ if tag }}
             <p>
                 Tagged With:
-                {{ tags }}
+                {{ tag }}
                     <a href="/tag/{{ slug }}" class="text-sage hover:text-peach no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
-                {{ /tags }}
+                {{ /tag }}
             </p>
         {{ /if }}
     </footer>
