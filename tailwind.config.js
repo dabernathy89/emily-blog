@@ -1,18 +1,25 @@
 export default {
-  content: [
+    content: [
         './resources/**/*.antlers.html',
         './resources/**/*.blade.php',
         './content/**/*.md'
     ],
     theme: {
         fontFamily: {
-            sans: ['Inter', 'sans'],
+            display: ['"Dancing Script"', 'cursive'],
+            serif: ['"EB Garamond"', 'Georgia', 'serif'],
+            sans: ['Inter', 'sans-serif'],
             mono: ['Menlo', 'monospace']
         },
         extend: {
             colors: {
-                'teal': '#008483',
-                'teal-light': '#a6d0cf'
+                'peach': '#ffbc97',
+                'peach-light': '#ffd4b8',
+                'peach-dark': '#e8a07a',
+                'sage': '#9bb8a5',
+                'sage-light': '#c5d8cc',
+                'cream': '#fdf8f4',
+                'warm-gray': '#666666',
             }
         }
     },

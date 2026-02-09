@@ -1,0 +1,5 @@
+title: Main
+max_depth: 2
+collections:
+  - pages
+  - articles

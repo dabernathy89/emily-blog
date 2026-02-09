@@ -1,16 +1,50 @@
-<div class="max-w-5xl mx-auto relative mt-16 content">
-    {{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
-    <article class="lg:py-32 max-w-2xl mx-auto">
-        <h1>{{ title }}</h1>
-        <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
-            Published
-            {{ if topics }}
-                in {{ topics }}<a href="{{ url }}" class="text-teal-light no-underline hover:text-white">{{ title }}</a>{{ unless last }}, {{ /unless }}{{ /topics }}
+<article>
+    <header class="mb-8">
+        <h1 class="font-display text-4xl lg:text-5xl text-peach leading-tight">{{ title }}</h1>
+        <div class="text-sm text-warm-gray font-sans mt-3">
+            {{ date format="F j, Y" }}
+            {{ if author }}
+                &middot; by {{ author:name }}
             {{ /if }}
-            on {{ date format="M j, Y" }}
         </div>
-        <div class="content">
-            {{ content | widont }}
-        </div>
-    </article>
-</div>
+    </header>
+
+    <div class="content font-serif text-gray-800 leading-relaxed">
+        {{ content | widont }}
+    </div>
+
+    <footer class="mt-10 pt-6 border-t border-gray-100 text-sm font-sans text-warm-gray">
+        {{ if categories }}
+            <p class="mb-2">
+                Filed Under:
+                {{ categories }}
+                    <a href="/category/{{ slug }}" class="text-peach hover:text-peach-dark no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
+                {{ /categories }}
+            </p>
+        {{ /if }}
+        {{ if tags }}
+            <p>
+                Tagged With:
+                {{ tags }}
+                    <a href="/tag/{{ slug }}" class="text-sage hover:text-peach no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
+                {{ /tags }}
+            </p>
+        {{ /if }}
+    </footer>
+</article>
+
+{{# Disqus comments #}}
+<div id="disqus_thread" class="mt-10 pt-8 border-t border-gray-100"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = '{{ permalink }}';
+        this.page.identifier = '{{ id }}';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://everydayaccounts.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

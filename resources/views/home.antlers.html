@@ -1,28 +1,60 @@
-<div class="max-w-5xl mx-auto relative py-16 lg:pt-40 lg:pb-32">
-    <article class="content">
-        <p class="font-medium text-lg text-teal">{{ subtitle }}</p>
-        <h1>{{ content }}</h1>
-    </article>
-</div>
+{{ collection:articles limit="10" as="articles" paginate="true" }}
+    {{ if no_results }}
+        <p class="font-serif text-xl italic text-warm-gray">No posts yet — check back soon!</p>
+    {{ /if }}
 
-<div class="max-w-2xl mx-auto mb-32">
-    {{ collection:articles limit="5" as="articles" }}
-        {{ if no_results }}
-            <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool writings!</h2>
-        {{ /if }}
-
-        {{ articles }}
-            <div class="mb-16">
-                <h2 class="mb-4">
-                    <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
-                        {{ title | widont }}
-                    </a>
-                </h2>
-                <p class="text-gray-600">
-                    <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
-                    {{ excerpt | widont ?? content | strip_tags | safe_truncate(150, '...') }}
-                </p>
+    {{ articles }}
+        <article class="mb-10 pb-10 border-b border-gray-100 last:border-0">
+            {{ if featured_image }}
+                <a href="{{ url }}" class="block mb-4">
+                    <img src="{{ featured_image }}" alt="{{ title }}" class="w-full rounded" loading="lazy">
+                </a>
+            {{ /if }}
+            <h2 class="mb-2">
+                <a href="{{ url }}" class="font-display text-3xl text-peach hover:text-peach-dark no-underline leading-tight">
+                    {{ title | widont }}
+                </a>
+            </h2>
+            <p class="text-sm text-warm-gray font-sans mb-3">
+                {{ date format="F j, Y" }}
+                {{ if author }}
+                    &middot; by {{ author:name }}
+                {{ /if }}
+            </p>
+            <div class="font-serif text-gray-700 leading-relaxed mb-3">
+                {{ excerpt | widont ?? content | strip_tags | safe_truncate(250, '...') }}
             </div>
-        {{ /articles }}
-    {{ /collection:articles }}
-</div>
+            <a href="{{ url }}" class="font-sans text-sm text-peach hover:text-peach-dark no-underline">continue reading</a>
+            <div class="text-sm font-sans text-warm-gray">
+                {{ if categories }}
+                    Filed Under:
+                    {{ categories }}
+                        <a href="/category/{{ slug }}" class="text-peach hover:text-peach-dark no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
+                    {{ /categories }}
+                {{ /if }}
+                {{ if tags }}
+                    {{ if categories }} &middot; {{ /if }}
+                    Tagged With:
+                    {{ tags }}
+                        <a href="/tag/{{ slug }}" class="text-sage hover:text-peach no-underline">{{ title }}</a>{{ unless last }}, {{ /unless }}
+                    {{ /tags }}
+                {{ /if }}
+            </div>
+        </article>
+    {{ /articles }}
+
+    {{ paginate }}
+        {{ if prev_page || next_page }}
+            <div class="flex items-center justify-between pt-8 font-sans text-sm">
+                {{ if prev_page }}
+                    <a href="{{ prev_page }}" class="text-peach hover:text-peach-dark no-underline">&larr; Newer Posts</a>
+                {{ else }}
+                    <span></span>
+                {{ /if }}
+                {{ if next_page }}
+                    <a href="{{ next_page }}" class="text-peach hover:text-peach-dark no-underline">Older Posts &rarr;</a>
+                {{ /if }}
+            </div>
+        {{ /if }}
+    {{ /paginate }}
+{{ /collection:articles }}

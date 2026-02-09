@@ -27,3 +27,4 @@ yarn-error.log
 .mcp.json
 /database/*.sqlite
 /public/assets/wp-content
+.playwright-mcp

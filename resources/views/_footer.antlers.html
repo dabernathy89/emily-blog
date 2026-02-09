@@ -1,10 +1,15 @@
-<nav class="flex items-center justify-between flex-wrap py-12 lg:py-24 max-w-5xl mx-auto">
-    <div class="text-sm">&copy; {{ now format="Y" }} {{ settings:site_name }} – Powered by <a href="https://statamic.com?ref=cool-writings" class="hover:text-teal">Statamic</a></div>
-    <div class="flex items-center">
-        {{ settings:social }}
-            <a href="{{ url }}" class="ml-4" aria-label="{{ name }}" rel="noopener">
-                {{ svg :src="icon" class="h-6 w-6 hover:text-teal" }}
-            </a>
-        {{ /settings:social }}
+<footer class="bg-white border-t border-gray-100 mt-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center">
+        <p class="font-display text-3xl text-peach mb-4">{{ settings:site_name ?? "Everyday Accounts" }}</p>
+        <div class="flex items-center justify-center gap-4 mb-4">
+            {{ settings:social }}
+                <a href="{{ url }}" class="text-sage hover:text-peach transition-colors" aria-label="{{ name }}" rel="noopener" target="_blank">
+                    {{ svg :src="icon" class="h-5 w-5" }}
+                </a>
+            {{ /settings:social }}
+        </div>
+        <p class="text-sm text-warm-gray font-sans">
+            &copy; {{ now format="Y" }} {{ settings:site_name ?? "Everyday Accounts" }}
+        </p>
     </div>
-</nav>
+</footer>

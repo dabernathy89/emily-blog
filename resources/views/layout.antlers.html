@@ -4,14 +4,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title }} — {{ settings:site_name }}</title>
+        <title>{{ title }} — {{ site:name }}</title>
         <meta name="description" content="{{ excerpt ?? title }}">
-        <meta name="theme-color" content="00908F">
+        <meta name="theme-color" content="#ffbc97">
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
-    <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
+    <body class="bg-cream font-serif leading-normal text-gray-800" x-data="{ showMobileNav: false }">
+        {{ partial:header }}
         {{ partial:nav }}
-        {{ template_content }}
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="lg:flex lg:gap-10">
+                <main class="lg:w-2/3">
+                    {{ template_content }}
+                </main>
+                <aside class="lg:w-1/3 mt-12 lg:mt-0">
+                    {{ partial:sidebar }}
+                </aside>
+            </div>
+        </div>
         {{ partial:footer }}
     </body>
 </html>

@@ -1,0 +1,23 @@
+<header class="mb-8">
+    <p class="font-sans text-sm text-warm-gray uppercase tracking-widest mb-1">Category</p>
+    <h1 class="font-display text-4xl lg:text-5xl text-peach">{{ title }}</h1>
+</header>
+
+{{ entries }}
+    <article class="mb-8 pb-8 border-b border-gray-100 last:border-0">
+        {{ if featured_image }}
+            <a href="{{ url }}" class="block mb-4">
+                <img src="{{ featured_image }}" alt="{{ title }}" class="w-full rounded" loading="lazy">
+            </a>
+        {{ /if }}
+        <h2 class="mb-2">
+            <a href="{{ url }}" class="font-display text-2xl text-peach hover:text-peach-dark no-underline leading-tight">
+                {{ title | widont }}
+            </a>
+        </h2>
+        <p class="text-sm text-warm-gray font-sans mb-2">{{ date format="F j, Y" }}</p>
+        <div class="font-serif text-gray-700 leading-relaxed">
+            {{ excerpt | widont ?? content | strip_tags | safe_truncate(200, '...') }}
+        </div>
+    </article>
+{{ /entries }}

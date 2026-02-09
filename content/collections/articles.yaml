@@ -3,10 +3,10 @@ template: articles.show
 layout: layout
 mount: articles
 taxonomies:
-  - categories
-  - tags
+  - category
+  - tag
 revisions: false
-route: '{slug}'
+route: '/{year}/{month}/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

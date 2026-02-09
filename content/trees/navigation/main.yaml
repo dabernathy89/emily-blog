@@ -1,0 +1,51 @@
+tree:
+  -
+    entry: home
+  -
+    entry: about
+    title: 'About Me'
+  -
+    title: 'Travel with Me'
+    url: /category/travel-with-me
+    children:
+      -
+        title: 'New England'
+        url: /tag/new-england
+      -
+        title: 'Pacific Northwest'
+        url: /tag/pacific-northwest
+      -
+        title: Nashville
+        url: /tag/nashville
+      -
+        title: Texas
+        url: /tag/texas
+      -
+        title: Philadelphia
+        url: /tag/philadelphia
+  -
+    title: 'Travel Tips'
+    url: '#'
+    children:
+      -
+        title: 'Travel Favorites'
+        url: /tag/travel
+      -
+        title: 'Travel Prep'
+        url: /tag/packing
+  -
+    title: 'Other Series'
+    url: '#'
+    children:
+      -
+        title: 'The Sunday Currently'
+        url: /category/the-sunday-currently
+      -
+        title: 'Lazy Days with Banana'
+        url: /category/lazy-days-with-banana
+      -
+        title: 'Monthly Favorites'
+        url: /category/monthly-favorites
+      -
+        title: 'Year in Review'
+        url: /category/year-in-review

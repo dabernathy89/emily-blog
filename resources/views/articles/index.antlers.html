@@ -1,37 +1,48 @@
-<div class="max-w-5xl mx-auto relative mt-16">
-    {{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
-    <article class="py-32 max-w-2xl mx-auto">
-        <header class="content mb-16">
-            <h1>{{ title }}</h1>
-            {{ content | widont }}
-        </header>
+<header class="mb-8">
+    <h1 class="font-display text-4xl lg:text-5xl text-peach">{{ title }}</h1>
+    {{ if content }}
+        <div class="content font-serif text-gray-700 mt-2">{{ content | widont }}</div>
+    {{ /if }}
+</header>
 
-        {{ collection:articles as="articles" paginate="10" }}
-        {{ if no_results }}
-        <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool
-            writings!</h2>
-        {{ /if }}
+{{ collection:articles as="articles" paginate="10" }}
+    {{ if no_results }}
+        <p class="font-serif text-xl italic text-warm-gray">No articles found.</p>
+    {{ /if }}
 
-        {{ articles }}
-        <div class="mb-2">
-            <a href="{{ url }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
-                {{ title | widont }}
-            </a>
-        </div>
-        {{ /articles }}
+    {{ articles }}
+        <article class="mb-8 pb-8 border-b border-gray-100 last:border-0">
+            {{ if featured_image }}
+                <a href="{{ url }}" class="block mb-4">
+                    <img src="{{ featured_image }}" alt="{{ title }}" class="w-full rounded" loading="lazy">
+                </a>
+            {{ /if }}
+            <h2 class="mb-2">
+                <a href="{{ url }}" class="font-display text-2xl text-peach hover:text-peach-dark no-underline leading-tight">
+                    {{ title | widont }}
+                </a>
+            </h2>
+            <p class="text-sm text-warm-gray font-sans mb-2">
+                {{ date format="F j, Y" }}
+            </p>
+            <div class="font-serif text-gray-700 leading-relaxed">
+                {{ excerpt | widont ?? content | strip_tags | safe_truncate(200, '...') }}
+            </div>
+        </article>
+    {{ /articles }}
 
-        {{ paginate }}
+    {{ paginate }}
         {{ if prev_page || next_page }}
-        <div class="flex justify-between text-xl -mx-16 pt-16 font-bold">
-            <a href="{{ prev_page }}" class="{{ ! prev_page ?= 'opacity-25' }}">
-                &larr; Back to the future
-            </a>
-            <a href="{{ next_page }}">
-                Forward to the past &rarr;
-            </a>
-        </div>
+            <div class="flex items-center justify-between pt-8 font-sans text-sm">
+                {{ if prev_page }}
+                    <a href="{{ prev_page }}" class="text-peach hover:text-peach-dark no-underline">&larr; Newer Posts</a>
+                {{ else }}
+                    <span></span>
+                {{ /if }}
+                {{ if next_page }}
+                    <a href="{{ next_page }}" class="text-peach hover:text-peach-dark no-underline">Older Posts &rarr;</a>
+                {{ /if }}
+            </div>
         {{ /if }}
-        {{ /paginate }}
-        {{ /collection:articles }}
-    </article>
-</div>
+    {{ /paginate }}
+{{ /collection:articles }}

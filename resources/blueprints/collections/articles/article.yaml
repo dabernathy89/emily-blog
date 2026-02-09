@@ -50,6 +50,13 @@ tabs:
               smart_typography: true
               container: assets
           -
+            handle: featured_image
+            field:
+              type: text
+              display: 'Featured Image'
+              instructions: 'URL for the featured image'
+              input_type: url
+          -
             handle: excerpt
             field:
               type: textarea
@@ -61,6 +68,7 @@ tabs:
               type: users
               display: Author
               default: current
+              max_items: 1
   sidebar:
     display: Sidebar
     sections:
@@ -84,7 +92,7 @@ tabs:
             handle: categories
             field:
               taxonomies:
-                - categories
+                - category
               type: terms
               display: Categories
               mode: select
@@ -93,7 +101,7 @@ tabs:
             field:
               mode: typeahead
               taxonomies:
-                - tags
+                - tag
               type: terms
               display: Tags
               sortable: false
