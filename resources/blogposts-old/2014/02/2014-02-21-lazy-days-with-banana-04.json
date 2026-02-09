@@ -1,0 +1,186 @@
+{
+  "data": {
+    "title": "Lazy Days with Banana // 04",
+    "date": "2014-02-21",
+    "categories": [
+      "lazy-days-with-banana"
+    ],
+    "tags": [
+      "cat",
+      "lazy"
+    ],
+    "id": "1080",
+    "slug": "lazy-days-with-banana-04"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Each month I post pictures of my cat Banana sitting around doing nothing but being cute, and I call this series "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/category/lazy-days-with-banana/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Lazy Days with Banana"
+          },
+          {
+            "type": "text",
+            "text": ". I do this so that I can limit the amount of Banana pictures I share on other posts. I do share pictures of him outside of these posts occasionally (and way too much on Instagram), but at least I try to not look like a crazy cat lady. :)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"\" align=\"alignnone\" width=\"768\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140220-223250.jpg",
+              "alt": "20140220-223250.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140220-223250.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Yes, my cat does watch entire TV shows with me....[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140220-223304.jpg",
+              "alt": "20140220-223304.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140220-223304.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140220-223316.jpg",
+              "alt": "20140220-223316.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140220-223316.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140220-223332.jpg",
+              "alt": "20140220-223332.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140220-223332.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140220-223357.jpg",
+              "alt": "20140220-223357.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140220-223357.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140220-223411.jpg",
+              "alt": "20140220-223411.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140220-223411.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

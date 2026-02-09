@@ -1,0 +1,48 @@
+{
+  "data": {
+    "title": "Well, Hello There....",
+    "date": "2015-05-26",
+    "categories": [
+      "thoughts"
+    ],
+    "tags": [
+      "blogging",
+      "break",
+      "work"
+    ],
+    "id": "4276",
+    "slug": "well-hello-there"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I have not posted on this blog for over three months now. Whenever I started writing this blog at the end of 2013, I had hoped to commit to at least somewhat of a consistent posting schedule until I decided to stop blogging altogether.  However, due to an insane work schedule in my new office here in Austin, I had to stop for a while. I didn't just stop writing on my blog - I stopped participating in the blogging community altogether. I read very few blogs, only commented once or twice, and my participation in the blogging Facebook groups I'm in was non-existent."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Today is the last day of a four day weekend for me.  It has been a glorious weekend of quality time with my husband, good food, TV watching, and a teeny bit of sun and pool time. Despite the never-ending rain here in Texas, it has a been a good time to relax and recharge. So now that I'm rested and getting back into somewhat of a routine, I think I'm ready to start getting back into blogging. To be honest, I'm hesitant to start again because I'm afraid I'll have to stop again. But, I've convinced myself that that doesn't matter - I should write here when I can and not be hard on myself when I need to take a break."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "To anyone who is still out there, hello! I'm glad to be back."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "data": {
+    "title": "Hello Friends! + A Big Announcement",
+    "date": "2015-12-22",
+    "categories": [
+      "travel-other"
+    ],
+    "tags": [
+      "backpacking",
+      "change",
+      "europe",
+      "travel"
+    ],
+    "id": "4993",
+    "slug": "hello-friends-a-big-announcement"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Hello Friends!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It has been entirely too long since I've posted in this space. All I can say is my job caught up to me again with long hours, and we have been doing quite a bit of traveling. I believe that since I last posted, I went to Chicago for a work training, DC to visit friends, Waco to visit family and go to Baylor Homecoming, Germany/Austria to visit the Christmas markets, and Dallas/Fort Worth to visit family."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm not complaining at all about the travel because I love it, but it has been a year full of very long hours at the office, and while I'm grateful for the opportunities I've gotten at work, I am ready for a change. And, boy, is that change happening!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "The day after Christmas, Daniel and I are hopping on a plane to London where we will spend a week with my family. After that week, we will begin a two and a half month backpacking trip around Western Europe! We are beyond thrilled for this opportunity. I'm really looking forward to sharing our journey along the way on the blog as well. I hope some of you are still out there to follow along!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Once we return from the big trip, I'll be resuming work at my current company, but it will be on a reduced hours schedule."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "That's all I have to share right now! I hope to catch up on travel posts a little bit before the big journey begins, but we have lots of time planned with family this week, so no guarantees."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I wish everyone a very Merry Christmas!"
+          }
+        ]
+      }
+    ]
+  }
+}

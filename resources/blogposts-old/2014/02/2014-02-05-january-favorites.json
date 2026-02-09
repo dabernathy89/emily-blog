@@ -1,0 +1,658 @@
+{
+  "data": {
+    "title": "January Favorites",
+    "date": "2014-02-05",
+    "categories": [
+      "monthly-favorites"
+    ],
+    "tags": [
+      "beauty",
+      "books",
+      "favorites",
+      "hobbies",
+      "tv"
+    ],
+    "id": "987",
+    "slug": "january-favorites"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Today I'm sharing with you my \"favorites\" from the month of January. I'm sure my favorites categories will change a little each month, but in general, they will include things like books, food, TV shows, beauty products, and music. I always think it's fun to see what things people are loving, so I thought I'd share my own."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "January Favorites"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140201-195525.jpg",
+              "alt": "20140201-195525.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140201-195525.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Book"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured because I read it on my Nook.}"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Insurgent-Divergent-Book-2/dp/0062024043/ref=sr_1_1?s=books&ie=UTF8&qid=1391304397&sr=1-1&keywords=insurgent",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Insurgent"
+          },
+          {
+            "type": "text",
+            "text": " by Veronica Roth"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is book two of the Divergent series. It kept me wanting to keep reading with every page. I'm really looking forward to reading the third book of the series to see how the author rounds out the story line."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Hobbies"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://beckyhiggins.com/products/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Project Life"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Even though I have not gotten very far into this project, I am really enjoying it. It has made me be more intentional about taking pictures and thinking about what I will write on the journal cards of my layout. I plan to finalize my January layout when I return from my business trip toward the end of this month."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "TV"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Parenthood"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is my favorite show that is currently aired, so it seemed fitting to be my \"favorite\" for my first favorites post. Most people who know me know that I love this show. My husband also loves this show. It will make you laugh, make you cry, and just make you feel good in general. The story line within each family is so real - they hit many different real-world issues that families and individuals face. If you are looking for a new show, this is the one!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Music"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Explosions in the Sky Pandora Station"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Listening to this station makes me ten times more productive.  The music is fantastic but not distracting, so it's definitely my station of choice at work. I also love it because it reminds me of my second favorite show, "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Friday Night Lights"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lifestyle"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Erin Condren Life Planner"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This planner is beautiful. I love it. The lay-out makes planning easy and fun, and the bright, beautiful colors motivate me to stay organized. Maybe one day I'll write a review of this planner and describe how I use it."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140201-200953.jpg",
+              "alt": "20140201-200953.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140201-200953.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140201-201007.jpg",
+              "alt": "20140201-201007.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140201-201007.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Food/Drink/Snack"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Bigelow Vanilla Chai Tea"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I discovered this tea at my parents' house over Christmas. It is delicious and just what I want to sip on at the end of most days."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Sour Patch Kids Gum"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Daniel and I found this at Target this month. It tastes just like the candy. SO GOOD!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Body Care"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "St. Ive's Face Pink Lemon & Mandarin Orange Scrub"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I've really been enjoying using this every other day or so. It smells really good and leaves my face smelling very clean and soft."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lucky Goat Lip Balm"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I put this stuff on my lips each night before bed. It is different from other lip balms to me because it stays on my lips all night - I can still feel it in the morning! Most other lip balms/ chap sticks don't stay on my lips for very long - even my beloved original Burt's Bees. I received this as a gift from my in-laws for Christmas; I'm not sure if it's available online."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Beauty"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Suave Keratin Infusion Dry Shampoo"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I only wash my hair about twice a week (it's really thick), so I have been on the hunt for a good dry shampoo for awhile. So far, this has been the best one I've tried! If my hair is starting to look a little greasy, I just spray a little bit of this in my hair, brush it out, and I\"m good to go! I have not noticed it leaving any white residue or anything."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Revlon Color Stay Foundation for Combination/Oily Skin"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is a new foundation I've tried this month, and I've been pleasantly surprised with how fresh it makes my face look and feel. It lasts all day long like it claims, and I don't feel like my face gets very oily while I'm wearing it. It also has pretty good coverage."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Nars Dolce Vita Lip Stick"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Up until recently, I never wore any lip products other than chap stick, but I decided to try out this one because I thought the color looked nice and could be used for both casual and dressy occasions."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140202-091423.jpg",
+              "alt": "20140202-091423.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140202-091423.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Blog"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://shullfamily.blogspot.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Mix and Match Mama"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above.}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Shay at Mix and Match Family has been my favorite blogger for quite some time now. She is a mom, Christian, travel agent, world-traveler, cook, and much more. She posts about her everyday life, her travels, her family, and she shares very practical and very interesting tips in her 50 Shades of Shay series. She is also the sister to Sean Lowe who was the star of The Bachelor last season."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Miscellaneous"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Instagram"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above.}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I know I'm behind the times, but I'm just now really getting into Instagram, and I love it! I love skimming through others' pictures, and this month I started trying to post one picture everyday of something that makes me smile. More than anything, it has helped me stay positive each day - even the longest and hardest days. You can follow me on Instagram at emily_abernathy."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This ends my first Favorites post! I look for to doing these monthly."
+          }
+        ]
+      }
+    ]
+  }
+}

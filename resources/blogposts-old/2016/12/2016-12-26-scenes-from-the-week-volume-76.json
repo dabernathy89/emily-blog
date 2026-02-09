@@ -1,0 +1,450 @@
+{
+  "data": {
+    "title": "Scenes From the Week, Volume 76",
+    "date": "2016-12-26",
+    "categories": [
+      "scenes-from-the-week"
+    ],
+    "tags": [
+      "bahamas",
+      "beach",
+      "christmas",
+      "cruise",
+      "family",
+      "florida",
+      "holiday-2"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2016/12/SFTW_76.png",
+    "id": "8017",
+    "slug": "scenes-from-the-week-volume-76"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Welcome to my Scenes From the Week series! In these posts, I share the highlights from my previous week ranging from the simple, everyday things to the more memorable events. One of the primary reasons that I blog is to keep a scrapbook that I can look back on in the future, and these posts help serve that purpose."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/SFTW_76.png",
+              "alt": null,
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/12/SFTW_76.png",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "I hope that each of you had a very Merry Christmas! We've had a fantastic Christmas and full week before, even though it was not a very traditional Christmas. We went on a Bahamas cruise and then spent Christmas weekend in Fort Lauderdale, FL with my in-laws and some of Daniel's extended family. While it really didn't feel like Christmas on the beach in the Bahamas or in the Florida heat, it was certainly a good time spent with family."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Photos from the week, top left to bottom right:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(1) Norwegian Cruise Lines has a private island in the Bahamas, so we stopped there on day two of the cruise. It was definitely my favorite stop - the sand was extra smooth, the crowds were small, and the water was extremely blue. We spent the morning on the beach and the afternoon on a snorkeling excursion."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(2) This picture was taken on a beach in Freeport, our third day's stop. I wasn't very impressed with Freeport itself (the part we saw was all cheesy touristy shops and industrial construction sites), but the beach we ended up on after a 20 minute taxi ride was a good one!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(3) It was fun to see hints of Christmas throughout the Bahamas. :)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(4) Our rental house in Fort Lauderdale sat right on a lake used by a water skiing school. It was fun to watch the boats and water skiing students go by on skis during the day, and the sunsets were beautiful in the evenings."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Not Pictured:"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A White Elephant gift exchange AND a Secret Santa gift exchange. My Secret Santa was my brother-in-law, and he gave me two bags of coffee beans from my favorite coffee roasting company (Ristretto Roasters in Portland) and a Sephora gift card."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Going to see the new Star Wars movie on Christmas Day"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Ordering Lara Casey's Power Sheets - I'm going to be doing some thinking and planning for the New Year this week after we get home, and I'm excited to finally use these as a planning tool!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Finishing up a couple of books ("
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.amazon.com/Everyone-Brave-Forgiven-Chris-Cleave/dp/1501124374",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "Everyone Brave is Forgiven"
+                  },
+                  {
+                    "type": "text",
+                    "text": " and "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.amazon.com/My-True-Love-Gave-Me/dp/1250059313/ref=sr_1_1?s=books&ie=UTF8&qid=1482712413&sr=1-1&keywords=my+true+love+gave+to+me",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "My True Love Gave to Me"
+                  },
+                  {
+                    "type": "text",
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "On the Blog:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Nothing else this week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I hope everyone gets to enjoy some more quality time with family and friends as we get ready to ring in 2017. Have a great week!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/category/scenes-from-the-week/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see all of my Scenes From the Week posts. I'm linking up with Biana at "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.blovedboston.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "B Loved Boston"
+          },
+          {
+            "type": "text",
+            "text": " for the Weekending link-up!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Thanks for reading! Want to know a little more about me? I'm a CPA learning how to balance a career with frequent travel while planting roots at home in Austin, TX. When I’m not exploring my home city with my husband Daniel or cuddling with our chubby orange cat Banana, I’m probably planning, packing, traveling to, or daydreaming about our next adventure. After all, my"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/my-travel-mug-collection-updated/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel mug collection"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "is never complete. If you have wanderlust too, be sure to follow me on"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.instagram.com/emily_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Instagram"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.pinterest.com/e_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Pinterest"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://snapchat.com/add/emilya89",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Snapchat"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "(emilya89), or"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://bloglovin.com/everydayaccounts",
+                  "title": null
+                }
+              }
+            ],
+            "text": "subscribe to my blog"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "!__}"
+          }
+        ]
+      }
+    ]
+  }
+}

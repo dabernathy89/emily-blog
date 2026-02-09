@@ -1,0 +1,427 @@
+{
+  "data": {
+    "title": "May Favorites",
+    "date": "2014-06-05",
+    "categories": [
+      "monthly-favorites"
+    ],
+    "tags": [
+      "blogs",
+      "books",
+      "favorites",
+      "french-food",
+      "music"
+    ],
+    "id": "1803",
+    "slug": "may-favorites"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It's time for another round of favorites! I have some good ones for May. It was a fun month of trying new things!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Book"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Bittersweet-Thoughts-Change-Grace-Learning/dp/0310328160",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Bittersweet: Thoughts on Change, Grace, and Learning the Hard Way"
+          },
+          {
+            "type": "text",
+            "text": " by Shauna Niequist"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140604-222220-80540098.jpg",
+              "alt": "20140604-222220-80540098.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "May was a great month of reading for me! I read three very good books that were each very different from each other. So, needless to say, it was hard to pick my favorite. Bittersweet ended up being my pick just because I felt it was the most \"life-changing\". Each chapter is an independent story or essay, and it's a quick read. Shauna discusses friendship, loves, loss, food, sadness, the home, etc. If you have never read any of Shauna's books, I highly recommend you pick up this one or "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Bread-Wine-Letter-Around-Recipes/dp/0310328179",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Bread & Wine"
+          },
+          {
+            "type": "text",
+            "text": "!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Music"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Crowder"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Have any of you heard of The David Crowder Band? They were a Christian band that led worship at a church in Waco where I went to college. They were fairly well-known, and many of their songs are sung in churches all over the nation. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.youtube.com/watch?v=hHk8VtbFvho",
+                  "title": null
+                }
+              }
+            ],
+            "text": "This"
+          },
+          {
+            "type": "text",
+            "text": " is my favorite song of theirs. Well, the band broke up fairly recently, and the lead singer David Crowder formed another band called Crowder. The new band recently released their first album called "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Neon-Steeple-Crowder/dp/B00H9GJMVG",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Neon Steeple"
+          },
+          {
+            "type": "text",
+            "text": ", and I have been listening to it non-stop!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Food"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.bistrotters.com/?lang=en",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Bistrotters"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140604-220651-79611827.jpg",
+              "alt": "20140604-220651-79611827.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Usually I list things like snacks that can be bought at the grocery store or drinks that can be purchased at Starbucks in this section, but, for this month, I had to choose Bistrotters. Bistrotters is an adorable little French restaurant where we had our anniversary dinner in Paris. It was the perfect choice. I'll be writing more about this restaurant in one of my trip re-cap posts (in the near future), but the food was fantastic, the waiters were so nice and passionate about their food and their restaurant, and the ambience was very romantic. If you have plans to go to Paris, PLEASE make a reservation at Bistrotters."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Beauty"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140604-221927-80367587.jpg",
+              "alt": "20140604-221927-80367587.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Urban Decay 24/7 Glide-On Eye Pencil"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I decided to give a new eyeliner a try last month because I started having trouble applying my usual Revlon ColorStay Eyeliner for some reason. I picked up this Urban Decay eye pencil at Sephora. This was such a great purchase! Just like all of the reviews say, this pencil is very easy to apply because it is creamy and easy to control when applying. I rarely ever have to smudge around the line or correct anything with a cotton ball, but when I do, it's a very easy fix because it is easy to wipe away for about 30 seconds after application, but after that, it sticks and won't budge for the rest of the day (hence the 24/7)."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Milani Dolce Pink Baked Powder Blush"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This blush is beautiful. It is a simple, everyday blush that I have been wearing daily to work. It also looks great for special occasions when you build it up into a bolder color."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Tech"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "CityMaps2Go App"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I used this app both to help plan our trip to Europe and to navigate us places while there. In the app, you can download any city map of your choice, pin places you plan to go, make lists (I used this feature to list the places we were planning to go each day), and navigate from your phone without data or wifi. We didn't have cell phone service at all while in Europe, so this was the perfect choice for us. I highly recommend this even if you will have cell service when traveling because the pinning and list feature is so useful!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Blog"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.cestchristine.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "C'est Christine"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Another travel blogger! I have been running into the coolest travel blogs lately, and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.cestchristine.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "this"
+          },
+          {
+            "type": "text",
+            "text": " is one of them. Christine is such an interesting person. She lives in NYC, teaches yoga, and travels the world. She has a goal to celebrate each birthday in a different country. She is currently celebrating 26 in Turkey!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "What did you enjoy in May?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.everydayaccountsblog.com/category/monthly-favorites/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see my past favorites posts!"
+          }
+        ]
+      }
+    ]
+  }
+}

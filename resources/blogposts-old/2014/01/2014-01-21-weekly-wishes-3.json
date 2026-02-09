@@ -1,0 +1,378 @@
+{
+  "data": {
+    "title": "Weekly Wishes #3",
+    "date": "2014-01-21",
+    "categories": [
+      "weekly-wishes"
+    ],
+    "tags": [
+      "goals-2",
+      "planning"
+    ],
+    "id": "714",
+    "slug": "weekly-wishes-3"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140120-195947.jpg",
+              "alt": "20140120-195947.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/01/20140120-195947.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It's that time again! I'm really enjoying having Monday nights to plan out what I want to make sure I accomplish for the rest of the week. It really helps me use any free evenings at home and my weekends wisely."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Starting this week, I'm going to begin these posts by taking a look back on my wishes from the previous week to see how I did."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Last Week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "1. Read half of "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Book-Thief-Markus-Zusak/dp/0375842209/ref=sr_1_1?s=books&ie=UTF8&qid=1389665058&sr=1-1&keywords=the+book+thief",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Book Thief"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": ".  -"
+          },
+          {
+            "type": "text",
+            "text": " I did not finish half, but I was close! I've made a reading plan for the rest of the week to make sure I finish in time for my book club meeting this Sunday afternoon."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Make it to my 6am cycling class Tuesday morning."
+          },
+          {
+            "type": "text",
+            "text": " - I did make it! And it felt so good to get my workout done in the morning."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Set up my Project Life album and get it ready to start my first page. -"
+          },
+          {
+            "type": "text",
+            "text": " Done! I can tell I'm going to really enjoy this new hobby."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Put all of our Christmas decoration containers back out in our storage unit."
+          },
+          {
+            "type": "text",
+            "text": " - We did this before our trip to Philly this weekend. It's nice to have a less-cluttered apartment!"
+          }
+        ]
+      },
+      {
+        "type": "ordered_list",
+        "attrs": {
+          "order": 5,
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "\"Finalize\" our budget."
+                  },
+                  {
+                    "type": "text",
+                    "text": " - I worked quite a bit on our budget and updating our You Need a Budget software. I've decided that it will take a few months for it to be in a more final state since I'm not exactly sure what some of our spending patterns for this year will be yet."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "This Week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Set up my new planner. -"
+          },
+          {
+            "type": "text",
+            "text": " I bought some colored pens and can't wait to put my new planner together to help me stay organized for the rest of 2014."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Read the rest of the Book Thief. -"
+          },
+          {
+            "type": "text",
+            "text": " I think I've talked about this enough, but it is definitely a priority for me this week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Make it to  6am cycling class tomorrow and Wednesday morning, BodyPump Thursday evening, yoga on Saturday, and BodyPump again on Sunday."
+          },
+          {
+            "type": "text",
+            "text": " - I basically want this to be my routine any week I'm home this year."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Get a good chunk of my next "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/2013/11/21/travel-with-me-new-england-part-i/",
+                  "title": "Travel with Me // New England (Part I)"
+                }
+              }
+            ],
+            "text": "Travel with Me"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": " post written and ready to post next week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Get pictures printed for my first Project Life layout. -"
+          },
+          {
+            "type": "text",
+            "text": " This is the next step after getting the whole album set up and the first step of creating a layout."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/weekly-wishes-button.jpg",
+              "alt": "The Nectar Collective",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/tags/weekly-wishes/",
+                  "title": "The Nectar Collective"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

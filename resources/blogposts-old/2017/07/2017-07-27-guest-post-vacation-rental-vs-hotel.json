@@ -1,0 +1,724 @@
+{
+  "data": {
+    "title": "Guest Post: Vacation Rental vs. Hotel",
+    "date": "2017-07-27",
+    "categories": [
+      "travel-other"
+    ],
+    "tags": [
+      "guest-post",
+      "travel",
+      "travel-prep",
+      "travel-tips",
+      "traveler-decisions"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/05/Vacation-Rental-Vs.-Hotel_Guest-Post_Everyday-Accounts.png",
+    "id": "8446",
+    "slug": "guest-post-vacation-rental-vs-hotel"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/Vacation-Rental-Vs.-Hotel_Guest-Post_Everyday-Accounts.png",
+              "alt": null,
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/05/Vacation-Rental-Vs.-Hotel_Guest-Post_Everyday-Accounts.png",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Today, my husband Daniel is sharing his second guest post on Everyday Accounts. He shared a fabulous "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.everydayaccountsblog.com/2017/01/guest-post-mens-guide-to-packing-for-a-winter-european-backpacking-trip/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "men's guide to backpacking Europe post"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": " early this year, and this time he is writing about the decision almost every traveler has to make when traveling to a new destination: should I book my lodging through a vacation rental website, or should I stay at a hotel or hostel? We have learned a lot about both options in our adventures together over the past several years and thought this could be a useful post for any traveler. Enjoy!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "In this guest post, I'm going to discuss how you can decide between staying in a hotel or a vacation rental like Airbnb or HomeAway. I'll be focusing on Airbnb (and specifically whole-house rentals) since we have more experience with that than its competitors. We use both hotels and Airbnbs extensively, so we have gotten pretty good at knowing when it's appropriate to pick one or the other."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "The shortest answer to this question - and the basic summary of this post - is that you should choose based on "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "what kind of experience"
+          },
+          {
+            "type": "text",
+            "text": " you want to have on your trip. In general, Emily and I feel that Airbnb gives you the option to live like a local in a way that hotels usually do not, while hotels provide a sense of security and can help avoid stress on a trip meant for relaxing. In the end, in most situations you'll be just as well served by either one, so don't stress over this decision too much."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "There's more to this question than just the short answer, of course. Here are a lot of things to consider when choosing hotel or vacation rental:"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Risk & Safety"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Hotels are almost always going to be the lower-risk option, for a variety of reasons."
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Hotels are much less likely to cancel"
+                  },
+                  {
+                    "type": "text",
+                    "text": " on you at the last minute. Airbnb puts disincentives in place to prevent hosts from cancelling reservations, but if there is an emergency or if the host just decides to cancel your reservation, you have to start your search from scratch."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Hotels are very likely to follow government-mandated safety rules"
+                  },
+                  {
+                    "type": "text",
+                    "text": " - think about things like fire escapes, smoke detectors, security systems, sprinklers, evacuation plans, etc. Airbnb strongly encourages their hosts to do so, but they cannot monitor their actual listings for safety features."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Cancellation -"
+                  },
+                  {
+                    "type": "text",
+                    "text": " many Airbnb hosts have very restrictive cancellation policies. This can put you in a tight spot if something comes up at the last minute."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Features & Amenities"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "With Airbnb you have no guarantees about amenities."
+                  },
+                  {
+                    "type": "text",
+                    "text": " You may find certain things you expected to have are non-existent or broken. We even had one case where there were no towels for us to use the first day. This may not be a huge deal if it's just a coffee machine or a television, but if you need wi-fi or a laundry machine that you expected to have, it can throw off your plans."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Hotels have some amenities that Airbnb usually won't."
+                  },
+                  {
+                    "type": "text",
+                    "text": " Things like daily room cleaning, free breakfasts, laundry service, gyms, pools, and more are things you usually won't find at an Airbnb."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Airbnb amenities can be better for long-term stays."
+                  },
+                  {
+                    "type": "text",
+                    "text": " This varies greatly between rentals and destinations, of course, but we've found that it's usually cheaper and easier to find rooms with laundry machines and kitchens on Airbnb."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Convenience"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Location"
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "attrs": {
+                  "tight": true
+                },
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "You will often find that "
+                          },
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "strong"
+                              }
+                            ],
+                            "text": "Airbnb gives you access to certain neighborhoods"
+                          },
+                          {
+                            "type": "text",
+                            "text": " or areas that don't have hotels (or affordable ones, at least). Depending on the kind of trip you are on, this can be very convenient for getting to the places you want to see."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "This goes both ways, however - you will often find that "
+                          },
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "strong"
+                              }
+                            ],
+                            "text": "hotels give you easy access to public transportation"
+                          },
+                          {
+                            "type": "text",
+                            "text": ", and are located near popular destinations."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Check-in / Check-out"
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "attrs": {
+                  "tight": true
+                },
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "strong"
+                              }
+                            ],
+                            "text": "Hotels are extremely convenient"
+                          },
+                          {
+                            "type": "text",
+                            "text": " for check-in. It's almost guaranteed that there will be someone to check you in when you arrive (or, for smaller or boutique hotels, you will have arranged something before your arrival)."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "strong"
+                              }
+                            ],
+                            "text": "Some Airbnbs have a smooth check-in process"
+                          },
+                          {
+                            "type": "text",
+                            "text": ", while others are more difficult. Often the host must be present to let you into the room. We ran into multiple issues in Europe when staying in Airbnbs and not having access to the internet or cellular data to communicate with the host. Even if you and the host have a plan in place, travel disruptions or emergencies can cause check-in problems."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "strong"
+                              }
+                            ],
+                            "text": "Luggage"
+                          },
+                          {
+                            "type": "text",
+                            "text": " can be a huge consideration. Hotels will generally allow you to store your luggage before and after your check-in/check-out times. While some Airbnb hosts have had space for us to store luggage, this is usually not the case. Without a nearby locker system, you might end up having to tote luggage around with you."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Character"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you want a "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "unique experience"
+          },
+          {
+            "type": "text",
+            "text": ", you will often find that "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Airbnb gives you more bang for your buck."
+          },
+          {
+            "type": "text",
+            "text": " While there are many boutique or specialty hotels, these are usually in the higher price ranges. Affordable hotels tend to be somewhat cookie-cutter, and located in mainstream areas. With Airbnb, you will often have better access to the neighborhoods that interest you, and you have a variety of styles of homes to choose from."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Similarly, "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Airbnbs can give you personal interaction and recommendations"
+          },
+          {
+            "type": "text",
+            "text": " that add a lot to the experience. Many hosts love to share with you the things they love about their neighborhood and city, and they'll often have recommendations prepared for you online or on paper. Often you'll get to talk one-on-one with the host, although this varies from rental to rental. If you want to live like a local while traveling, Airbnbs can really help you out."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Other Considerations"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Rewards programs -"
+                  },
+                  {
+                    "type": "text",
+                    "text": " if you play the points game, then you'll often want to choose hotels over Airbnbs. We often book through "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "http://www.hotels.com",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "Hotels.com"
+                  },
+                  {
+                    "type": "text",
+                    "text": " because of its reward program (10 nights = 1 night free), even if we might have been able to find a good alternative with Airbnb."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Simplicity"
+                  },
+                  {
+                    "type": "text",
+                    "text": " - if you're not that picky about where you're staying, it's usually easier to just pick a hotel chain that you are familiar with than to research various Airbnb options."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "strong"
+                      }
+                    ],
+                    "text": "Price -"
+                  },
+                  {
+                    "type": "text",
+                    "text": " if you are renting the whole house or apartment through Airbnb, which we always do, then the prices for rooms with good reviews and a good location are usually not much cheaper than hotels. This varies, however, and it seems that in more expensive cities you'll usually be able to get a better deal through Airbnb."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Conclusion"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "There is no clear winner between hotels and vacation rentals - the better option will change from trip to trip and from person to person. But if you know where you're going and what kind of trip you want to have, then keep these considerations in mind and you'll know how to choose!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Like it? Pin it!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/Vacation-Rental-Vs.-Hotel_Guest-Post_Everyday-Accounts_Pinterest-683x1024.png",
+              "alt": null,
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/05/Vacation-Rental-Vs.-Hotel_Guest-Post_Everyday-Accounts_Pinterest.png",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

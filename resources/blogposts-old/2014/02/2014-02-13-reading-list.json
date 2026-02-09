@@ -1,0 +1,340 @@
+{
+  "data": {
+    "title": "Reading List",
+    "date": "2014-02-13",
+    "categories": [
+      "books-2"
+    ],
+    "tags": [
+      "books",
+      "reading"
+    ],
+    "id": "1002",
+    "slug": "reading-list"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I like to read a variety of books - everything from biographies to historical fiction to mysteries to business. Because of this, the list of books that I would like to read is very, very long. Too long to list out in a blog post (or to actually read in real life). But I thought it would be fun to post a list of books that I am planning to read in the near future, including books I'm on the waiting list for at my library, are sitting on my nightstand, or are just on my mind to read in the next few months. I only have a goal of reading two books per month, so you can see that my reading list isn't the most realistic - but it is still fun to think about books I'm interested in."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_1005\" align=\"aligncenter\" width=\"427\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/pile-of-books.jpg",
+              "alt": "Pile of Books",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.entrepreneur.com/slideshow/229656",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " http://www.entrepreneur.com/slideshow/229656[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Fiction"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Cuckoos-Calling-Robert-Galbraith/dp/0316206849",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Cuckoo's Calling"
+          },
+          {
+            "type": "text",
+            "text": " by Robert Galbraith (pseudonym for J.K. Rowling)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Allegiant-Divergent-Veronica-Roth/dp/006202406X/ref=sr_1_1?s=books&ie=UTF8&qid=1391304463&sr=1-1&keywords=allegiant",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Allegiant"
+          },
+          {
+            "type": "text",
+            "text": " by Veronica Roth (Book #3 of the Divergent Series)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Night-Film-Novel-Marisha-Pessl/dp/140006788X/ref=sr_1_1?s=books&ie=UTF8&qid=1391304515&sr=1-1&keywords=night+film",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Night Film"
+          },
+          {
+            "type": "text",
+            "text": " by Marisha Pessl"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Fault-Our-Stars-John-Green/dp/0525478817/ref=sr_1_1?s=books&ie=UTF8&qid=1391304564&sr=1-1&keywords=the+fault+in+our+stars",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Fault in Our Stars"
+          },
+          {
+            "type": "text",
+            "text": " by John Green"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Goldfinch-Donna-Tartt/dp/0316055433/ref=sr_1_1?s=books&ie=UTF8&qid=1391304611&sr=1-1&keywords=the+gold+finch",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Goldfinch"
+          },
+          {
+            "type": "text",
+            "text": " by Donna Tartt"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Enders-Ender-Quintet-Orson-Scott/dp/0812550706/ref=sr_1_1?s=books&ie=UTF8&qid=1391305087&sr=1-1&keywords=enders+game",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Ender's Game"
+          },
+          {
+            "type": "text",
+            "text": " by Orson Scott Card"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Christian Life"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Magnificent-Obsession-Embracing-God-Filled-Life/dp/0310330106/ref=sr_1_8?s=books&ie=UTF8&qid=1391304686&sr=1-8&keywords=anne+graham+lotz+books",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Magnificent Obsession: Embracing the God-Filled Life"
+          },
+          {
+            "type": "text",
+            "text": " by Anne Graham Lotz"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Biography"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Too-Small-Ignore-Least-Matters/dp/1400073928/ref=sr_1_1?s=books&ie=UTF8&qid=1391304765&sr=1-1&keywords=compassion+ceo",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Too Small to Ignore: Why the Least of These Matters Most"
+          },
+          {
+            "type": "text",
+            "text": " by Wess Stafford, Former CEO of "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.compassion.com/default.htm",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Compassion International"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Business"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/4-Hour-Workweek-Anywhere-Expanded-Updated/dp/0307465357/ref=sr_1_1?s=books&ie=UTF8&qid=1391304905&sr=1-1&keywords=the+4+hour+work+week",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The 4-Hour Work Week"
+          },
+          {
+            "type": "text",
+            "text": " by Timothy Ferriss"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/100-Startup-Reinvent-Living-Create/dp/0307951529/ref=sr_1_1?s=books&ie=UTF8&qid=1391305155&sr=1-1&keywords=chris+guillebeau+%24100+startup",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The $100 Startup"
+          },
+          {
+            "type": "text",
+            "text": " by Chris Guillebeau"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,629 @@
+{
+  "data": {
+    "title": "Semi-Charmed Summer 2014 Book Challenge",
+    "date": "2014-05-02",
+    "categories": [
+      "books-2"
+    ],
+    "tags": [
+      "books",
+      "challenge",
+      "reading"
+    ],
+    "id": "1559",
+    "slug": "semi-charmed-summer-2014-book-challenge"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140501-223710.jpg",
+              "alt": "20140501-223710.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I have been thinking about doing one of the book challenges held by "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://megancstroup.blogspot.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Megan at Semi-Charmed Kind of Life"
+          },
+          {
+            "type": "text",
+            "text": " for a while now. My biggest hesitation is that I enjoy spontaneously choosing my next book to read based on what I feel like reading rather than having them planned out. Also, I typically cannot read as fast as I will need to in order to finish the number of books required in the challenge. However, I think that participating in one of these challenges will help me to read faster, and I think that the group effort will be a fun way to link up with other bloggers who love to read. So, I'm going to give it a shot. If it doesn't work out, that's fine, but I want to see if it's something that I like.  If this sounds like something you would want to participate it, click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://megancstroup.blogspot.com/2014/04/semi-charmed-summer-2014-book-challenge.html",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see the rules and other information on Megan's blog. You should also click around to see some of her other posts - she is one of my favorite bloggers!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Without further ado, here is my preliminary list of books I have picked out for each category of the challenge (I can change them throughout the summer):"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "5 points:"
+          },
+          {
+            "type": "text",
+            "text": " Freebie! Read any book that is at least 200 pages long."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/16071745-someday-someday-maybe?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Someday, Someday, Maybe"
+          },
+          {
+            "type": "text",
+            "text": ", Lauren Graham (344 pages)"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "10 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book that was written before you were born."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/5129.Brave_New_World",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Brave New World"
+          },
+          {
+            "type": "text",
+            "text": ", Aldous Huxley (268 pages) [first published in 1932]"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "10 points:"
+          },
+          {
+            "type": "text",
+            "text": " Finish reading a book you couldn't finish the first time around."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/4779184-the-magnificent-obsession",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Magnificent Obsession"
+          },
+          {
+            "type": "text",
+            "text": ", Anne Graham Lotz (198 pages remaining)"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "10 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book from the children’s section of the library or bookstore."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/11870085-the-fault-in-our-stars?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Fault in our Stars"
+          },
+          {
+            "type": "text",
+            "text": ", John Green (318 pages)"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "15 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book that is on "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.nytimes.com/best-sellers-books/overview.html",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The New York Times"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.nytimes.com/best-sellers-books/overview.html",
+                  "title": null
+                }
+              }
+            ],
+            "text": "' Best Sellers List"
+          },
+          {
+            "type": "text",
+            "text": " when you begin reading it."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/17333223-the-goldfinch?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Goldfinch"
+          },
+          {
+            "type": "text",
+            "text": ", Donna Tartt (771pages) - This is LONG! We will see if I can do it!"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "15 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a historical fiction book that does not take place in Europe."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/11178225-out-of-the-easy?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Out of the Easy"
+          },
+          {
+            "type": "text",
+            "text": ", Ruta Sepetys (346 pages) [set in the United States]"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "15 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book another blogger has already read for the challenge."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— TBD "
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "20 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book with “son(s),” “daughter(s)” or “child(ren)” in the title."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/10441.The_Memory_Keeper_s_Daughter?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Memory Keeper's Daughter"
+          },
+          {
+            "type": "text",
+            "text": ", Kim Edwards (401 pages)"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "20 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book that was/will be adapted to film in 2014. — "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/12262741-wild?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Wild"
+          },
+          {
+            "type": "text",
+            "text": ", Cheryl Strayed (315 pages)"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "25 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a book written by a blogger."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/8872336-bittersweet?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Bittersweet: Thoughts on Change, Grace, and Learning the Hard Way"
+          },
+          {
+            "type": "text",
+            "text": ", Shauna Niequist (252 pages) ["
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.shaunaniequist.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "blog"
+          },
+          {
+            "type": "text",
+            "text": "]"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "25 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a biography, autobiography or memoir."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.goodreads.com/book/show/10335308-is-everyone-hanging-out-without-me?from_search=true",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Is Everyone Hanging Out Without Me? (And Other Concerns)"
+          },
+          {
+            "type": "text",
+            "text": ", Mindy Kaling (222 pages)"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "30 points:"
+          },
+          {
+            "type": "text",
+            "text": " Read a pair of books with antonyms in the titles."
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "— Any suggestions?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/SCSBC14_250x250_zps8f5fcabe.jpg",
+              "alt": null,
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://megancstroup.blogspot.com/2014/04/semi-charmed-summer-2014-book-challenge.html",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

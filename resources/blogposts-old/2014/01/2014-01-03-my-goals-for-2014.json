@@ -1,0 +1,558 @@
+{
+  "data": {
+    "title": "My Goals for 2014",
+    "date": "2014-01-03",
+    "categories": [
+      "goals"
+    ],
+    "tags": [
+      "challenge",
+      "goals-2",
+      "health",
+      "hobbies",
+      "new-year",
+      "planning",
+      "routine"
+    ],
+    "id": "589",
+    "slug": "my-goals-for-2014"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Happy 2nd day of the New Year!  I thought I would take the time to share some of my goals I've set for myself for 2014, so I'm linking up with Victoria at the "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://creativehomekeeper.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Creative Home Keeper"
+          },
+          {
+            "type": "text",
+            "text": " with her \"New Year... New Purpose\" link up."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/new-year-new-purpose-button.jpg",
+              "alt": "new-year-new-purpose-button",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://creativehomekeeper.com/2014-yearly-goals/",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm not one to beat myself up too much when I don't quite hit the mark with my goals, but I really like to set them so that I have something to work toward and have an idea of what I want to achieve. I've broken my goals up into a few different categories. Some of them are just continuing what I was doing last year. While I have started a few of these, I will begin to seriously work on most of these goals this Sunday, January 5th, since we are still in Texas spending time with family until then."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Relationships"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Call or write a letter to one person outside of my immediate family per week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "All of my friends know that I'm a terrible phone person. I either forget or just don't make the time. In order to keep up with friends and certain extended family members, I plan to call or write a letter to at least one of them per week. I don't really have a problem keeping up with my immediate family, but I plan to continue talking to them regularly too."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Eat dinner with Daniel at the table at least twice each week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Daniel and I eat dinner on the couch in front of the TV a lot. We actually really enjoy this time together as a way to relax after work, and we usually talk about our days before or after, BUT I would really like to make sure we eat dinner at the table at least twice during the week so that we can have that can spend time with each other without the distractions of TV or the internet. The main reason I'm not saying we will do this more than at least twice is because many times my work will require me to eat dinner at the office."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Health"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Workout 4 to 5 times each week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "For a while last year, I really had a handle on this goal. But then I started traveling a lot for work trainings and for trips, and once I'm out of my routine, it is really hard for me to convince myself to get back to the gym. Starting this Sunday, I will strive to do two cycling classes, two BodyPump classes, and one yoga/pilates related class each week. Obviously, I won't be able to do this when traveling, but I'm going to try to be better at doing some type of workout at least four times a week when I'm on the road -- even if it's just a quick 20 minute routine in my hotel."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Count calories, limit dessert, and eat fresh."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I did this a little bit last year, but I'd like to do it again. I have only ever done one official diet in my life, but I think that the easiest way to eat healthy is to stay under your daily recommended calorie intake (for me it's 1500 calories per day to maintain weight), limit dessert, and eat fresh. I'm going to use the Lose It! app for calorie counting. For dessert I'll only allow one dessert per week on weeknights and allow myself to a few desserts on the weekends."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "No soda! Water instead."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I went on soft drink overload over the holidays. I'm completely cutting it out of my life, at least until my birthday in May. I've been about to cut out soda from January until May for the past 3 years successfully. I will focus on drinking plenty of water each day."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Hobbies"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Read 2 books each month."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Many of you will read this and either think \"Really, that's all?\" or \"Wow, that's ridiculous!\", but I think it's the perfect amount for me. I read 20 books last year, and it seemed to work in my schedule. With my job, there are several months out of the year during which I'm working way too much to allow much reading time before I'm drifting off to sleep, so two books a month is about all I can do. I'm really excited to read several fiction and non-fiction books on my list."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Put together a "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://beckyhiggins.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Project Life"
+          },
+          {
+            "type": "text",
+            "text": " album."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I've always wanted to be someone who puts together scrapbooks to document my life. I've wanted that so much that I have gone to Micheal's on several different occasions and spent way too much money on scrapbooking supplies only to barely ever use it. Last year, I read about "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://beckyhiggins.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Project Life"
+          },
+          {
+            "type": "text",
+            "text": " and became very interested. It's basically a way to document life through a similar method to scrapbooking, but it takes away all of the time scrapbooking requires for cutting and designing pages while still leaving room for creativity. I received my first "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Project-Life-Becky-Higgins-Core/dp/B0095YYP94",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Project Life Core Kit"
+          },
+          {
+            "type": "text",
+            "text": " for Christmas this year, and I'm excited to get started! I plan to make time at least once a month to sit down and work on documenting 2014. We will see how it goes."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Do 15 minutes of "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.duolingo.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Duolingo"
+          },
+          {
+            "type": "text",
+            "text": " French 5 times per week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "In preparation for our trip to Paris in May, I want to use the Duolingo app to learn basic French. Daniel and I would both like to at least get around Paris and say simple phrases."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Social Media"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Post 3 times each week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm really excited to see where my blog goes this year. I believe that posting 3 times per week is a great start. If I feel the need to increase the number of posts per week, then I will, but 3 times seems to make the most sense for me now. I will cut myself some slack during my busier times at work because I don't want to force myself to write during weeks when I'm working until midnight or later."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Determine a design for my blog, and find a way to get it."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm not in a huge rush on this since my blog is still in its baby stages, but I really want to start thinking about how I would like my blog to be designed and how I want it to reflect my personality. I'm not certain if I'll be hiring a designer to create something from scratch or if I will be playing around with different template options, but I'm excited to explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Post one Instagram picture each day of the year."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This will help me with my Project Life goal (see in Hobbies above), and it will be a fun way to document our life."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Faith"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Read morning devotion before blogs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "During 2013, I became a consistent follower of many, many blogs. I really enjoy my time in the morning where I drink my coffee, eat my breakfast, and read my blogs on the couch. My list of daily blogs I read grew so much that I began using all of 30-45 minutes of this time for blogs and began to run out of time for my devotions before needing to get up and get ready for work. I want to be consistent about reading a devotional or the Bible BEFORE I even open up my blog reader so that I can straighten up my priorities and make sure that I'm not skipping out on my devotions."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to attend church each week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We love our pastor's messages and want to continue to follow his sermon series. Sometimes travel prevents us from hearing a full series, but I'd like to try to listen to the series in full, even if I need to listen to the online recordings."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Chores"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Stick with my daily cleaning plan."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "For a short time period last year, we did a few chores each day throughout the week. It was great because we didn't have to dedicate several hours on the weekend to keeping our apartment clean. I'd like to get back into that routine on weeks when I'm home."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Finances"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Save more, spend less, and stick to a budget."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I won't go into the details on this, but we basically just want to be more financially responsible."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I realize this is a long list of goals, but this is fun to me because I thrive on routine and on planning. Like I said before, I'm going to be flexible with myself. If I don't achieve them, then I don't, and I'll move on. Anyway, I'm really excited for 2014! What goals or resolutions do you have?"
+          }
+        ]
+      }
+    ]
+  }
+}

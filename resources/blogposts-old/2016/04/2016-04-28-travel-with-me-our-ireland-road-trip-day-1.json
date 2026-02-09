@@ -1,0 +1,1167 @@
+{
+  "data": {
+    "title": "Travel With Me // An Ireland Road Trip: East Coast",
+    "date": "2016-04-28",
+    "categories": [
+      "travel-with-me"
+    ],
+    "tags": [
+      "abernathy-adventure",
+      "adventure",
+      "castles",
+      "countryside",
+      "ireland",
+      "road-trip",
+      "travel"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2016/04/TWM_An-Ireland-Road-Trip-East-Coast.jpg",
+    "id": "6337",
+    "slug": "travel-with-me-our-ireland-road-trip-day-1"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/TWM_An-Ireland-Road-Trip-East-Coast.jpg",
+              "alt": "TWM_An Ireland Road Trip - East Coast",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/TWM_An-Ireland-Road-Trip-East-Coast.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " One of my favorites memories from our Europe backpacking trip is our Ireland Coast Road Trip. Our selected route started in Dublin (after spending "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/travel-with-me-dublin/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "three days"
+          },
+          {
+            "type": "text",
+            "text": " there) and ended after dropping off our rental car back in Dublin. The entire country of Ireland is stunning, but, in my opinion, the remote coastal towns are the most breathtaking. Because we did our trip in January, perhaps the least touristy month of all, we had most of the remote villages nearly to ourselves. This does come with some disadvantages such as closed restaurants and attractions along with bitterly cold weather, but there is a special beauty to not sharing the quiet coastal landscapes with crowds of other tourists."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Here is a map of the route we took around Ireland:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1XcQl24BXcFRzVPjh8EIj5pPgZlM\" width=\"640\" height=\"480\"></iframe>"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It took a lot of research and planning to come up with our road trip route, mostly because I couldn't find a single resource online that showed a route that covered everything we wanted to see on this trip. As you can see from the map, we did cover a lot of ground during our ten days in Ireland, but I feel like it was the perfect amount of time to see the highlights of our selected towns, villages, and coastal routes."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you don't have time to read my lengthy descriptions of our road trip but want a summarized itinerary, here is an overview  of our ten day trip:"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Spent "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "http://www.everydayaccountsblog.com/2016/04/travel-with-me-dublin/",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "3 nights in Dublin"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Drove from Dublin to Kilkenny, stopping in Bray, the Powerscourt Estate, Enniskerry, and Wicklow. Spent one night in Kilkenny."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Drove from Kilkenny to Cork. Spent one night in Cork."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Drove from Cork to Killarney. Spent two nights in Killarney and took one day trip around the Ring of Kerry and one day trip around the Dingle Peninsula."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Drove from Killarney to Galway, stopping at the Cliffs of Moher. Spent three nights in Galway and took one day trip around the Connemara District (including Sky Road and Kylemore Abbey)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Drove from Galway to Dublin to return the rental car at the airport. Flew to Brussels."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Bray"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "After picking up our rental car in Dublin, Daniel had to brave the city roads for his very first time driving on the left side of the road and on the right side of the car. Looking back, picking up the car in a busy city was probably not the best idea, but he did a good job. We were soon on our way out of the city. We made our first stop in the quaint coastal town of Bray. We had imagined taking a nice walk around the coast for this stop, but the rain really started coming down, so we ran to the nearest coffee shop we could find, Finnbees Coffee House. It was a cute place full of locals, and the coffee and lemon cake were pretty good too."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_6340\" align=\"alignnone\" width=\"1024\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-10.43.46-1024x768.jpg",
+              "alt": "2016-01-21 10.43.46",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": " Bray on a rainy and freezing cold day"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-11.09.59-1024x819.jpg",
+              "alt": "2016-01-21 11.09.59",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-11.09.59.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Enniskerry & The Powerscourt Estate"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Next we stopped for lunch in Enniskerry. We didn't see much of the village, but we did window shop in a few of the stores after eating lunch. Fun fact: In the movie P.S. I Love You, Enniskerry is the village that Gerry's parents live in and where Holly goes to visit them."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_6342\" align=\"alignnone\" width=\"1024\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.09.27-1024x819.jpg",
+              "alt": "2016-01-21 12.09.27",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-12.09.27.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Cute house in Enniskerry. I love the red door![/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_6346\" align=\"alignnone\" width=\"768\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.06.28-768x1024.jpg",
+              "alt": "2016-01-21 12.06.28",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-12.06.28.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " We ate lunch at Poppies Country Cooking. Such a cute local place![/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.09.53-1024x768.jpg",
+              "alt": "2016-01-21 12.09.53",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-12.09.53.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "After lunch, we drove just a few minutes away to explore the Powerscourt Estate. Even though it was a rainy day, we were determined to explore the gardens because the pictures we had seen were so beautiful. When we arrived, we learned that the house itself is only open on Sundays (it's also open on Mondays during the summer), so we purchased our garden tickets, picked up our maps, and began! At the beginning, we had the entire garden to ourselves. The garden is split into seven sections, each with a different theme."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_6365\" align=\"alignnone\" width=\"1024\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.35.50-1024x768.jpg",
+              "alt": "2016-01-21 12.35.50",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": " Map of the Powerscourt Gardens[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "The Powerscourt Estate was built in 1730 under the direction of the first Viscount Powerscourt and was in the Powerscourt family until it was purchased by an outside family in 1961. There was a fire in 1974, and the estate was not reconstructed until 1996 and was opened to the public in 1997. The Gardens were completed in 1880, after twenty years of development under the direction of the 9th Viscount, who was inspired by the gardens of Versailles and Schönbrunn Palace near Vienna."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 1: The Italian Garden"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_122810-1024x576.jpg",
+              "alt": "20160121_122810",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.27.20-1024x768.jpg",
+              "alt": "2016-01-21 12.27.20",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 2: Tower Valley"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_123622-1024x576.jpg",
+              "alt": "20160121_123622",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.34.50-768x1024.jpg",
+              "alt": "2016-01-21 12.34.50",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.38.50-768x1024.jpg",
+              "alt": "2016-01-21 12.38.50",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_124319-1024x576.jpg",
+              "alt": "20160121_124319",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 3: The Japanese Garden"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.48.57-1024x768.jpg",
+              "alt": "2016-01-21 12.48.57",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.53.00-1024x821.jpg",
+              "alt": "2016-01-21 12.53.00",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-12.53.00.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 4: Triton Lake"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-12.54.29-1024x768.jpg",
+              "alt": "2016-01-21 12.54.29",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_125459-1024x576.jpg",
+              "alt": "20160121_125459",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/20160121_125459.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 5: Pet Cemetery"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-13.09.16-1024x768.jpg",
+              "alt": "2016-01-21 13.09.16",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-13.11.30-768x1024.jpg",
+              "alt": "2016-01-21 13.11.30",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_131055-1024x576.jpg",
+              "alt": "20160121_131055",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 6: Dolphin Pond"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_131859-1024x576.jpg",
+              "alt": "20160121_131859",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 4
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Part 7: Walled Gardens"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_132005-1024x576.jpg",
+              "alt": "20160121_132005",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_6347\" align=\"alignnone\" width=\"1024\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_145604-1024x768.jpg",
+              "alt": "20160121_145604",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/20160121_145604.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Excited to be in Ireland![/caption]"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Wicklow & The Black Castle"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Our final stop before ending for the night was the coastal village of Wicklow. The second we got out of the car, we were smacked with very strong, cold wind and the sound of crashing waves. We walked up a small hill and saw the jagged ruins of the Black Castle on a little peninsula. It felt like a scene straight out of a movie. Despite the freezing wind, it was a beautiful moment standing there and taking pictures of the castle ruins by the sea."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-15.11.29-1024x768.jpg",
+              "alt": "2016-01-21 15.11.29",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-15.11.29.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_151037-1024x576.jpg",
+              "alt": "20160121_151037",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/20160121_151037.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-01-21-15.09.35-1024x768.jpg",
+              "alt": "2016-01-21 15.09.35",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-01-21-15.09.35.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_150908-1024x768.jpg",
+              "alt": "20160121_150908",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/20160121_150908.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_150557-1024x576.jpg",
+              "alt": "20160121_150557",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/20160121_150557.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20160121_150553-1024x576.jpg",
+              "alt": "20160121_150553",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/20160121_150553.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Our first day driving the Irish countryside was a good one! Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/travel-with-me-dublin/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see a guide to Dublin, where we kicked off our time in Ireland. I'll be back soon with the rest of our Irish road trip!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/tag/ireland/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": " to see all of my posts from our Ireland road trip. Our time in Ireland was part of a 2.5 month trip across Western Europe.  Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/tag/abernathy-adventure/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": " to check out all of my posts from this adventure!}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Thanks for reading! Want to know a little more about me? I’m a CPA learning how to balance a career with frequent travel while planting roots at home in Austin, TX. When I’m not exploring my home city with my husband Daniel or cuddling with our chubby orange cat Banana, I’m probably planning, packing, traveling to, or daydreaming about our next adventure. After all, my"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/my-travel-mug-collection-updated/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel mug collection"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "is never complete. If you have wanderlust too, be sure to follow me on"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.instagram.com/emily_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Instagram"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.pinterest.com/e_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Pinterest"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://snapchat.com/add/emilya89",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Snapchat"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "(emilya89), or"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://bloglovin.com/everydayaccounts",
+                  "title": null
+                }
+              }
+            ],
+            "text": "subscribe to my blog"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "!__}"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Like it? Pin it!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/Travel-With-Me_Ireland-Road-Trip_East-Coast-683x1024.jpg",
+              "alt": "travel-with-me_ireland-road-trip_east-coast",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/Travel-With-Me_Ireland-Road-Trip_East-Coast.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

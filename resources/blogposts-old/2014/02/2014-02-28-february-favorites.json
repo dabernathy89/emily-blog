@@ -1,0 +1,488 @@
+{
+  "data": {
+    "title": "February Favorites",
+    "date": "2014-02-28",
+    "categories": [
+      "monthly-favorites"
+    ],
+    "tags": [
+      "favorites",
+      "february"
+    ],
+    "id": "1116",
+    "slug": "february-favorites"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140227-231752.jpg",
+              "alt": "20140227-231752.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140227-231752.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Book"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Daily-Rituals-How-Artists-Work/dp/0307273601",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Daily Rituals: How Artists Work"
+          },
+          {
+            "type": "text",
+            "text": "  by Mason Currey"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is a book I pick up every now and then to read a quick excerpt here and there.  I've really enjoyed it this month!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Exercise"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://itunes.apple.com/us/app/7-minute-workout/id650762525?mt=8",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Seven Minute Workout app"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I was living out of a hotel for two weeks in February working very late nights. This app helped me keep up a regular workout right in my hotel room. All I needed was a chair. While searching for the link to the app, I found "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "this New York Times article"
+          },
+          {
+            "type": "text",
+            "text": " that discusses the scientific benefits of this exact workout! Pretty neat."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "TV"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Friday Night Lights"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "My husband and I have been watching Friday Night Lights on Netflix since last summer. We are about to wrap up the final season. I absolutely love this show!  I have made a connection with almost all the characters, and it reminds us of growing up in small town Texas."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Music"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Come to Me by the Goo Goo Dolls Pandora Station"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This station has a good mix of Top 40 and new artists with a similar sound to the Goo Goo Dolls."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Food/Drink/Snack"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Starbucks Blonde Roast Via Instant Coffee"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I never thought I'd enjoy instant coffee, but my husband surprised me with a care package while I was away on business, and these Starbucks Via packets were included. The coffee provided at the office I was working out of was not good at all, so I started drinking this every day. I would not say this beats my normal coffee from home or freshly brewed at Starbucks, but I was pleasantly surprised at how good this tasted!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Body Care"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lush Lemony Flutter Cuticle Butter"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I have been applying this stuff to my cuticles most nights before bed. It smells so good, and I can really see a difference in my normally very dry cuticles."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Beauty"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Lush Tea Tree Toner Water"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Can you tell I love Lush? This is another goody I purchased to take with me on my business trip, and I've used it ever since. I spray a little on my face both in the morning and at night. It's very refreshing, and I believe this spray is the reason I didn't break out the way I ALWAYS do when traveling."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Blog"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://wordsofwilliams.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Words of Williams"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Not pictured above}"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Eric and Kelsey at Words of Williams write about lots of different topics (including posts about their precious daughter Rooney), but the post that originally brought me to their blog was the story of how "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://wordsofwilliams.com/our-debt-free-story/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "they became totally debt-free"
+          },
+          {
+            "type": "text",
+            "text": " and paid off $39,772 in 23 months. They offer plenty of practical advice on finances and budgeting. Eric even wrote a book that I'd love to read called "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://wordsofwilliams.com/its-your-money/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "It's Your Money - What Will You Do with It?"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "What things did you enjoy in February?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/2014/02/05/january-favorites/",
+                  "title": "January Favorites"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see my January favorites!"
+          }
+        ]
+      }
+    ]
+  }
+}

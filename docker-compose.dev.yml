@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    ports:
+      - "3000:80"
+    volumes:
+      - .:/app
+      - ./storage:/app/storage
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true

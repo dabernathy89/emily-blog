@@ -1,0 +1,198 @@
+{
+  "data": {
+    "title": "Thankful",
+    "date": "2014-11-27",
+    "categories": [
+      "holiday"
+    ],
+    "tags": [
+      "family",
+      "thankful",
+      "thanksgiving"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2014/11/FullSizeRender-2.jpg",
+    "id": "3972",
+    "slug": "thankful"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_3976\" align=\"alignnone\" width=\"1024\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/FullSizeRender-2-1024x768.jpg",
+              "alt": "Walking in the snow in Harper Ferry",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2014/11/FullSizeRender-2.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " We spotted this train bridge while taking a walk in the snow with my family yesterday.[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Today I am "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "thankful"
+          },
+          {
+            "type": "text",
+            "text": " to be in a cozy cabin in the gorgeous mountains of Harpers Ferry, West Virginia with my family who traveled all the way up here to spend time with us."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "thankful"
+          },
+          {
+            "type": "text",
+            "text": " for a husband who has been with me every step of the way for the past three years of marriage and even before that."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "thankful"
+          },
+          {
+            "type": "text",
+            "text": " for the warm, delicious meal we will eat later today."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "thankful"
+          },
+          {
+            "type": "text",
+            "text": " for books and movies and stories that teach us and entertain us throughout our lives."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "thankful"
+          },
+          {
+            "type": "text",
+            "text": " that all of our plans to move to Austin are becoming a reality very soon."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "thankful"
+          },
+          {
+            "type": "text",
+            "text": " for a Savior who has forgiven me and who is teaching me how to live a life that is for Him and not for myself."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Have a very happy Thanksgiving!"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "data": {
+    "title": "Merry Christmas Eve!",
+    "date": "2013-12-24",
+    "categories": [
+      "holiday"
+    ],
+    "tags": [
+      "christmas-eve",
+      "family",
+      "piano",
+      "santa"
+    ],
+    "id": "530",
+    "slug": "merry-christmas-eve"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It's Christmas Eve! I've decided this is my favorite day of the year. We have had such a great time visiting family, exchanging gifts, and eating great food. Today we are going to lunch at my grandparents, and then we are going to see a movie everyone in the family should enjoy (including my grandparents), "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://movies.disney.com/saving-mr-banks",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Saving Mr. Banks"
+          },
+          {
+            "type": "text",
+            "text": ". After the movie, we will go to a Christmas Eve service at the church Daniel and I used to go to when we went to school here in Waco, and then we will do my immediate family's Christmas Eve tradition of reading the Christmas story and exchanging gifts this evening."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I wish you a day full of fun, food, and celebration with your family and friends. And with that, I'll leave you with this video to make you smile:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "http://www.youtube.com/watch?v=lx4qRnZfjxU&feature=youtu.be"
+          }
+        ]
+      }
+    ]
+  }
+}

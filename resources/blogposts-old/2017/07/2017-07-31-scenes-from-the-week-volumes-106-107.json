@@ -1,0 +1,600 @@
+{
+  "data": {
+    "title": "Scenes From the Week, Volumes 106 & 107",
+    "date": "2017-07-31",
+    "categories": [
+      "scenes-from-the-week"
+    ],
+    "tags": [
+      "adventure",
+      "austin",
+      "nyc",
+      "the-everyday",
+      "travel"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/07/SFTW_106-and-107_Everyday-Accounts.png",
+    "id": "9373",
+    "slug": "scenes-from-the-week-volumes-106-107"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Welcome to my Scenes From the Week series! In these posts, I share the highlights from my previous week ranging from the simple, everyday things to the more memorable events. One of the primary reasons that I blog is to keep a scrapbook that I can look back on in the future, and these posts help serve that purpose."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/SFTW_106-and-107_Everyday-Accounts.png",
+              "alt": null,
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/07/SFTW_106-and-107_Everyday-Accounts.png",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "These past couple of weeks have been packed full! On Thursday evening two weeks ago, we hopped on a plane and headed to the Big Apple. Daniel had a conference, so we took advantage of the one free plane ticket and made a trip out of it. We went several days before the conference and got in a full four-day weekend in NYC. While we have been to NYC several times together, there are always endless things to do, and we will never get tired of going. I came back home to Austin this past Tuesday morning, and Daniel came back Thursday night after his conference was over."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Another highlight of the past couple weeks was that last Friday, my parents came to town and brought some of our Brazilian family members along."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Photos from the week, top left to bottom right:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(1) This NYC trip we decide to spend a couple days exploring Brooklyn, and we loved it! This view of the Brooklyn Bridge and Manhattan across the water was just incredible. This photo was taken during our Brooklyn Food Tour which was perfect way to see (and taste!) different parts of Brooklyn."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(2) One of the touristy NYC things we had never done before was the Top of the Rock. We made sure to do it this time, and I can't recommend it enough. The view is breathtaking. In my opinion, it's a better option than going to the top of the Empire State Building, since you actually get to see the Empire State Building itself in the skyline!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(3) Our Broadway musical selection this time was a new one - Anastasia! When I was younger, I watched the movie and sang the songs over and over, so I couldn't wait to hear the music live on stage. I tried to keep my expectations low since the musical is new and had mixed reviews, but both Daniel and I loved it. The music, singing, and dancing were all wonderful, and it was very true to the movie. The one major difference from the movie is that they completely removed the evil Rasputin character and replaced him with a much more realistic \"villain\", a change I was happy to see since I never liked Rasputin and his dancing demon sidekicks in the movie. We hung around outside the theater for a few minutes after the show and got to see a couple of the actors leave the theater, most notably, the adorable little girl who played young Anastasia!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(4) As I mentioned above, my parents brought some of our Brazilian family members to Austin on Friday, so we did some local sightseeing. It was great to spend time with all of them all while doing some fun things around my city. We had lunch at the Oasis and then went to the 360 Bridge viewpoint (pictured here). Then we went for some yummy, refreshing gelato at Dolce Neve to cool off - it got up to 105 degrees in Austin this day!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Not pictured:"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Eating a ridiculous amount of delicious food in NYC and Brooklyn, including at Brooklyn's weekly food festival, Smorgasburg!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Going to a show at the Comedy Cellar"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Walking around Central Park"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Popping into a number of cute little shops and bookstores throughout NYC"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Sharing our trip on InstaStories "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.instagram.com/emily_abernathy/?hl=en",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "here"
+                  },
+                  {
+                    "type": "text",
+                    "text": ". I've pretty much completely switched over to InstaStories from Snapchat now, and I'm having a lot of fun sharing our travels and our everyday life!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Getting lots of cleaning done on Saturday morning"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Spending time with Kaelin and Andres at Lazarus Brewery and Prohibition Creamery on Saturday night"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Reading by the pool on Sunday afternoon"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "On the Blog:"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I shared a guide to exploring "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.everydayaccountsblog.com/2017/07/travel-with-me-florence-the-tuscan-countryside/",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "Florence and the surrounding Tuscan countryside"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in three days! We had the best time exploring and learning and tasting in this city."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Daniel is back with his "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.everydayaccountsblog.com/2017/07/guest-post-vacation-rental-vs-hotel/",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "second guest post"
+                  },
+                  {
+                    "type": "text",
+                    "text": " on the blog. This time, he wrote about the decision almost every traveler has to make when traveling to a new destination: should I book my lodging through a vacation rental website, or should I stay at a hotel or hostel? Check it out "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.everydayaccountsblog.com/2017/07/guest-post-vacation-rental-vs-hotel/",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "here"
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and click over to his first guest post on packing for a European backpacking trip "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://www.everydayaccountsblog.com/2017/01/guest-post-mens-guide-to-packing-for-a-winter-european-backpacking-trip/",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "here"
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Have a great week!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/category/scenes-from-the-week/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see all of my Scenes From the Week posts. I'm linking up with Biana at "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.blovedboston.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "B Loved Boston"
+          },
+          {
+            "type": "text",
+            "text": " for the Weekending link-up!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Thanks for reading! Want to know a little more about me? I'm a CPA learning how to balance a career with frequent travel while planting roots at home in Austin, TX. When I’m not exploring my home city with my husband Daniel or cuddling with our chubby orange cat Banana, I’m probably planning, packing, traveling to, or daydreaming about our next adventure. After all, my"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/my-travel-mug-collection-updated/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel mug collection"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "is never complete. If you have wanderlust too, be sure to follow me on"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.instagram.com/emily_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Instagram"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "(and InstaStories!)__,"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.pinterest.com/e_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Pinterest"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.facebook.com/everydayaccounts/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Facebook"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "or"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.bloglovin.com/blogs/everyday-accounts-11840161",
+                  "title": null
+                }
+              }
+            ],
+            "text": "subscribe to my blog"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "!__}"
+          }
+        ]
+      }
+    ]
+  }
+}

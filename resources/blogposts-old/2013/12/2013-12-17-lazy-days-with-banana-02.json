@@ -1,0 +1,168 @@
+{
+  "data": {
+    "title": "Lazy Days with Banana // 02",
+    "date": "2013-12-17",
+    "categories": [
+      "lazy-days-with-banana"
+    ],
+    "tags": [
+      "banana",
+      "cat",
+      "cute"
+    ],
+    "id": "467",
+    "slug": "lazy-days-with-banana-02"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It's time for another Lazy Days with Banana post where I post pictures to give you a glimpse into the daily life of our furry little critter. Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/2013/11/14/lazy-days-with-banana-1/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see my first post as well as somewhat of a description of the series. Scroll down to view the pictures, and if you go all the way to the bottom, you will see our favorite Banana picture of the year by far!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20131215-185442.jpg",
+              "alt": "20131215-185442.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2013/12/20131215-185442.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20131215-185500.jpg",
+              "alt": "20131215-185500.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2013/12/20131215-185500.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20131215-185512.jpg",
+              "alt": "20131215-185512.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2013/12/20131215-185512.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20131215-185729.jpg",
+              "alt": "20131215-185729.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2013/12/20131215-185729.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"\" align=\"aligncenter\" width=\"1024\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20131215-185739.jpg",
+              "alt": "20131215-185739.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2013/12/20131215-185739.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " This is the best picture of Banana all year! I was taking a picture of him being all cute, and I got lucky enough to catch him mid-stretch. He is giving you a big hug! :)[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      }
+    ]
+  }
+}

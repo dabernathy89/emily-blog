@@ -1,0 +1,203 @@
+{
+  "data": {
+    "title": "Scenes From the Week // 18",
+    "date": "2015-02-16",
+    "categories": [
+      "scenes-from-the-week"
+    ],
+    "tags": [
+      "birthdays",
+      "family",
+      "the-everyday",
+      "valentines"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2015/02/BIRU-WP-20150215T225533GMT-0600.jpg",
+    "id": "4251",
+    "slug": "scenes-from-the-week-18"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Happy Monday! Welcome to my Scenes From the Week series. In these quick posts, I share the highlights from my week ranging from the simple, everyday things to the more memorable events."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This was a busy, busy week! Daniel and I both had to work long hours, but there was lots of fun and a lot of great things to celebrate this week. :)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/BIRU-WP-20150215T225533GMT-0600-1024x1024.jpg",
+              "alt": "2/15/15",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2015/02/BIRU-WP-20150215T225533GMT-0600.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(1) My husband's birthday was Friday, so we celebrated by going to Salt Lick right after work. It was absolutely delicious!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(2) In preparation for our family party on Saturday, I picked up cupcakes from Capital City Bakery here in Austin. How cute are they? They tasted just as a great as they look. :)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(3) Saturday morning, we drove down to San Antonio to see my brother perform in the TMEA State Band. The music was beautiful! I was so proud! I'm so happy to be back in Texas so that we are able to go to events like these for and with family."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "(4) After a fantastic enchilada lunch in San Antonio, we all drove up to Austin where everyone came to see our new apartment here and have a birthday party to celebrate my dad's and my husband's birthdays! My dad was excited to use his new selfie stick, so we all squeezed in for a picture."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Not pictured:"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Daniel and I had a wonderful Valentine's dinner at a local restaurant."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "We visited another church in Austin Sunday morning."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "We spent time working at a new favorite coffee shop with my sister."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I finished the book, "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "http://www.amazon.com/How-She-Does-everywomans-breaking-ebook/dp/B00JDYCY80/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1424063284&sr=1-1&keywords=how+she+does+it",
+                          "title": null
+                        }
+                      }
+                    ],
+                    "text": "How She Does It"
+                  },
+                  {
+                    "type": "text",
+                    "text": " by Anne Bogel, and it really made me think about what I want my work life to be like once we have kids. Great, quick read if you want to think about non-traditional ways to structure your career and schedule while being a parent."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Have a great Monday!"
+          }
+        ]
+      }
+    ]
+  }
+}

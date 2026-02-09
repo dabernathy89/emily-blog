@@ -1,0 +1,139 @@
+{
+  "data": {
+    "title": "A Guide to Eating in Austin",
+    "date": "2016-04-22",
+    "categories": [
+      "austin"
+    ],
+    "tags": [
+      "austin",
+      "food",
+      "restaurants"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2016/04/Austin_Guide-to-Eating_4.jpg",
+    "id": "6326",
+    "slug": "a-guide-to-eating-in-austin"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/Austin_Guide-to-Eating_4.jpg",
+              "alt": "Austin_Guide to Eating_4",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/Austin_Guide-to-Eating_4.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "I am fortunate to be able to call Austin home, at least for the time being. There is so much I love about this city - the wide variety of outdoor trails, the abundance of Southern hospitality, the beauty that is the surrounding Hill Country, the endless options for live music....  But I have to say that my favorite part of living here is the amazing food scene! My husband and I LOVE to go out to eat. It is basically one of our favorite hobbies.  We also really love sharing our favorite places with other people. So, the other day when someone asked Daniel for Austin recommendations, he began compiling a list of our favorites and couldn't stop! Soon I was adding some things to the list as well. Daniel put all of the items into a very helpful map, so I'm sharing it here! I hope this helps you pick out some great eating and drinking options for your next trip to Austin."
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "To filter by restaurant type, click the little pin icon on the right side of the map and select the category you are interested in."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "To read some of our thoughts on a place, click the icon for a restaurant and then select \"more info\"."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "You can search restaurant names by clicking the small down arrow in the top center, under the map title."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "<iframe src=\"https://mapme.com/abernathy-guide-to-austin\" width=\"100%\" height=\"500\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe>"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Even with this long list, I know we have barely touched the surface of Austin dining. Do any of you have more Austin recommendations that we should try and add to the map?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Happy Eating!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Many thanks to my husband Daniel Abernathy for putting the map together and allowing me to share on my blog!}"
+          }
+        ]
+      }
+    ]
+  }
+}

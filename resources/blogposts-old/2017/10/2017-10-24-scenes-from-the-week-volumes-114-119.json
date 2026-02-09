@@ -1,0 +1,379 @@
+{
+  "data": {
+    "title": "Scenes From the Week, Volumes 114 - 119",
+    "date": "2017-10-24",
+    "categories": [
+      "scenes-from-the-week"
+    ],
+    "tags": [
+      "austin",
+      "california",
+      "family",
+      "waco"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/10/SFTW_114_119_Everyday-Accounts.png",
+    "id": "9635",
+    "slug": "scenes-from-the-week-volumes-114-119"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Welcome to my Scenes From the Week series! In these posts, I share the highlights from my previous week ranging from the simple, everyday things to the more memorable events. One of the primary reasons that I blog is to keep a scrapbook that I can look back on in the future, and these posts help serve that purpose."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/SFTW_114_119_Everyday-Accounts.png",
+              "alt": null,
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.everydayaccountsblog.com/wp-content/uploads/2017/10/SFTW_114_119_Everyday-Accounts.png",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " Oh hey, remember me? I have been a really, really bad blogger. Work got busy, we took a long trip, and life in general got a bit crazy. Also, the fact that it's completely dark by 7pm makes me really tired, and I've been going to bed early. I thought I'd try and get back into the rhythm of blogging by just doing a quick catch up of all the things that have been going on these past six weeks. We have done a lot, so I'm only going to share bits and pieces."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "End of September"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "We went to Waco to hang out with my family and see some extended family that was in town. It's always so fun when we all get together, especially now that most of my cousins have had cute babies now!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "We hosted some good friends from DC for a weekend. We had a blast eating at some of our favorite Austin restaurants, attending a comedy show (Esther's Follies!), and showing off our city that we love to good friends!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "October"
+          }
+        ]
+      },
+      {
+        "type": "bullet_list",
+        "attrs": {
+          "tight": true
+        },
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The first two weekends (and full second week) of October we were living it up in California! Daniel was in a wedding in Los Angeles, so we flew to San Francisco the weekend before, spent a few days there, then started the drive down Highway 1 to LA. We stopped in many places along the way, including Half Moon Bay, Carmel-by-the-Sea, and Santa Barbara, and we stayed the night in Monterey and Pismo Beach. The trip was wonderful but exhausting as we spent all day everyday exploring, and then I spent late nights working, but it was so worth it to be able to see California for the first time! I'll definitely be sharing more on our trip in future travel posts."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The third weekend in October, I drove to Waco to see my family and go to some Baylor Homecoming events. Friday we went to the pep rally and bonfire, and Saturday we went to the parade in the morning, stopped by an alumni reception at my former residence hall (which is also my brother's current residence hall), and after that we went tailgating before the football game. I didn't get to go to the evening football game because I was headed back home to Austin Saturday night."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Daniel gave his first talk at a web development conference this past weekend, and it went really well! #gohubby"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "And that's the past six weeks! I hope to be back to regular posting. Have a great week!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/category/scenes-from-the-week/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see all of my Scenes From the Week posts."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Thanks for reading! Want to know a little more about me? I'm a CPA learning how to balance a career with frequent travel while planting roots at home in Austin, TX. When I’m not exploring my home city with my husband Daniel or cuddling with our chubby orange cat Banana, I’m probably planning, packing, traveling to, or daydreaming about our next adventure. After all, my"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/my-travel-mug-collection-updated/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel mug collection"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "is never complete. If you have wanderlust too, be sure to follow me on"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.instagram.com/emily_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Instagram"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "(and InstaStories!)__,"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.pinterest.com/e_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Pinterest"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.facebook.com/everydayaccounts/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Facebook"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "or"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.bloglovin.com/blogs/everyday-accounts-11840161",
+                  "title": null
+                }
+              }
+            ],
+            "text": "subscribe to my blog"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "!__}"
+          }
+        ]
+      }
+    ]
+  }
+}

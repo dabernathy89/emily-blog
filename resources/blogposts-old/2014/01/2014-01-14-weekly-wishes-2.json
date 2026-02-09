@@ -1,0 +1,165 @@
+{
+  "data": {
+    "title": "Weekly Wishes #2",
+    "date": "2014-01-14",
+    "categories": [
+      "weekly-wishes"
+    ],
+    "tags": [
+      "goals-2",
+      "inspiration"
+    ],
+    "id": "682",
+    "slug": "weekly-wishes-2"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/weekly-wishes-button.jpg",
+              "alt": "The Nectar Collective",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/tags/weekly-wishes/",
+                  "title": "The Nectar Collective"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Today was a long one! I didn't get home from work until almost 8pm.  Working on my goals for the year and my weekly wishes is going to just get harder as I get into busy season. If anyone who works long hours has any tips for how they keep up with their hobbies or keep up with personal goals, please let me know! I really want to stay inspired all year, but it's hard when I have no energy on weeknights."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Here are my wishes for the second full week in January:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. Read half of "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Book-Thief-Markus-Zusak/dp/0375842209/ref=sr_1_1?s=books&ie=UTF8&qid=1389665058&sr=1-1&keywords=the+book+thief",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Book Thief"
+          },
+          {
+            "type": "text",
+            "text": ". This will help me stay on track to meet my monthly goal of reading 3 books this month. I finished "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Insurgent-Divergent-Book-Series/dp/0062024043",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Insurgent"
+          },
+          {
+            "type": "text",
+            "text": " last week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. Make it to my 6am cycling class tomorrow morning ! (This post was written last night -- I should be at this class when this post goes live.)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. Set up my Project Life album and get it ready to start my first page."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. Put all of our Christmas decoration containers back out in our storage unit. They have been sitting in our bedroom for over a week -- that's just lazy!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. \"Finalize\" our budget. I know budgets constantly change, but I want to get our finances in order and really set ourselves up to start using a budget and tracking our spending. I'm planning to use the "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.youneedabudget.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "You Need a Budget"
+          },
+          {
+            "type": "text",
+            "text": " software. I'm currently using a 30 day trial and really like it so far."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "That's it for this week! It might be a challenge because we will be out of town all weekend, but I do think these wishes are manageable. What do you hope to accomplish this week?"
+          }
+        ]
+      }
+    ]
+  }
+}

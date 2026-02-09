@@ -1,0 +1,245 @@
+{
+  "data": {
+    "title": "Scenes From the Week // 10",
+    "date": "2014-10-10",
+    "categories": [
+      "scenes-from-the-week"
+    ],
+    "tags": [
+      "cooking",
+      "reading",
+      "the-everyday",
+      "work"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2014/10/BIRU-WP-6.jpeg",
+    "id": "3594",
+    "slug": "scenes-from-the-week-10"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Happy Friday! Welcome to my Scenes From the Week series. In these posts I share the highlights from my week - from memorable events to the small things that made me smile."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Monday"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Monday I worked from home. I took a nice walk to Starbucks over lunch. It was a gorgeous fall day! I cooked this "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://mixandmatchmama.blogspot.com/2013/10/dinner-tonight-easy-enchilada-casserole.html",
+                  "title": null
+                }
+              }
+            ],
+            "text": "enchilada casserole"
+          },
+          {
+            "type": "text",
+            "text": " for dinner, and I worked on my latest "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/10/travel-with-me-briefly-obx/",
+                  "title": "Travel With Me (Briefly) // OBX"
+                }
+              }
+            ],
+            "text": "travel post"
+          },
+          {
+            "type": "text",
+            "text": " after wrapping up work. I also watched Casey, the blogger at "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.truecoloursblog.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "True Colours"
+          },
+          {
+            "type": "text",
+            "text": ", in her "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.truecoloursblog.com/2014/10/q-travel.html",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Q&A Travel vlog"
+          },
+          {
+            "type": "text",
+            "text": " that evening. I love her blog, and this vlog inspired me to continue traveling as well as embrace the everyday!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Tuesday"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Tuesday was a long day at work. I went to bed early because I had an early morning gym class the next day."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Wednesday"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This was a great day! I made it to my morning cycling class which meant I had a nice leisurely morning getting ready afterward. I left work a little bit early to pick up my husband and meet friends for dinner. After dinner we all had tickets to go see Gone Girl in the theater. The movie was very well-done; the soundtrack, the acting, and the sets were all very impressive! I thought it followed the book very closely. However, the movie is really graphic and disturbing at times, so keep that in mind if you are deciding whether to see it or not."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Thursday"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I stayed late at the office, but when I came home, Daniel had made chili with cornbread pancakes! It was very good! After dinner I had coffee and read my book."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/BIRU-WP-6.jpeg",
+              "alt": "BIRU-WP-6.jpeg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It was a very simple week around here. As always, I'm so ready for the weekend! I hope that everyone has a good one!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "[Linking up with "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thelotuscreative.com/category/dailydiaries/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Daily Diaries"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ".]"
+          }
+        ]
+      }
+    ]
+  }
+}

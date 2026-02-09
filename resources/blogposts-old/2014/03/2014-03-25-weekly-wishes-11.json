@@ -1,0 +1,418 @@
+{
+  "data": {
+    "title": "Weekly Wishes #11",
+    "date": "2014-03-25",
+    "categories": [
+      "weekly-wishes"
+    ],
+    "tags": [
+      "blog-design",
+      "books",
+      "goals-2"
+    ],
+    "id": "1336",
+    "slug": "weekly-wishes-11"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140325-170448.jpg",
+              "alt": "20140325-170448.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Each Monday night, I link up with "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Nectar Collective"
+          },
+          {
+            "type": "text",
+            "text": " to share my \"wishes\" or goals for the week and to see how I did on my goals last week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Can I just say how much I love setting these goals? Even though I haven't done extremely well meeting each goal every week, it definitely helps a lot to have the accountability of posting my results on here. There are several things I did this week to meet my goals that I would not have been motivated to do if I had not posted them here. This is such a fun, productive link-up! It helps me to motivate myself to not be as lazy as my cat Banana (pictured above) - which is very tempting to do."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Last Week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Continue spring cleaning by organizing our desk and the rest of our office nook."
+          },
+          {
+            "type": "text",
+            "text": "  Our desk is looking nice and organized now! I decided not to bother with the drawers that my husband uses for his things (he likes hiding his clutter away) - but all of the other drawers and spaces are now organized!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Finish "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-4-Hour-Workweek-Anywhere-Expanded/dp/0307465357",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The 4-Hour Workweek"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "."
+          },
+          {
+            "type": "text",
+            "text": "  I finished this on Sunday. It was a really enjoyable and interesting read, despite the somewhat \"jerk-ish\" and arrogant tone that the author uses. This book won't apply to everyone - it really is mostly for people who don't enjoy their jobs or are looking for a way to free up their time to pursue things other than their career. Also, he places very little value on his relationships with other people in the workplace; his co-workers are portrayed mostly as an inconvenience and a nuisance. Again, I enjoyed the ideas in the book because I always love to hear different views on work and career, and Ferriss offers a very unique and different view along with great advice on time management, efficiency, and starting your own business."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "My husband and I have dreams we want to pursue in the future that will allow for more time for the things we love and enjoy: serving others, traveling, reading, taking classes, investing in new hobbies, spending more time with loved ones, etc. And if we put some of the advice given in the book into practice, we just might be able to have that extra time at some point in the future! We will see."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Do my usual exercise goal of going to the gym four times during the week."
+          },
+          {
+            "type": "text",
+            "text": " Yes! Finally, met this goal this week. I think I'm going to stop listing this as a goal - it's getting repetitive, and I'm always going to have this goal in the back of my mind."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Finish my next "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/category/travel-with-me/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel post"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": " or AT LEAST make good progress on it."
+          },
+          {
+            "type": "text",
+            "text": " I made a little progress."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Write a letter or two to people I love \"just because\"."
+          },
+          {
+            "type": "text",
+            "text": " I'm so happy to say that I wrote these letters! Daniel and I wrote a letter to our "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.compassion.com/Default.htm",
+                  "title": null
+                }
+              }
+            ],
+            "text": "sponsored child"
+          },
+          {
+            "type": "text",
+            "text": " Moses, and I wrote one to my lovely sister."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "This Week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Read half of "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Cuckoos-Calling-Robert-Galbraith/dp/0316206849",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Cuckoo's Calling"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "."
+          },
+          {
+            "type": "text",
+            "text": " I attempted to start this book a few weeks ago, but then I had an incident where the electronic library copy didn't transfer correctly onto my Nook, so I lost it and had to get back on the waiting list at the library."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Tackle the dresser."
+          },
+          {
+            "type": "text",
+            "text": " I'm continuing my spring cleaning and want to organize the drawers and the top of our bedroom dresser (including the things that have accumulated in the hidden corner by the dresser). Hopefully, I'll be getting rid of some t-shirts and other clothing items that I don't use."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Start thinking about and planning the next steps for my blog."
+          },
+          {
+            "type": "text",
+            "text": " I've put this off because of busy season at work, so even though I still have 3 more weeks of busy season, I'd like to at least start thinking about my next steps. My husband is a web developer, so this summer he is going to be helping me switch over to a new blog design that I can better personalize and use. My current wordpress.com template has made it nearly impossible for me to make changes that I want - my biggest issue is the comment system and how I can't use Disqus.  Also, I am unable to purchase outside blog templates."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Another blog-related step I'm considering taking is getting into Twitter. I have an account in my maiden name that I never ever use; I always say my "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://twitter.com/dabernathy89",
+                  "title": null
+                }
+              }
+            ],
+            "text": "husband"
+          },
+          {
+            "type": "text",
+            "text": " tweets enough for the both of us. :) But, I think with having a blog and everything, it's time for me to get into it. If you are a regular user of your Twitter account, what do you like about it? Is it a \"must-do\" for a newish blogger?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/weekly-wishes-button.jpg",
+              "alt": "The Nectar Collective",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/tags/weekly-wishes/",
+                  "title": "The Nectar Collective"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

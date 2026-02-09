@@ -1,0 +1,215 @@
+{
+  "data": {
+    "title": "Weekly Wishes #22",
+    "date": "2014-06-24",
+    "categories": [
+      "weekly-wishes"
+    ],
+    "id": "1988",
+    "slug": "weekly-wishes-22"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140623-171122-61882223.jpg",
+              "alt": "20140623-171122-61882223.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Like I mentioned in last week's post, I'm doing the Weekly Wishes link-up with the Nectar Collective a little bit differently - at least for the time being. I'm going to be tracking my progress for my month goals each week rather than create new goals for every week. This has definitely helped me take my goals more seriously so far."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Why is June in such a hurry? Slow downI just have one more week to reach my goals for the month, and then it's time for a new set already."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Progress on June Goals:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Read three books."
+          },
+          {
+            "type": "text",
+            "text": " I'm quickly reading to reach this goal. I'm almost done with book #2 ("
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Fault-Stars-John-Green/dp/0525478817",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Fault in Our Stars"
+          },
+          {
+            "type": "text",
+            "text": ")."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Clean out my closet and get rid of clothes I no longer wear."
+          },
+          {
+            "type": "text",
+            "text": " I have started this. I went through all of my clothes that are hanging, and I made a pile of things to donate. I still need to go through the shelves and bins."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Make a game plan for revamping my blog design and layout."
+          },
+          {
+            "type": "text",
+            "text": " Like I mentioned last week, I've got plans on paper. Daniel and I will tackle the actual update in July."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "4. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Create my April Project Life layout."
+          },
+          {
+            "type": "text",
+            "text": " I ordered my prints, and I will pick them up this weekend to do the actual layout."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "5. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Organize my blog feed."
+          },
+          {
+            "type": "text",
+            "text": " I'm actually working on this right now and hope to finish after I publish this post."
+          }
+        ]
+      },
+      {
+        "type": "paragraph"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Weekly Wishes is a link-up hosted by "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.thenectarcollective.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Nectar Collective"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      }
+    ]
+  }
+}

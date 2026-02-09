@@ -1,0 +1,503 @@
+{
+  "data": {
+    "title": "The Sunday Currently, Volume 16",
+    "date": "2014-03-09",
+    "categories": [
+      "the-sunday-currently"
+    ],
+    "tags": [
+      "books",
+      "coffee",
+      "sunday",
+      "the-everyday"
+    ],
+    "id": "1205",
+    "slug": "the-sunday-currently-volume-16"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140309-141129.jpg",
+              "alt": "20140309-141129.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/03/20140309-141129.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It has been both a relaxing and very productive weekend. Friday night Daniel and I escaped as early as we could from our offices to grab a BBQ dinner (pictured above). While it was not nearly as amazing as good ole Southern BBQ, we definitely enjoyed indulging in the reminder of home. After dinner, we saw "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.imdb.com/title/tt2024469/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Non-Stop"
+          },
+          {
+            "type": "text",
+            "text": " and both really liked it. On Saturday, I worked in the morning and afternoon but took a break for a yoga/pilates class in between. After I wrapped up my work, we did a little cleaning around the apartment, went to church, and then dropped by Trader Joe's to pick up some groceries for the week. Once we dropped off the groceries at home, we went out for Mexican - clearly we are treating ourselves a little to much this weekend! I won't complain though. ;)"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 2
+        },
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Currently..."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Reading"
+          },
+          {
+            "type": "text",
+            "text": "  "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-4-Hour-Workweek-Anywhere-Expanded/dp/0307465357/ref=sr_1_1?ie=UTF8&qid=1394387527&sr=8-1&keywords=the+4+hour+work+week",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The 4-Hour Workweek"
+          },
+          {
+            "type": "text",
+            "text": " by Timothy Ferriss; I really enjoy reading different philosophies on work and careers, and given the popularity of this book (and the fact that it was on my library's wait list for about 5 months), I'm very curious what all the fuss is about. I'm also reading the second section of  "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Compassion-Reflection-Christian-Henri-Nouwen/dp/0385517521/ref=sr_1_1?s=books&ie=UTF8&qid=1393778816&sr=1-1&keywords=compassion+a+reflection+on+the+christian+life",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Compassion: A Reflection on Christian Life"
+          },
+          {
+            "type": "text",
+            "text": " by Henri Nouwen for our small group study. Minutes before writing this blog post, I finished "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Allegiant-Divergent-Series-Veronica-Roth/dp/006202406X",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Allegiant"
+          },
+          {
+            "type": "text",
+            "text": " by Veronica Roth. I actually really liked how it ended and highly recommend it despite many reviews saying the opposite."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Writing"
+          },
+          {
+            "type": "text",
+            "text": "  an outline for my next "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/category/travel-with-me/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel"
+          },
+          {
+            "type": "text",
+            "text": " post"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Listening"
+          },
+          {
+            "type": "text",
+            "text": "  to the hustle and bustle of the Starbucks cafe in Barnes and Noble"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Thinking"
+          },
+          {
+            "type": "text",
+            "text": "  how nice it is that I'm not slaving away at the office today like I thought I was going to have to (thankful for productive Saturdays!)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Smelling"
+          },
+          {
+            "type": "text",
+            "text": "  coffee brewing in the cafe"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Wishing"
+          },
+          {
+            "type": "text",
+            "text": "  that I had slept a little more last night. Usually Saturday nights are my time to catch up on sleep, but with the time change and staying up later than normal last night, I only got 6 and a half hours - my usual during the work week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Hoping"
+          },
+          {
+            "type": "text",
+            "text": "  to have time to explore that travel book section here in a little bit. I'm excited to start forming plans for our London/Paris trip in May! Let me know if you have any restaurant/ activity/ sightseeing recommendations for either city!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Wearing"
+          },
+          {
+            "type": "text",
+            "text": "  jeans, a sweater, and my beloved Sperry's"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Loving"
+          },
+          {
+            "type": "text",
+            "text": "  that I already got my workout in today!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Wanting"
+          },
+          {
+            "type": "text",
+            "text": "  Spring! Isn't everyone?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Needing"
+          },
+          {
+            "type": "text",
+            "text": "  to do a full-organizational re-haul of our apartment. Maybe I'll start by picking the biggest problem areas and adding them to my "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/category/weekly-wishes/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Weekly Wishes"
+          },
+          {
+            "type": "text",
+            "text": ". Spring is around the corner, and isn't that the time to organize and clean?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Feeling"
+          },
+          {
+            "type": "text",
+            "text": "  excited about planning for the future"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "Clicking"
+          },
+          {
+            "type": "text",
+            "text": "  Bloglovin' and YouTube videos (specifically miss glamorazzi's \""
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.youtube.com/watch?v=jAePpdlwnlA",
+                  "title": null
+                }
+              }
+            ],
+            "text": "My Travel Bag Essentials"
+          },
+          {
+            "type": "text",
+            "text": "\")."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I hope that you are enjoying this lovely Sunday too!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "This post is for the blog link up on "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://siddathornton.blogspot.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "siddathornton"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ". Share yours and link it up!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://everydayaccountsblog.com/category/the-sunday-currently/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to see all of my The Sunday Currently posts."
+          }
+        ]
+      }
+    ]
+  }
+}

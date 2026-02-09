@@ -1,0 +1,203 @@
+{
+  "data": {
+    "title": "Weekly Wishes #6",
+    "date": "2014-02-18",
+    "categories": [
+      "weekly-wishes"
+    ],
+    "tags": [
+      "exercise",
+      "goals-2",
+      "reading"
+    ],
+    "id": "1067",
+    "slug": "weekly-wishes-6"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"\" align=\"aligncenter\" width=\"491\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140217-222346.jpg",
+              "alt": "20140217-222346.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://emilyabernathy.files.wordpress.com/2014/02/20140217-222346.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " This was taken outside our apartment. The mountains of snow just won't melt![/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Each Monday night, I link up with "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Nectar Collective"
+          },
+          {
+            "type": "text",
+            "text": " to share my \"wishes\" or goals for the week and to see how I did on my goals last week. I missed last week do to a crazy work schedule, so I'm going to start with a clean slate and just make some new goals for this week."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "This Week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Order my prints for my January Project Life layout and, if time allows,  put it together."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Finish "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/This-Is-Where-Leave-You/dp/0452296366",
+                  "title": null
+                }
+              }
+            ],
+            "text": "This is Where I Leave You"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "."
+          },
+          {
+            "type": "text",
+            "text": " Not loving it so far, but I'm going to keep going with it."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "3. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Make it to  BodyPump Thursday evening, yoga on Saturday, and BodyPump again on Sunday. Do a short, at-home workout on Tuesday."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm keeping things simple this week. Looking forward to having a little more time than earlier this month to work on personal goals."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/weekly-wishes-button.jpg",
+              "alt": "The Nectar Collective",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/tags/weekly-wishes/",
+                  "title": "The Nectar Collective"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

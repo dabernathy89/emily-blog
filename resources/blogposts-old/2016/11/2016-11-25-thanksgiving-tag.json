@@ -1,0 +1,503 @@
+{
+  "data": {
+    "title": "Thanksgiving Tag",
+    "date": "2016-11-25",
+    "categories": [
+      "holiday"
+    ],
+    "tags": [
+      "family",
+      "holiday-2",
+      "tag",
+      "thanksgiving"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2016/11/Thanksgiving-Tag.png",
+    "id": "7963",
+    "slug": "thanksgiving-tag"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/Thanksgiving-Tag.png",
+              "alt": "thanksgiving-tag",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/11/Thanksgiving-Tag.png",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Happy Thanksgiving, friends! I've seen some of my favorite blogger ladies do a Thanksgiving tag ("
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.blovedboston.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Biana"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.wanderingweekenders.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Ashley"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.thesiberianamerican.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Olya"
+          },
+          {
+            "type": "text",
+            "text": "), so I figured I'd set aside the travel post I had planned for this week and participate! I love Thanksgiving and wanted to do some sort of Thanksgiving-themed post this week anyway, so this is perfect!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Favorite Part of the Thanksgiving Day Meal"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I definitely love the conversation around the table with family. But my favorite food of the meal is always the sides!  I enjoy the turkey, but it's never my favorite part."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2013-11-28-14.40.24-1.jpg",
+              "alt": "2013-11-28-14-40-24-1",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/11/2013-11-28-14.40.24-1.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Favorite Side(s)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "As I just mentioned, the sides are my favorite part of the Thanksgiving meal! I love any stuffing with gravy, cheesy rice, green bean casserole, sweet potato casserole, mac and cheese, mashed potatoes, etc! I always go back for seconds on sides and never on turkey. If I had to pick a favorite side, it would a be really flavorful stuffing."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Have You Hosted Before?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We have never hosted, but I dream of hosting Thanksgiving one day when we have a house. In my head I want to go all out with the table setting and the food and decorations (just like in the movies), but we will see if I have the energy and creativity for that when the time comes. :)"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Favorite Decor for Thanksgiving"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I always love pumpkins as decoration for Thanksgiving or any fall-related decor. Also, I know this is controversial, but I actually think Christmas decorations go with Thanksgiving, so I don't mind some Christmas decor on Thanksgiving Day. I think it might be because the Macy's Thanksgiving Day Parade (which I usually watch on Thanksgiving morning) is so Christmasy, and several of my favorite holiday movies include Thanksgiving Day."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2015-10-06-19.14.23-1.jpg",
+              "alt": "2015-10-06-19-14-23-1",
+              "title": null
+            }
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2014-09-24-13.13.26.jpg",
+              "alt": "2014-09-24-13-13-26",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": "Tree Up Before or After Thanksgiving?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "While I really don't mind (and actually love) seeing Christmas decor up at other people's homes and out at the mall and such, I do prefer to decorate my own home for Christmas the day after Thanksgiving. This year, we decorated the weekend before Thanksgiving, but that's because of lots of upcoming travel (and I didn't want to lose a whole week of enjoying my Christmas decorations!)."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Smooth or Chunky Cranberry Sauce?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I don't really like cranberry sauce, but I've never had the homemade kind (only the canned type). I bet I would like a chunky homemade cranberry sauce!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Pumpkin Pie or Another"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm a pumpkin pie lover through and through. I'm always sad whenever there is no pumpkin pie at a Thanksgiving meal. I made one to bring this year to be safe! Oh, and graham cracker crust is definitely the way to go...."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/Photo-Oct-26-10-31-41-AM.jpg",
+              "alt": "photo-oct-26-10-31-41-am",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": "Biggest Thing You're Thankful for this Year"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I'm so thankful for the health of my family and friends and the time to spend with them over Thanksgiving and the upcoming Christmas season. We are very blessed."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "[caption id=\"attachment_7969\" align=\"alignnone\" width=\"1280\"]"
+          },
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2014-11-28-10.37.09.jpg",
+              "alt": "2014-11-28-10-37-09",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": " Family picture in Harpers Ferry, Thanksgiving 2014 (Apparently Liz and I thought it was supposed to be a silly picture!)[/caption]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Happy Thanksgiving! Enjoy the time with your family!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{Thanks for reading! Want to know a little more about me? I’m a CPA learning how to balance a career with frequent travel while planting roots at home in Austin, TX. When I’m not exploring my home city with my husband Daniel or cuddling with our chubby orange cat Banana, I’m probably planning, packing, traveling to, or daydreaming about our next adventure. After all, my"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/my-travel-mug-collection-updated/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "travel mug collection"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "is never complete. If you have wanderlust too, be sure to follow me on"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.instagram.com/emily_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Instagram"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://www.pinterest.com/e_abernathy/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Pinterest"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": ","
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "https://snapchat.com/add/emilya89",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Snapchat"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "(emilya89), or"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://bloglovin.com/everydayaccounts",
+                  "title": null
+                }
+              }
+            ],
+            "text": "subscribe to my blog"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "!__}"
+          }
+        ]
+      }
+    ]
+  }
+}

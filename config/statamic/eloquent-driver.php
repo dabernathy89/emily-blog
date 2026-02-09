@@ -79,7 +79,7 @@ return [
     ],
 
     'revisions' => [
-        'driver' => 'file',
+        'driver' => 'eloquent',
         'model' => \Statamic\Eloquent\Revisions\RevisionModel::class,
     ],
 

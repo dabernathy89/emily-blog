@@ -1,0 +1,360 @@
+{
+  "data": {
+    "title": "Reading List // 02",
+    "date": "2014-08-14",
+    "categories": [
+      "books-2"
+    ],
+    "tags": [
+      "books",
+      "reading",
+      "reading-list"
+    ],
+    "coverImage": "https://www.everydayaccountsblog.com/wp-content/uploads/2014/05/20140501-223710.jpg",
+    "id": "2875",
+    "slug": "reading-list-02"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140501-223710-300x300.jpg",
+              "alt": "20140501-223710.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2014/05/20140501-223710.jpg",
+                  "title": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Back in February, I posted a "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/02/reading-list/",
+                  "title": "Reading List"
+                }
+              }
+            ],
+            "text": "list of books"
+          },
+          {
+            "type": "text",
+            "text": " I wanted to read in the upcoming months. I didn't read everything on the list, but I did read most of them. Having a written list of books really motivated me to read more quickly - even though I was knee deep in busy season at work. I love to read, but at times I'm guilty of wasting away after work in front of the TV, so when I'm really tired, I need that extra push to pick a book over a screen. Now that the "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/05/semi-charmed-summer-2014-book-challenge/",
+                  "title": "Semi-Charmed Summer 2014 Book Challenge"
+                }
+              }
+            ],
+            "text": "Semi-Charmed Summer Book Challenge"
+          },
+          {
+            "type": "text",
+            "text": " is winding down, I wanted to come up with my own list again. Here is a list of books I am planning to read in the near future, including books that I'm on the waiting list for at my library, are sitting on my nightstand, or are just on my mind to read in the next few months. The books are in no particular order."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Paper-Towns-John-Green/dp/014241493X",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Paper Towns"
+          },
+          {
+            "type": "text",
+            "text": " by John Green (currently reading)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Husbands-Secret-Liane-Moriarty/dp/0399159347/ref=sr_1_1?s=books&ie=UTF8&qid=1407980095&sr=1-1&keywords=the+husband%27s+secret+liane+moriarty",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Husband's Secret"
+          },
+          {
+            "type": "text",
+            "text": " by Liane Moriarty"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Unbroken-World-Survival-Resilience-Redemption/dp/0812974492/ref=sr_1_1?s=books&ie=UTF8&qid=1407981716&sr=1-1&keywords=unbroken",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Unbroken: A World War II Story of Survival, Resilience, and Redemption"
+          },
+          {
+            "type": "text",
+            "text": " by Laura Hillenbrand"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/gp/product/0385348843/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Happiness of Pursuit: Finding the Quest That Will Bring Purpose to Your Life"
+          },
+          {
+            "type": "text",
+            "text": " by Chris Guillebeau"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Selection-Kiera-Cass/dp/0062059947/ref=sr_1_1?s=books&ie=UTF8&qid=1407979113&sr=1-1&keywords=the+selection",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Selection"
+          },
+          {
+            "type": "text",
+            "text": " (The Selection Series, Book 1) by Kiera Cass"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Elite-Selection-Kiera-Cass/dp/0062059971/ref=pd_bxgy_b_img_y",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Elite"
+          },
+          {
+            "type": "text",
+            "text": " (The Selection Series, Book 2) by Kiera Cass"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-One-Selection-Kiera-Cass/dp/0062059998/ref=pd_bxgy_b_img_y",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The One"
+          },
+          {
+            "type": "text",
+            "text": " (The Selection Series, Book 3) by Kiera Cass"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Giver-Lois-Lowry/dp/B00AHG3UYA/ref=sr_1_1?ie=UTF8&qid=1407979726&sr=8-1&keywords=the+giver",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Giver"
+          },
+          {
+            "type": "text",
+            "text": " by Lois Lowry"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Night-Circus-Erin-Morgenstern/dp/0307744434/ref=sr_1_1?ie=UTF8&qid=1407979765&sr=8-1&keywords=the+night+circus",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Night Circus"
+          },
+          {
+            "type": "text",
+            "text": " by Erin Morgenstern"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Paris-Wife-Random-Readers/dp/0345521315/ref=sr_1_1?ie=UTF8&qid=1407979824&sr=8-1&keywords=the+paris+wife",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Paris Wife"
+          },
+          {
+            "type": "text",
+            "text": " by Paula McLain"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Cartwheel-Novel-Random-Readers-Circle/dp/0812985826/ref=sr_1_1?s=books&ie=UTF8&qid=1407979949&sr=1-1&keywords=cartwheel",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Cartwheel: A Novel"
+          },
+          {
+            "type": "text",
+            "text": " by Jennifer duBois"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/Wild-Found-Pacific-Crest-Vintage/dp/0307476073/ref=la_B001HCXFIE_1_1?s=books&ie=UTF8&qid=1407978880&sr=1-1",
+                  "title": null
+                }
+              }
+            ],
+            "text": "Wild: From Lost to Found on the Pacific Crest Trail"
+          },
+          {
+            "type": "text",
+            "text": " by Cheryl Strayed"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I have definitely been gravitating toward fiction for a while now. Have you read any of these books? Or is there anything that you have read that I should add to my list?"
+          }
+        ]
+      }
+    ]
+  }
+}

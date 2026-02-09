@@ -1,0 +1,171 @@
+{
+  "data": {
+    "title": "Weekly Wishes #13",
+    "date": "2014-04-08",
+    "categories": [
+      "weekly-wishes"
+    ],
+    "tags": [
+      "goals-2"
+    ],
+    "id": "1402",
+    "slug": "weekly-wishes-13"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140407-211430.jpg",
+              "alt": "20140407-211430.jpg",
+              "title": null
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Each Monday night, I link up with "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Nectar Collective"
+          },
+          {
+            "type": "text",
+            "text": " to share my \"wishes\" or goals for the week and to see how I did on my goals last week."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is going to be a short post. Those of you who read my posts regularly have heard me say this a million times (and are probably quite sick of it), but I'm counting down the days until April 15th is over! For those who don't know, I'm a tax accountant, so things have been quite busy at the office. I'm so so so excited to have more time to do the things I enjoy doing outside of work."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 1
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "This Week"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Read as much as I can."
+          },
+          {
+            "type": "text",
+            "text": " I'm still on "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.amazon.com/The-Cuckoos-Calling-Robert-Galbraith/dp/0316206849",
+                  "title": null
+                }
+              }
+            ],
+            "text": "The Cuckoo's Calling"
+          },
+          {
+            "type": "text",
+            "text": ", and I'm going really slow, but that's okay until 4/15! I'll just read what I can."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "2. "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Put together an outfit from my closet for our spring pictures in DC."
+          },
+          {
+            "type": "text",
+            "text": " My wedding photographer is coming to town, so we have a photo session scheduled in the city Saturday! I bought a few new makeup products for the pictures, but I'm going to put together an outfit from things already in my closet. Wish me luck!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "That's it for this week! I'll be back in full-swing with personal hobbies and goals next week!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/weekly-wishes-button.jpg",
+              "alt": "The Nectar Collective",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://thenectarcollective.com/tags/weekly-wishes/",
+                  "title": "The Nectar Collective"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

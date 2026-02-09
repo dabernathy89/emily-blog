@@ -1,0 +1,1159 @@
+{
+  "data": {
+    "title": "My Travel Mug Collection",
+    "date": "2016-04-15",
+    "id": "11335",
+    "slug": "my-travel-mug-collection"
+  },
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/My-Travel-Mug-Collection-724x1024.jpg",
+              "alt": "My Travel Mug Collection",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/My-Travel-Mug-Collection.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "About two years ago, I wrote a post sharing my travel mug collection and the related trips. It was very well received, and we have done a lot of traveling since that post, so I thought I'd do an updated version! Ever since Daniel and I celebrated our first anniversary in Orlando back in 2012, we have collected a Starbucks mug each time we take a trip together. You will notice that there are two types of mugs in the pictures below. We started out by collecting the Global Icon series. Starbucks has since discontinued this series in the U.S., so we now collect the new You Are Here series for U.S. destinations and the Global Icon series for international destinations. So it's time for you to join me on a trip down memory lane as I talk through our collection!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140806-213351-77631467.jpg",
+              "alt": "20140806-213351-77631467.jpg",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Orlando"
+          },
+          {
+            "type": "text",
+            "text": " - As I mentioned above, this was the first mug in our collection. We picked it up while in Orlando celebrating our first anniversary at Disney World!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Washington D.C."
+          },
+          {
+            "type": "text",
+            "text": " - Our next mug was picked up in the city we lived in for three years - our nation's capital! This mug is very special. It represents the time we spent living and playing tourist in D.C. together as newlyweds. See some of our D.C. adventures "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/category/exploring-dc/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Memphis"
+          },
+          {
+            "type": "text",
+            "text": " -  Up until 2014, I traveled to Memphis for work constantly. In fact, I counted once, and I went to Memphis twenty times between 2012 and 2014! I have mixed feelings about this mug because I associate it with work, but I bought it to remember the time that my company flew my husband out to stay with me to make up for the fact that they had extended my three day trip into a two week trip. While most of the time Daniel was just working in the hotel room and waiting for me to get back to the room at 2am, Daniel and I were able to enjoy one Sunday together doing some sightseeing, so I really enjoy remembering that day when I use this mug."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140806-213349-77629428.jpg",
+              "alt": "20140806-213349-77629428.jpg",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Alaska"
+          },
+          {
+            "type": "text",
+            "text": " - In May 2013, Daniel and I took a trip to visit our good friends in Alaska. It was an amazing trip full of time with friends, whale watching, and enjoying the great outdoors!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Seattle & Pike Place Market"
+          },
+          {
+            "type": "text",
+            "text": " - On our way to Alaska in 2013, we had a very extended layover in Seattle and fell in love with that city. And, of course, we had to visit the original Starbucks and pick up a Pike Place Market mug as well while we were there. Read more about our Seattle adventures "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/01/travel-with-me-seattle/",
+                  "title": "Travel with Me // Seattle"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140806-213349-77629879.jpg",
+              "alt": "20140806-213349-77629879.jpg",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Boston"
+          },
+          {
+            "type": "text",
+            "text": " - In the fall of 2013, we spent a long weekend in New England. We had two days in Boston, one day in Portland, Maine, and one day in Rhode Island. Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2013/11/travel-with-me-new-england-part-i/",
+                  "title": "Travel with Me // New England (Part I)"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2013/11/travel-with-me-new-england-part-ii/",
+                  "title": "Travel with Me // New England (Part II)"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " for pictures and a recap of this trip."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Nashville"
+          },
+          {
+            "type": "text",
+            "text": " - We picked up this mug while spending last Thanksgiving with Daniel's family in Nashville, but it reminds me of two trips. In college, Daniel and I took a road trip with our friends (the couple who currently lives in Alaska) to Tennessee, and we have loved Nashville ever since. Our time there last Thanksgiving was very special as well. In "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2013/12/our-thanksgiving/",
+                  "title": "Our Thanksgiving"
+                }
+              }
+            ],
+            "text": "this post"
+          },
+          {
+            "type": "text",
+            "text": ", I talk about what we did while we were there during the holiday."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Dallas"
+          },
+          {
+            "type": "text",
+            "text": " - Both of us grew up in the Dallas/Fort Worth area (Aledo to be exact), so we have spent a bit of time in Dallas over the years. We picked up this mug in December 2013, when we went with Daniel's parents to visit his aunt who was working in Dallas."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Philadelphia"
+          },
+          {
+            "type": "text",
+            "text": " - In January 2014 we went to Philadelphia with my cousin Josh and his wife Meredith. We had such a fun time exploring this historic city with them. I wrote in detail about this trip "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/01/travel-with-me-briefly-philadelphia/",
+                  "title": "Travel with Me (Briefly) // Philadelphia"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140806-213350-77630662.jpg",
+              "alt": "20140806-213350-77630662.jpg",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "London & Paris"
+          },
+          {
+            "type": "text",
+            "text": " - In May of 2014, we traveled to Europe for the first time and spent nine days exploring London and Paris. It really was a dream trip. I recap our trip to London "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/06/travel-with-me-london-what-we-did/",
+                  "title": "Travel with Me // London – What We Did"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/07/travel-with-me-london-where-we-stayed-what-we-ate/",
+                  "title": "Travel With Me – London // Where We Stayed & What We Ate"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/07/travel-with-me-london-planning-other-recommendations/",
+                  "title": "Travel With Me // London – Planning & Other Recommendations"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " and our time in Paris "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/08/travel-with-me-paris-what-we-did/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": ". [I never did finish my final two Paris posts, so maybe I will revisit them again soon.]"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "New York City"
+          },
+          {
+            "type": "text",
+            "text": " - In the fall of 2012, we took the train to New York City. That city is just gorgeous in the fall! We saw Wicked, explored Central Park, woke up early to peek in at Good Morning America, and met up with a couple of great friends. We went again at Christmastime in 2014 and saw the musical Once, swooned over the gorgeous Christmas decorations and store displays, and discovered more delicious food and drinks."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/20140806-213348-77628985.jpg",
+              "alt": "20140806-213348-77628985.jpg",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2014/08/20140806-213348-77628985.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Virginia"
+          },
+          {
+            "type": "text",
+            "text": " - This mug was given to me as a birthday gift in 2014. To me, it represents our time living in Northern Virginia as well as our trip to the Shenandoah National Park to do the Skyline Drive in the fall of 2013. I wrote about that trip "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2013/11/our-fall-weekend/",
+                  "title": "Our Fall Weekend"
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "North Carolina"
+          },
+          {
+            "type": "text",
+            "text": " - In mid-2014, we went to North Carolina to visit my cousin and his wife who are some of our best friends. It was our second time to visit them, so we decided to pick up a North Carolina mug to remember all of the fun we have had with them."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Florida"
+          },
+          {
+            "type": "text",
+            "text": " - We picked up our 16th mug in summer 2014 when we visited Daniel's grandma in St. Petersburg, Florida. It was our second time to go there together."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-20.51.21-1024x792.jpg",
+              "alt": "2016-04-14 20.51.21",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Chicago"
+          },
+          {
+            "type": "text",
+            "text": " - I go to the Chicago area every year for a work training, and I usually stay the weekend after to explore the city. I got this mug when Daniel came to join me after a training in November 2014. Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2014/11/travel-with-me-briefly-chicago/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to read about our weekend in Chicago."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Austin"
+          },
+          {
+            "type": "text",
+            "text": " - We moved from DC to Austin at the very end of 2014. My sister bought me this Austin mug to add to my travel mug collection. We have already made so many "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/tag/austin/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "memories"
+          },
+          {
+            "type": "text",
+            "text": " in Austin!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Texas"
+          },
+          {
+            "type": "text",
+            "text": " - I grew up, went to college, and currently live in Texas. I love this state!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Las Vegas"
+          },
+          {
+            "type": "text",
+            "text": " - During spring of 2015, Daniel had a work conference in Las Vegas, so I joined along to work remotely during the week and visit the Las Vegas Strip the weekend after. This was our first time in Vegas, and after expecting to not really like it, I loved it! Read about our weekend "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2015/06/travel-with-me-briefly-las-vegas/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-20.52.39-1024x641.jpg",
+              "alt": "2016-04-14 20.52.39",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Peru"
+          },
+          {
+            "type": "text",
+            "text": " - During August 2015, we headed to South America! Over the years, I have been to South America several times, but Daniel had never been, so it was special to bring him back to Peru. To read all about our trip, including time in Lima, Puno, the Sacred Valley, and even our journey to Cusco on a Peruvian train, click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2015/08/travel-with-me-peru-lima-and-a-travel-vlog/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2015/09/travel-with-me-peru-puno-lake-titicaca/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here,"
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2015/10/travel-with-me-peru-sacred-valley-tour/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2015/10/travel-with-me-peru-train-journey-to-cusco/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": ". Unfortunately, I still haven't written posts about Cusco and Machu Picchu, the main event! Hopefully I will get to those soon and link them here. We couldn't decide which Peruvian mug to get, so we just got all three (for Lima and Cusco we got the cute mini versions!)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-20.55.03-1024x641.jpg",
+              "alt": "2016-04-14 20.55.03",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": "During early winter 2015, we took a trip to Austria and Germany to see the Christmas markets! I was a magical time of year to visit this part of the world. No one knows how to do Christmas like Austrians and Germans! I can't wait to write about this trip once I'm done writing about our big Europe trip (see below)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Vienna"
+          },
+          {
+            "type": "text",
+            "text": " - The capital city of Austria is one of the cleanest and most beautiful cities I've ever been to. It also has my favorite Christmas market from this whole trip, the Christkindlmarkt. We only had a couple of days there, and that definitely was not enough time to see all this city has to offer!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Salzburg"
+          },
+          {
+            "type": "text",
+            "text": " - Our second stop in Austria was the home of The Sound of Music! Why yes, we did do The Sound of Music Tour, and we loved it! It's a great way to see locations of popular scenes from the movie, but it is also as a fantastic way to see some of the surrounding Austrian countryside! Salzburg itself is just stunning."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Munich"
+          },
+          {
+            "type": "text",
+            "text": " - After our time in Germany, I can confidently say I love German food! Schnitzel, bratwurst, warm pretzels with cheese, apple strudel.... I love it all! And I haven't even mentioned the delicious Christmas market food! This mug represents all of our time in southern Germany. In addition to Munich, we also visited Nuremberg, Rothenburg ob der Tauber, and Fussen (and the Cinderella castle!)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-20.56.45-1024x640.jpg",
+              "alt": "2016-04-14 20.56.45",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "text": "If you have been reading my blog lately, you know I can't stop talking about our "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/tag/abernathy-adventure/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "big backpacking trip"
+          },
+          {
+            "type": "text",
+            "text": " across Western Europe that we did this past winter (January through March). Nothing could keep me from my travel mug addiction, so we collected as many as we could and ended up sending home two shipments of mugs since we didn't have the room (or the strength!) to carry them all around with us. Not all cities have a mug, so that helped me limit myself. I was so sad that Italy didn't have any at all! They are too particular about their espresso to allow Starbucks in the country."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Edinburgh"
+          },
+          {
+            "type": "text",
+            "text": " - This is the first mug I bought on our backpacking trip. We fell head over heels for Edinburgh. Read about our time in Scotland's capital "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/02/travel-with-me-edinburgh/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " and our amazing day tour of the Scottish Highlands "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/02/travel-with-me-adventure-in-the-scottish-highlands/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Glasgow"
+          },
+          {
+            "type": "text",
+            "text": " - Our final stop in Scotland was Glasgow, and it was a good one! Click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/travel-with-me-a-weekend-in-glasgow/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": " to read about our weekend in Glasgow."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Dublin"
+          },
+          {
+            "type": "text",
+            "text": " - The next place we picked up a mug was in Ireland, the country I had been dreaming of visiting for years! Our first stop in Ireland was Dublin, and it was the only Irish city we visited that has a Starbucks mug. I recapped our three days in Dublin "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/2016/04/travel-with-me-dublin/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-20.58.11-1024x641.jpg",
+              "alt": "2016-04-14 20.58.11",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-04-14-20.58.11.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Bruges"
+          },
+          {
+            "type": "text",
+            "text": " -  After our Irish roadtrip, we took a plane to the mainland and found ourselves in Bruges, Belgium! I cannot even begin to tell you how enamored I am with this charming city. I will go back. I am still in the process of writing posts about the rest of our backpacking trip, but I'll link them here as they are ready."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Nice"
+          },
+          {
+            "type": "text",
+            "text": " - We began our time in the south of France with a lengthy stay in Nice. It was magical! We took day trips to Monaco and Cannes and spent a lot of time exploring Nice's colorful streets as well."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Monaco"
+          },
+          {
+            "type": "text",
+            "text": " - While staying in Nice, we took a day trip and crossed the border into Monaco! We explored Monte Carlo and the surrounding area for a day."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-20.59.36-1024x794.jpg",
+              "alt": "2016-04-14 20.59.36",
+              "title": null
+            }
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "strong"
+              }
+            ],
+            "text": "Berne, Geneva, Zurich, and Lucerne"
+          },
+          {
+            "type": "text",
+            "text": " - Switzerland really loves their Starbucks mugs! Every city we visited had one. Despite how incredibly expensive Switzerland is, its almost untouched beauty, endless cheese options, and amazing public transportation made it an incredible place to visit. Berne and Zurich were our favorites!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "I hope that you enjoyed a peek at our collection of 36 mugs! I have a few more that people have given to us as gifts, but I'll share those once we visit the place they came from.  You are probably wondering how in the world we store all of these mugs...."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "image",
+            "attrs": {
+              "src": "images/2016-04-14-21.03.34-768x1024.jpg",
+              "alt": "2016-04-14 21.03.34",
+              "title": null
+            },
+            "marks": [
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/wp-content/uploads/2016/04/2016-04-14-21.03.34.jpg",
+                  "title": null
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Currently this little cabinet does the trick! But as you can see, I'm going to have to explore additional options soon because I've maxed out on space!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "It's obvious that Daniel and I make travel a priority right now in our lives, and I love how our mugs remind us of all of the memories we have collected over the years. Let me know in the comments if you collect anything when you travel!"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": "{To see all of my travel stories and guides, click "
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              },
+              {
+                "type": "link",
+                "attrs": {
+                  "href": "http://www.everydayaccountsblog.com/category/travel-with-me/",
+                  "title": null
+                }
+              }
+            ],
+            "text": "here"
+          },
+          {
+            "type": "text",
+            "marks": [
+              {
+                "type": "em"
+              }
+            ],
+            "text": " to explore my Travel with Me series!}"
+          }
+        ]
+      }
+    ]
+  }
+}

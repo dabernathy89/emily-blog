@@ -22,3 +22,8 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/.claude
+/.junie
+.mcp.json
+/database/*.sqlite
+/public/assets/wp-content
