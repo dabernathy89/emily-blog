@@ -4,6 +4,8 @@ tree:
   -
     entry: about
   -
+    entry: contact-me
+  -
     entry: articles
   -
     entry: topics
