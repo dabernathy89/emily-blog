@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -24,6 +25,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            bash .github/scripts/detect-changes.sh
+          fi
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -52,7 +64,18 @@ jobs:
       - name: Generate app key
         run: php artisan key:generate
 
-      - name: Generate static site
+      - name: Restore static site snapshot from R2
+        if: steps.changes.outputs.mode == 'incremental'
+        run: |
+          aws s3 sync s3://emily-blog-assets/ssg-snapshot/ storage/app/static/ \
+            --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+
+      - name: Generate static site (incremental)
+        if: steps.changes.outputs.mode == 'incremental'
+        run: php please ssg:generate ${{ steps.changes.outputs.urls }}
+
+      - name: Generate static site (full)
+        if: steps.changes.outputs.mode == 'full'
         run: php please ssg:generate
 
       - name: Sync build assets to R2
@@ -66,3 +89,9 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Save static site snapshot to R2
+        run: |
+          aws s3 sync storage/app/static/ s3://emily-blog-assets/ssg-snapshot/ \
+            --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com \
+            --delete
