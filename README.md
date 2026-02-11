@@ -1,240 +1,131 @@
-# Statamic Blog Docker Swarm Setup
+# Everyday Accounts Blog
 
-This project sets up a complete blog migration from WordPress to Statamic using Docker Swarm, featuring:
-
-- **Dynamic Statamic CMS** at `cms.yourdomain.com` (basic auth protected)
-- **Static site** at `yourdomain.com` (generated on content updates)
-- **Shared asset storage** via Docker volumes
-- **Traefik reverse proxy** with automatic SSL
-- **SQLite database** for content storage
-
-## Prerequisites
-
-- Docker Swarm initialized on your VPS
-- Traefik running as a reverse proxy with the `traefik-public` network
-- Domain names configured to point to your VPS
-
-## Setup Instructions
-
-### 1. Create Docker Secrets
-
-Before deploying the stack, you only need to create the basic auth secret for CMS protection.
-
-#### Basic Auth for CMS Protection
-
-The CMS subdomain is protected with basic auth to prevent search engines from indexing duplicate content.
-
-**Option 1: Using htpasswd (recommended)**
-
-```bash
-# Install htpasswd if not available
-# Ubuntu/Debian: sudo apt-get install apache2-utils
-# CentOS/RHEL: sudo yum install httpd-tools
-# macOS: brew install httpd
-
-# Generate the auth string (replace 'admin' and 'yourpassword' with your credentials)
-htpasswd -nbB admin yourpassword
-
-# Create the secret with the output from above
-echo "admin:\$2y\$10\$your-generated-hash-here" | docker secret create basic_auth_password -
-```
-
-**Important Notes:**
-- Always escape `# Statamic Blog Docker Swarm Setup
-
-This project sets up a complete blog migration from WordPress to Statamic using Docker Swarm, featuring:
-
-- **Dynamic Statamic CMS** at `cms.yourdomain.com` (basic auth protected)
-- **Static site** at `yourdomain.com` (generated on content updates)
-- **Shared asset storage** via Docker volumes
-- **Traefik reverse proxy** with automatic SSL
-- **SQLite database** for content storage
+Statamic 5 blog on Laravel 12, migrated from WordPress. Dual-architecture deployment: a private CMS on a local VM and a static public site on Cloudflare Pages.
 
 ## Architecture
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Static Site   │    │  Dynamic CMS    │    │  Shared Volumes │
-│ yourdomain.com  │    │ cms.yourdomain  │    │   - Database    │
-│     (Nginx)     │    │   (Statamic)    │    │   - Assets      │
-│                 │    │                 │    │   - Glide Cache │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         └───────────────────────┼───────────────────────┘
-                                 │
-                         ┌─────────────────┐
-                         │     Traefik     │
-                         │ Reverse Proxy   │
-                         │   + SSL/TLS     │
-                         └─────────────────┘
+                    Local VM                              Cloudflare
+         ┌──────────────────────────┐        ┌──────────────────────────┐
+         │  Traefik (reverse proxy) │        │  Cloudflare Pages        │
+         │  Let's Encrypt TLS       │        │  everydayaccountsblog.com│
+         │          │               │        │  (static HTML/CSS/JS)    │
+         │  Statamic CMS (FrankenPHP│)       └──────────────────────────┘
+         │  admin.everydayaccounts  │        ┌──────────────────────────┐
+         │       blog.com           │        │  Cloudflare R2           │
+         │  (content editing)       │        │  images.everydayaccounts │
+         └──────────────────────────┘        │       blog.com           │
+                    │                        │  (media assets)          │
+                    │ git push               └──────────────────────────┘
+                    ▼                                    ▲
+              ┌──────────┐   GitHub Actions              │
+              │  GitHub  │──────────────────►  ssg:generate + deploy
+              └──────────┘
 ```
 
-## Prerequisites
+**Content workflow:** Edit in Statamic CP → flat files committed to git → GitHub Actions builds static site → deploys to Cloudflare Pages.
 
-- Docker Swarm initialized on your VPS
-- Traefik running as a reverse proxy with the `traefik-public` network
-- Domain names configured to point to your VPS
-
-## Setup Instructions
-
-### 1. Create Docker Secrets
-
-Before deploying the stack, you only need to create the basic auth secret for CMS protection.
-
-#### Basic Auth for CMS Protection
-
-The CMS subdomain is protected with basic auth to prevent search engines from indexing duplicate content.
-
- characters with `\# Statamic Blog Docker Swarm Setup
-
-This project sets up a complete blog migration from WordPress to Statamic using Docker Swarm, featuring:
-
-- **Dynamic Statamic CMS** at `cms.yourdomain.com` (basic auth protected)
-- **Static site** at `yourdomain.com` (generated on content updates)
-- **Shared asset storage** via Docker volumes
-- **Traefik reverse proxy** with automatic SSL
-- **SQLite database** for content storage
-
-## Architecture
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Static Site   │    │  Dynamic CMS    │    │  Shared Volumes │
-│ yourdomain.com  │    │ cms.yourdomain  │    │   - Database    │
-│     (Nginx)     │    │   (Statamic)    │    │   - Assets      │
-│                 │    │                 │    │   - Glide Cache │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         └───────────────────────┼───────────────────────┘
-                                 │
-                         ┌─────────────────┐
-                         │     Traefik     │
-                         │ Reverse Proxy   │
-                         │   + SSL/TLS     │
-                         └─────────────────┘
-```
-
-## Prerequisites
-
-- Docker Swarm initialized on your VPS
-- Traefik running as a reverse proxy with the `traefik-public` network
-- Domain names configured to point to your VPS
-
-## Setup Instructions
-
-### 1. Create Docker Secrets
-
-Before deploying the stack, you only need to create the basic auth secret for CMS protection.
-
-#### Basic Auth for CMS Protection
-
-The CMS subdomain is protected with basic auth to prevent search engines from indexing duplicate content.
-
- when creating the secret
-- The format is `username:hashedpassword`
-- You can add multiple users by separating them with newlines
-
-**Example with multiple users:**
+## Development
 
 ```bash
-echo -e "admin:\$2y\$10\$hash1\nuser2:\$2y\$10\$hash2" | docker secret create basic_auth_password -
+# Start all dev servers (artisan serve + queue + pail + vite)
+composer dev
+
+# Run tests
+composer test
+
+# Generate static site
+php please ssg:generate
 ```
 
-### 2. Verify Secrets
+## CMS Deployment (VM)
 
-Check that the secret was created successfully:
+The CMS runs on a local VM via Docker Swarm with Traefik and Let's Encrypt TLS.
+
+### Prerequisites
+
+- Docker initialized in Swarm mode on the VM
+- `admin.everydayaccountsblog.com` DNS A record pointing to the VM's LAN IP
+- Cloudflare API token with `Zone > Zone > Read` and `Zone > DNS > Edit` permissions for `everydayaccountsblog.com`
+
+### 1. Create Docker secrets
+
+Create a `.env.production` file with your production environment variables, then store both secrets:
 
 ```bash
-docker secret ls
+# App environment
+docker --context emilyblog secret create env_file .env.production
+
+# Cloudflare API token (for Let's Encrypt DNS challenge)
+echo -n "your-cloudflare-api-token" | docker --context emilyblog secret create cf_api_token -
 ```
 
-You should see:
-- `basic_auth_password`
+TLS certificates are provisioned via Let's Encrypt DNS challenge through the Cloudflare API — the VM does not need to be publicly reachable.
 
-### 3. Update Configuration
+### 2. Build and transfer the Docker image
 
-1. **Update domains** in `docker-stack.yml`:
-   - Replace `yourdomain.com` with your actual domain
-   - Replace `cms.yourdomain.com` with your CMS subdomain
-
-2. **Update Statamic Docker image** in `docker-stack.yml`:
-   - Replace `your-statamic-image:latest` with your actual Statamic Docker image
-
-### 4. Deploy the Stack
+Build and transfer run against the **local** Docker daemon (no `--context`). The SSH pipe handles getting the image to the VM.
 
 ```bash
-# Deploy the stack
-docker stack deploy -c docker-stack.yml statamic-blog
+# Build the production image locally
+docker build --target production -t statamic-cms:latest .
 
-# Check deployment status
-docker stack services statamic-blog
-docker stack ps statamic-blog
+# Transfer to VM (no registry needed)
+docker save statamic-cms:latest | gzip | ssh user@vm 'gunzip | docker load'
 ```
 
-### 5. Configure Statamic
+### 3. Deploy the stack
 
-Once deployed, configure your Statamic application to:
-
-1. **Use SQLite database** - ensure your application is configured for SQLite (the environment variables in `docker-stack.yml` should handle this)
-2. **Configure asset storage** - assets will be stored in `/app/public/assets` (mounted as a Docker volume)
-3. **Configure Glide cache** - processed images will be cached in `/app/public/glide` (mounted as a Docker volume)
-4. **Set up static generation triggers** - implement your custom logic to generate static files to `/app/static` when content is updated
-
-## File Structure
-
-```
-project/
-├── docker-stack.yml          # Main stack configuration
-├── nginx-static.conf         # Nginx config for static site
-└── README.md                 # This file
-```
-
-## Accessing Services
-
-After deployment:
-
-- **Main website**: https://yourdomain.com
-- **CMS**: https://cms.yourdomain.com (basic auth required)
-
-## Updating the Stack
+All `docker` commands that target the VM use `--context emilyblog`.
 
 ```bash
-# Pull latest images and update
-docker stack deploy -c docker-stack.yml statamic-blog
+CMS_DOMAIN=admin.everydayaccountsblog.com ACME_EMAIL=you@example.com \
+  docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
 ```
+
+### Verify
+
+```bash
+docker --context emilyblog stack services statamic
+docker --context emilyblog stack ps statamic
+```
+
+### Updating
+
+To deploy code/content changes, rebuild the image and repeat steps 2-3.
+
+Docker secrets are immutable and can't be removed while in use. To rotate a secret, detach it from the service first, then remove/recreate/reattach:
+
+```bash
+# Update .env
+docker --context emilyblog service update --secret-rm env_file statamic_statamic
+docker --context emilyblog secret rm env_file
+docker --context emilyblog secret create env_file .env.production
+docker --context emilyblog service update --secret-add source=env_file,target=/app/.env,uid=33,gid=33,mode=0440 statamic_statamic
+
+# Update Cloudflare token
+docker --context emilyblog service update --secret-rm cf_api_token statamic_traefik
+docker --context emilyblog secret rm cf_api_token
+echo -n "new-token" | docker --context emilyblog secret create cf_api_token -
+docker --context emilyblog service update --secret-add cf_api_token statamic_traefik
+```
+
+## Static Site Deployment
+
+Handled automatically by GitHub Actions on push to `main`:
+
+1. Builds frontend assets (`npm run build`)
+2. Runs `php please ssg:generate`
+3. Syncs build assets to Cloudflare R2
+4. Deploys static HTML to Cloudflare Pages
 
 ## Troubleshooting
 
-### Check service logs:
 ```bash
-# View logs for specific service
-docker service logs statamic-blog_statamic-dynamic
-docker service logs statamic-blog_statamic-static
-```
+# Service logs
+docker --context emilyblog service logs statamic_statamic
+docker --context emilyblog service logs statamic_traefik
 
-### Verify secrets are mounted:
-```bash
-# Exec into a service to check secrets
-docker exec -it $(docker ps -q -f name=statamic-blog_statamic-dynamic) ls -la /run/secrets/
-```
-
-## Security Notes
-
-- All sensitive credentials are stored as Docker secrets
-- CMS is protected with basic auth to prevent SEO penalties
-- Assets are served directly from Docker volumes for optimal performance
-
-## Backup Strategy
-
-Regular backups should include:
-- **SQLite database volume**: `statamic-database`
-- **Assets volume**: `statamic-assets`
-- **Glide cache volume**: `statamic-glide`
-- **Generated static files**: `static-output`
-
-```bash
-# Example backup commands
-docker run --rm -v statamic-blog_statamic-database:/data -v $(pwd):/backup alpine tar czf /backup/database-backup.tar.gz -C /data .
-docker run --rm -v statamic-blog_statamic-assets:/data -v $(pwd):/backup alpine tar czf /backup/assets-backup.tar.gz -C /data .
-docker run --rm -v statamic-blog_static-output:/data -v $(pwd):/backup alpine tar czf /backup/static-backup.tar.gz -C /data .
+# Verify the .env secret is mounted
+docker --context emilyblog exec $(docker ps -q -f name=statamic_statamic) ls -la /app/.env
 ```

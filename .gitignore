@@ -4,6 +4,7 @@
 /public/hot
 /public/storage
 /public/vendor/statamic
+/bootstrap/cache/*.php
 /storage/*.key
 /storage/pail
 /vendor

@@ -132,21 +132,29 @@ This document outlines the roadmap for transforming the current Statamic 5 site 
 
 **Goal:** Run the Statamic CMS on a local VM for content management, not exposed to the public internet.
 
+**Architecture:** Docker Swarm single-node deployment with Traefik reverse proxy and Let's Encrypt TLS. A subdomain (e.g., `admin.everydayaccountsblog.com`) points to the VM's IP. The image is built locally and transferred to the VM via `docker save | ssh docker load` (no registry needed).
+
 **Steps:**
 
-1. **Simplify the Docker setup.** The current `docker-stack.yml` is built for a full production deployment with Traefik, TLS, and multiple services. For a local VM:
-   - A simple `docker-compose.yml` running the Statamic app (FrankenPHP) is sufficient.
-   - No need for Traefik, TLS, or the static nginx service on the VM itself.
-   - The `docker-compose.dev.yml` is close to what's needed — adapt it for the VM environment.
-2. **Or skip Docker entirely** for the VM and run Statamic natively with `php artisan serve` or a local nginx/Apache + PHP-FPM setup. This is simpler for a single-user admin environment.
-3. **Data persistence:** With flat files, all content is in the repo. `git pull` on the VM gets latest code, `git push` after edits commits content changes. The VM just needs:
-   - PHP 8.4 + required extensions
-   - Composer
-   - Node.js (for Vite asset building, if needed on the VM — or build assets in CI)
+1. **Create a CMS-only Docker stack** (`docker-stack-cms.yml`). The current `docker-stack.yml` was built for the old full-production deployment with three app services. For the VM, we only need:
+   - **Traefik** — reverse proxy with Let's Encrypt ACME (HTTP challenge), HTTP→HTTPS redirect.
+   - **Statamic CMS** — single FrankenPHP service, routed via Traefik on `admin.everydayaccountsblog.com`.
+   - No static nginx (Cloudflare Pages serves the public site), no wordpress-images (R2 handles legacy images).
+   - Volume mounts for content persistence (the git-tracked repo and local media storage).
+2. **DNS:** Point `admin.everydayaccountsblog.com` (A record) to the VM's public IP.
+3. **Image build & deploy workflow:**
+   - Build the production image locally: `docker build --target production -t statamic-cms:latest .`
+   - Transfer to VM: `docker save statamic-cms:latest | gzip | ssh user@vm 'gunzip | docker load'`
+   - Deploy on VM: `ssh user@vm 'docker stack deploy -c docker-stack-cms.yml statamic'`
+   - This avoids needing Docker Hub / GHCR / any registry.
+3. **Data persistence:** With flat files, all content is in the repo. `git pull` on the VM gets latest code, `git push` after edits commits content changes. The VM needs:
+   - Docker (already initialized in Swarm mode)
+   - Git (for content workflow)
    - The git repo cloned
    - Local media storage directory
 4. **Access:** Since this is a local VM, access is inherently restricted. No need for complex auth layers beyond Statamic's built-in CP authentication.
 5. **Consider Tailscale or similar** if you want to access the CMS from outside your local network without exposing ports to the public internet.
+6. **Retire old stack files:** Once the CMS-only stack is working, the original `docker-stack.yml` (with Traefik, wordpress-images, statamic-static) and `nginx-wp-content.conf` / `nginx-static.conf` can be removed — that infrastructure is fully replaced by Cloudflare Pages + R2.
 
 ---
 
@@ -218,12 +226,12 @@ This document outlines the roadmap for transforming the current Statamic 5 site 
 - [x] **Categories and tags migrated** — WordPress categories mapped to Statamic topics taxonomy.
 - [x] **Pages migrated** — About Me and other static pages.
 - [ ] **Featured images** — verify these are linked correctly in Statamic entries.
-- [ ] **Image references in post content** — rewrite inline `/wp-content/` URLs in post content to point to R2 media domain.
+- [x] **Image references in post content** — rewritten to use R2 media domain.
 - [x] **Comments** — Site already uses Disqus. Embed the Disqus widget in the new article template. URL structure match ensures existing threads carry over automatically.
 - [ ] **RSS feed subscribers** — maintain feed URL compatibility or set up redirects.
 - [x] **SEO / URL redirects** — using the same WordPress URL structure (`/{year}/{month}/{slug}/`), so no redirects needed for posts.
 - [ ] **Widgets / sidebar content** — Replicate the WordPress sidebar: Recent Posts, Goodreads, archives, categories, Current Location, Etsy shop, social links.
-- [ ] **wp-content legacy images** — upload images to R2 preserving `/wp-content/uploads/` paths. Rewrite URLs in post content to use R2 media domain. Add `_redirects` fallback on Cloudflare Pages. Retire `nginx-wp-content.conf`, the `wordpress-images` Docker service, and `public/assets/wp-content/`.
+- [x] **wp-content legacy images** — Images uploaded to R2 and URLs rewritten in content. `/wp-content/*` redirects on Cloudflare Pages skipped (unlikely to be hotlinked). Will retire nginx service during decommissioning (Phase 4.6).
 
 ---
 
@@ -245,26 +253,27 @@ Phase 2: Theme ✓ COMPLETE
 ├── 2.6  ✓ Responsive / mobile polish
 └── 2.7  ✓ Navigation tree setup
 
-Phase 3: Infrastructure
+Phase 3: Infrastructure ✓ COMPLETE
 ├── 3.1  ✓ Set up Cloudflare R2 bucket (images.everydayaccountsblog.com)
 ├── 3.2  ✓ Install league/flysystem-aws-s3-v3 for R2 sync
 ├── 3.3  ✓ Configure asset container URL for R2/CDN (env-based ASSET_URL)
-├── 3.4  Set up Cloudflare Pages project
-├── 3.5  Rewrite legacy wp-content image URLs in content to use R2 domain
-├── 3.6  Upload wp-content images to R2
-├── 3.7  Add 301 redirect for /wp-content/* on Cloudflare Pages (_redirects)
-├── 3.8  Build post-SSG artisan command to sync generated assets to R2
-├── 3.9  Configure SSG for clean static output
-├── 3.10 First deploy to Cloudflare Pages
+├── 3.4  ✓ Set up Cloudflare Pages project (everyday-accounts-blog)
+├── 3.5  ✓ Rewrite legacy wp-content image URLs in content to use R2 domain
+├── 3.6  ✓ Upload wp-content images to R2
+├── 3.7  ✗ Add /wp-content/* redirects on Cloudflare Pages — SKIPPED (old images unlikely to be hotlinked)
+├── 3.8  ✓ Sync build assets to R2 (in GitHub Actions deploy workflow)
+├── 3.9  ✓ Configure SSG for clean static output
+├── 3.10 ✓ First deploy to Cloudflare Pages
 └── 3.11 ✓ Configure articles collection route to match WP URL pattern
 
 Phase 4: VM & Workflow
-├── 4.1  Set up VM with PHP, Composer, Node
-├── 4.2  Simplify Docker setup (or go native)
-├── 4.3  Configure Statamic Git Integration for auto-commits + push
-├── 4.4  Set up GitHub Actions workflow (build SSG → deploy to CF Pages)
-├── 4.5  Document the content → deploy workflow
-└── 4.6  Decommission old WordPress site + Docker Swarm stack
+├── 4.1  ✓ Set up VM with Docker (Swarm mode initialized)
+├── 4.2  ✓ Create CMS-only Docker stack (docker-stack-cms.yml) — Traefik + FrankenPHP, Let's Encrypt DNS challenge via Cloudflare
+├── 4.3  ✓ Build image locally, transfer via docker save/load, deploy to VM
+├── 4.4  Configure Statamic Git Integration for auto-commits + push ← NEXT
+├── 4.5  ✓ Set up GitHub Actions workflow (build SSG → deploy to CF Pages, with incremental deploys)
+├── 4.6  Document the content → deploy workflow
+└── 4.7  Retire old docker-stack.yml, nginx configs, and WordPress remnants
 ```
 
 Phases 1 and 2 can overlap. Phase 3 depends on Phase 1 being complete. Phase 4 can begin alongside Phase 3.
@@ -279,4 +288,5 @@ Phases 1 and 2 can overlap. Phase 3 depends on Phase 1 being complete. Phase 4 c
 4. **Comments** → **Keep Disqus.** The WordPress site already uses Disqus, so comments live in Disqus's system. Embed the Disqus widget on article pages in the new theme. Since the URL structure will match WordPress, existing comment threads will automatically appear on the correct posts.
 5. **Navigation** → **Manual top-level, dynamic children.** Top-level nav items (Travel with Me, Travel Tips, Other Series) are manually defined. Sub-menus are auto-populated from child taxonomy terms.
 6. **Sidebar** → **Replicate the WordPress sidebar.** Include: Recent Posts, Goodreads reading challenge, monthly/yearly archives, category list, Current Location widget, Etsy shop link, social media links.
-7. **Legacy URLs** → **Match the WordPress URL structure** (e.g., `/2023/05/post-slug/`) so no post redirects are needed. Images are already organized in a directory structure that preserves old `/wp-content/` paths — only the domain/subdomain needs updating when images move to R2.
+7. **Legacy URLs** → **Match the WordPress URL structure** (e.g., `/2023/05/post-slug/`) so no post redirects are needed.
+8. **Legacy wp-content images** → **Images uploaded to R2 and URLs rewritten in content.** Skipped adding `/wp-content/*` redirects on Cloudflare Pages — old images are unlikely to be hotlinked from external sites.

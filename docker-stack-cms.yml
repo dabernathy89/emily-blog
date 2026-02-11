@@ -1,0 +1,68 @@
+version: "3.8"
+
+services:
+  traefik:
+    image: traefik:v3.6
+    command:
+      - --log.level=DEBUG
+      - --providers.swarm.endpoint=unix:///var/run/docker.sock
+      - --providers.swarm.exposedByDefault=false
+      - --entrypoints.web.address=:80
+      - --entrypoints.websecure.address=:443
+      # HTTP -> HTTPS redirect
+      - --entrypoints.web.http.redirections.entryPoint.to=websecure
+      - --entrypoints.web.http.redirections.entryPoint.scheme=https
+      # Let's Encrypt (DNS challenge via Cloudflare)
+      - --certificatesresolvers.letsencrypt.acme.dnschallenge=true
+      - --certificatesresolvers.letsencrypt.acme.dnschallenge.provider=cloudflare
+      - --certificatesresolvers.letsencrypt.acme.email=${ACME_EMAIL}
+      - --certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json
+    environment:
+      - CF_DNS_API_TOKEN_FILE=/run/secrets/cf_api_token
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - letsencrypt:/letsencrypt
+    secrets:
+      - cf_api_token
+    networks:
+      - traefik-public
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+
+  statamic:
+    image: statamic-cms:latest
+    secrets:
+      - source: env_file
+        target: /app/.env
+        uid: "33"   # www-data
+        gid: "33"
+        mode: 0440
+    networks:
+      - traefik-public
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.swarm.network=statamic_traefik-public
+        - traefik.http.services.statamic.loadbalancer.server.port=80
+        - traefik.http.routers.statamic.rule=Host(`${CMS_DOMAIN}`)
+        - traefik.http.routers.statamic.entrypoints=websecure
+        - traefik.http.routers.statamic.tls.certresolver=letsencrypt
+
+volumes:
+  letsencrypt:
+    driver: local
+
+networks:
+  traefik-public:
+    driver: overlay
+
+secrets:
+  env_file:
+    external: true
+  cf_api_token:
+    external: true

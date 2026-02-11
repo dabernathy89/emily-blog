@@ -50,11 +50,12 @@ RUN npm run build
 
 FROM composer:2 AS composer-build
 
+RUN apk add --no-cache linux-headers \
+    && docker-php-ext-install pcntl sockets
+
 WORKDIR /app
 COPY composer.json composer.lock ./
 RUN composer install --no-interaction --no-dev --prefer-dist --optimize-autoloader --no-scripts
-COPY . .
-RUN composer dump-autoload --optimize
 ENV SERVER_NAME=:80
 
 FROM base AS production
@@ -72,4 +73,10 @@ COPY --from=node-build --chown=$USER:$WWWGROUP /app/public/build /app/public/bui
 # Copy vendor dependencies from composer stage
 COPY --from=composer-build --chown=$USER:$WWWGROUP /app/vendor /app/vendor
 
-RUN mkdir -p /app/storage/logs
+RUN mkdir -p /app/storage/logs \
+    /app/storage/framework/cache \
+    /app/storage/framework/sessions \
+    /app/storage/framework/views \
+    /app/bootstrap/cache
+
+RUN php /app/artisan package:discover --no-interaction
