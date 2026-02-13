@@ -14,6 +14,8 @@
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "league/flysystem-aws-s3-v3": "^3.31",
+        "mitydigital/feedamic": "^2.5",
+        "mitydigital/sitemapamic": "^3.4",
         "spatie/fork": "^1.2",
         "statamic/cms": "^5.0",
         "statamic/ssg": "^3.1"

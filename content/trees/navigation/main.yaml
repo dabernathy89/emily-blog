@@ -9,40 +9,119 @@ tree:
     url: /category/travel-with-me
     children:
       -
-        title: 'New England'
-        url: /tag/new-england
+        title: 'My Travel Mug Collection {Updated 2020}'
+        url: /2020/02/my-travel-mug-collection-updated
       -
-        title: 'Pacific Northwest'
-        url: /tag/pacific-northwest
+        title: 'Central America'
+        url: '#'
+        children:
+          -
+            title: 'Costa Rica'
+            url: /tag/costa-rica
       -
-        title: Nashville
-        url: /tag/nashville
+        title: 'Europe'
+        url: '#'
+        children:
+          -
+            title: Belgium
+            url: /tag/belgium
+          -
+            title: England
+            url: /tag/england
+          -
+            title: France
+            url: /tag/france
+          -
+            title: Ireland
+            url: /tag/ireland
+          -
+            title: Italy
+            url: /tag/italy
+          -
+            title: Monaco
+            url: /tag/monaco
+          -
+            title: Scotland
+            url: /tag/scotland
+          -
+            title: Switzerland
+            url: /tag/switzerland
       -
-        title: Texas
-        url: /tag/texas
+        title: 'South America'
+        url: '#'
+        children:
+          -
+            title: Peru
+            url: /tag/peru
       -
-        title: Philadelphia
-        url: /tag/philadelphia
+        title: 'United States'
+        url: '#'
+        children:
+          -
+            title: Colorado
+            url: /tag/colorado
+          -
+            title: Illinois
+            url: /tag/illinois
+          -
+            title: Maine
+            url: /tag/maine
+          -
+            title: Massachusetts
+            url: /tag/massachusetts
+          -
+            title: Nevada
+            url: /tag/nevada
+          -
+            title: 'North Carolina'
+            url: /tag/north-carolina
+          -
+            title: Pennsylvania
+            url: /tag/pennsylvania
+          -
+            title: 'Rhode Island'
+            url: /tag/rhode-island
+          -
+            title: Tennessee
+            url: /tag/tennessee
+          -
+            title: Vermont
+            url: /tag/vermont
+          -
+            title: Washington
+            url: /tag/washington
+          -
+            title: 'Washington DC'
+            url: /tag/washington-dc
   -
     title: 'Travel Tips'
     url: '#'
     children:
       -
         title: 'Travel Favorites'
-        url: /tag/travel
+        url: /tag/travel-favorites
       -
         title: 'Travel Prep'
-        url: /tag/packing
+        url: /tag/travel-prep
   -
     title: 'Other Series'
     url: '#'
     children:
       -
-        title: 'The Sunday Currently'
-        url: /category/the-sunday-currently
+        title: Currently
+        url: /category/currently
       -
         title: 'Lazy Days with Banana'
         url: /category/lazy-days-with-banana
+      -
+        title: 'Scenes From the Week'
+        url: /category/scenes-from-the-week
+      -
+        title: 'Scenes From the Month'
+        url: /category/scenes-from-the-month
+      -
+        title: 'The Sunday Currently'
+        url: /category/the-sunday-currently
       -
         title: 'Monthly Favorites'
         url: /category/monthly-favorites

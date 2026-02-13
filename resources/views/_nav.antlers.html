@@ -2,7 +2,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {{# Desktop nav #}}
         <div class="hidden lg:flex items-center justify-center gap-1 py-2">
-            {{ nav:main max_depth="2" }}
+            {{ nav:main max_depth="3" }}
                 <div class="relative" @mouseenter="openDropdown = {{ count }}" @mouseleave="openDropdown = null">
                     <a href="{{ url }}"
                        class="font-display text-lg text-white hover:text-cream px-4 py-2 inline-block no-underline">
@@ -12,21 +12,62 @@
                         {{ /if }}
                     </a>
                     {{ if children }}
-                        <div x-show="openDropdown === {{ count }}"
-                             x-transition:enter="transition ease-out duration-150"
-                             x-transition:enter-start="opacity-0 -translate-y-1"
-                             x-transition:enter-end="opacity-100 translate-y-0"
-                             x-transition:leave="transition ease-in duration-100"
-                             x-transition:leave-start="opacity-100 translate-y-0"
-                             x-transition:leave-end="opacity-0 -translate-y-1"
-                             class="absolute left-0 top-full mt-0 bg-white rounded-b-lg shadow-lg min-w-48 z-50 py-2"
-                             x-cloak>
-                            {{ children }}
-                                <a href="{{ url }}" class="block px-5 py-2 font-serif text-gray-700 hover:bg-cream hover:text-peach-dark no-underline">
-                                    {{ title }}
-                                </a>
-                            {{ /children }}
-                        </div>
+                        {{# Check if any child has its own children (3-level mega-menu) #}}
+                        {{ has_grandchildren = false }}
+                        {{ children }}
+                            {{ if children }}
+                                {{ has_grandchildren = true }}
+                            {{ /if }}
+                        {{ /children }}
+
+                        {{ if has_grandchildren }}
+                            {{# Mega-menu for 3-level items like Travel with Me #}}
+                            <div x-show="openDropdown === {{ count }}"
+                                 x-transition:enter="transition ease-out duration-150"
+                                 x-transition:enter-start="opacity-0 -translate-y-1"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-100"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-1"
+                                 class="absolute left-1/2 -translate-x-1/2 top-full mt-0 bg-white rounded-b-lg shadow-lg z-50 py-4 px-6 min-w-[500px]"
+                                 x-cloak>
+                                <div class="grid grid-cols-2 gap-x-8 gap-y-4">
+                                    {{ children }}
+                                        <div>
+                                            {{ if url == '#' }}
+                                                <p class="font-sans text-xs font-bold uppercase tracking-wider text-peach-dark mb-2">{{ title }}</p>
+                                            {{ else }}
+                                                <a href="{{ url }}" class="font-sans text-xs font-bold uppercase tracking-wider text-peach-dark hover:text-peach mb-2 block no-underline">{{ title }}</a>
+                                            {{ /if }}
+                                            {{ if children }}
+                                                <div class="flex flex-col gap-1">
+                                                    {{ children }}
+                                                        <a href="{{ url }}" class="font-serif text-gray-700 hover:bg-cream hover:text-peach-dark no-underline py-1 px-2 rounded text-sm">{{ title }}</a>
+                                                    {{ /children }}
+                                                </div>
+                                            {{ /if }}
+                                        </div>
+                                    {{ /children }}
+                                </div>
+                            </div>
+                        {{ else }}
+                            {{# Simple dropdown for 2-level items #}}
+                            <div x-show="openDropdown === {{ count }}"
+                                 x-transition:enter="transition ease-out duration-150"
+                                 x-transition:enter-start="opacity-0 -translate-y-1"
+                                 x-transition:enter-end="opacity-100 translate-y-0"
+                                 x-transition:leave="transition ease-in duration-100"
+                                 x-transition:leave-start="opacity-100 translate-y-0"
+                                 x-transition:leave-end="opacity-0 -translate-y-1"
+                                 class="absolute left-0 top-full mt-0 bg-white rounded-b-lg shadow-lg min-w-48 z-50 py-2"
+                                 x-cloak>
+                                {{ children }}
+                                    <a href="{{ url }}" class="block px-5 py-2 font-serif text-gray-700 hover:bg-cream hover:text-peach-dark no-underline">
+                                        {{ title }}
+                                    </a>
+                                {{ /children }}
+                            </div>
+                        {{ /if }}
                     {{ /if }}
                 </div>
             {{ /nav:main }}
@@ -53,18 +94,35 @@
          class="lg:hidden bg-white border-t border-peach-light shadow-lg"
          @click.outside="showMobileNav = false"
          x-cloak>
-        <div class="max-w-6xl mx-auto px-4 py-4" x-data="{ openMobileSubmenu: null }">
-            {{ nav:main max_depth="2" }}
+        <div class="max-w-6xl mx-auto px-4 py-4" x-data="{ openMobileSubmenu: null, openMobileRegion: null }">
+            {{ nav:main max_depth="3" }}
                 <div class="border-b border-gray-100 last:border-0">
                     {{ if children }}
-                        <button @click="openMobileSubmenu = openMobileSubmenu === {{ count }} ? null : {{ count }}"
+                        <button @click="openMobileSubmenu = openMobileSubmenu === {{ count }} ? null : {{ count }}; openMobileRegion = null"
                                 class="w-full flex items-center justify-between py-3 font-display text-lg text-peach-dark">
                             {{ title }}
                             <svg class="w-4 h-4 transition-transform" :class="openMobileSubmenu === {{ count }} ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                         </button>
                         <div x-show="openMobileSubmenu === {{ count }}" x-collapse class="pb-2 pl-4">
                             {{ children }}
-                                <a href="{{ url }}" class="block py-2 font-serif text-gray-600 hover:text-peach-dark no-underline">{{ title }}</a>
+                                {{ if children }}
+                                    {{# Region with sub-destinations #}}
+                                    <div class="border-b border-gray-50 last:border-0">
+                                        <button @click="openMobileRegion = openMobileRegion === '{{ count }}-{{ title | slugify }}' ? null : '{{ count }}-{{ title | slugify }}'"
+                                                class="w-full flex items-center justify-between py-2 font-sans text-xs font-bold uppercase tracking-wider text-peach-dark">
+                                            {{ title }}
+                                            <svg class="w-3 h-3 transition-transform" :class="openMobileRegion === '{{ count }}-{{ title | slugify }}' ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                                        </button>
+                                        <div x-show="openMobileRegion === '{{ count }}-{{ title | slugify }}'" x-collapse class="pb-2 pl-4">
+                                            {{ children }}
+                                                <a href="{{ url }}" class="block py-2 font-serif text-gray-600 hover:text-peach-dark no-underline text-sm">{{ title }}</a>
+                                            {{ /children }}
+                                        </div>
+                                    </div>
+                                {{ else }}
+                                    {{# Simple child link #}}
+                                    <a href="{{ url }}" class="block py-2 font-serif text-gray-600 hover:text-peach-dark no-underline">{{ title }}</a>
+                                {{ /if }}
                             {{ /children }}
                         </div>
                     {{ else }}

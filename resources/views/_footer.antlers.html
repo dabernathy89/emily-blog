@@ -4,7 +4,7 @@
         <div class="flex items-center justify-center gap-4 mb-4">
             {{ settings:social }}
                 <a href="{{ url }}" class="text-sage hover:text-peach transition-colors" aria-label="{{ name }}" rel="noopener" target="_blank">
-                    {{ svg :src="icon" class="h-5 w-5" }}
+                    {{ svg src="social/{icon}" class="h-5 w-5" }}
                 </a>
             {{ /settings:social }}
         </div>

@@ -6,6 +6,14 @@
     <p class="font-serif text-warm-gray text-sm mt-2">&mdash; Donald Miller</p>
 </div>
 
+{{# Current Location #}}
+{{ if settings:current_location }}
+<div class="bg-white rounded-lg shadow-sm p-6 mb-8 text-center">
+    <h3 class="font-display text-xl text-peach-dark mb-2">Current Location</h3>
+    <p class="font-serif text-gray-700">{{ settings:current_location }}</p>
+</div>
+{{ /if }}
+
 {{# Social icons #}}
 {{ if {settings:social} }}
 <div class="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -13,7 +21,7 @@
     <div class="flex items-center justify-center gap-4">
         {{ settings:social }}
             <a href="{{ url }}" class="text-sage hover:text-peach transition-colors" aria-label="{{ name }}" rel="noopener" target="_blank">
-                {{ svg :src="icon" class="h-6 w-6" }}
+                {{ svg src="social/{icon}" class="h-6 w-6" }}
             </a>
         {{ /settings:social }}
     </div>

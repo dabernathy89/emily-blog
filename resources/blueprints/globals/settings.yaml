@@ -13,6 +13,13 @@ tabs:
               localizable: false
               display: 'Site Name'
           -
+            handle: current_location
+            field:
+              type: text
+              localizable: false
+              display: 'Current Location'
+              instructions: 'Displayed in the sidebar widget'
+          -
             handle: social
             field:
               fields:
@@ -32,15 +39,10 @@ tabs:
                 -
                   handle: icon
                   field:
-                    container: assets
-                    mode: list
-                    restrict: true
-                    folder: site/social-icons
-                    allow_uploads: true
-                    max_files: 1
-                    type: assets
+                    type: text
                     localizable: false
                     display: Icon
+                    instructions: 'SVG filename without extension (e.g. "pinterest")'
               mode: table
               add_row: 'Add Link'
               reorderable: true

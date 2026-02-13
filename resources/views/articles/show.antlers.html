@@ -33,6 +33,21 @@
     </footer>
 </article>
 
+{{# JSON-LD structured data #}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ title | add_slashes }}",
+    "datePublished": "{{ date format='Y-m-d' }}",
+    "dateModified": "{{ date format='Y-m-d' }}",
+    "author": { "@type": "Person", "name": "{{ author:name ?? 'Emily Abernathy' | add_slashes }}" },
+    "description": "{{ excerpt ?? title | add_slashes }}",
+    {{ if featured_image }}"image": "{{ featured_image | add_slashes }}",{{ /if }}
+    "publisher": { "@type": "Organization", "name": "Everyday Accounts" }
+}
+</script>
+
 {{# Disqus comments #}}
 <div id="disqus_thread" class="mt-10 pt-8 border-t border-gray-100"></div>
 <script>

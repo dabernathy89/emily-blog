@@ -1,5 +1,5 @@
 default:
-  name: '{{ config:app:name }}'
+  name: 'Everyday Accounts Blog'
   lang: en
   locale: en_US
   url: /

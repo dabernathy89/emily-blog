@@ -59,7 +59,9 @@ return [
     */
 
     'urls' => [
-        //
+        '/sitemap.xml',
+        '/feed',
+        '/feed/atom',
     ],
 
     /*

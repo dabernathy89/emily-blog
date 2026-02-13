@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28d4494eb05c321ecb710206ebafa138",
+    "content-hash": "a06ca18edd77a615c76352770c982916",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2865,6 +2865,117 @@
                 "source": "https://github.com/michelf/php-smartypants/tree/1.8.1"
             },
             "time": "2016-12-13T01:01:17+00:00"
+        },
+        {
+            "name": "mitydigital/feedamic",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mitydigital/statamic-feedamic.git",
+                "reference": "e8843ac12941127e35d5025f1c67abbbc824785c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mitydigital/statamic-feedamic/zipball/e8843ac12941127e35d5025f1c67abbbc824785c",
+                "reference": "e8843ac12941127e35d5025f1c67abbbc824785c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "statamic/cms": "^3.0 || ^4.0 || ^5.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MityDigital\\Feedamic\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Feedamic",
+                    "description": "A simple RSS feed for a given collection in Statamic."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MityDigital\\Feedamic\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marty Friedel"
+                }
+            ],
+            "description": "The Atom and RSS feed generator for Statamic.",
+            "keywords": [
+                "atom",
+                "rss",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/mitydigital/statamic-feedamic/issues",
+                "source": "https://github.com/mitydigital/statamic-feedamic/tree/2.5.0"
+            },
+            "time": "2024-08-28T07:55:06+00:00"
+        },
+        {
+            "name": "mitydigital/sitemapamic",
+            "version": "3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mitydigital/statamic-sitemapamic.git",
+                "reference": "eee5a4fc4b5b5b20467f54f222d9c88b58cc40b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mitydigital/statamic-sitemapamic/zipball/eee5a4fc4b5b5b20467f54f222d9c88b58cc40b9",
+                "reference": "eee5a4fc4b5b5b20467f54f222d9c88b58cc40b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "statamic/cms": "^5.0|^6.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MityDigital\\Sitemapamic\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Sitemapamic",
+                    "description": "Adds an XML sitemap to a Statamic site."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MityDigital\\Sitemapamic\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marty Friedel"
+                }
+            ],
+            "description": "An XML sitemap generator for Statamic that includes all collections and related taxonomy pages.",
+            "keywords": [
+                "Sitemap",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/mitydigital/statamic-sitemapamic/issues",
+                "source": "https://github.com/mitydigital/statamic-sitemapamic/tree/3.4.1"
+            },
+            "time": "2025-10-20T21:57:29+00:00"
         },
         {
             "name": "monolog/monolog",

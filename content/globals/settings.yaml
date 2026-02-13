@@ -1,1 +1,25 @@
 title: Settings
+data:
+  site_name: 'Everyday Accounts'
+  current_location: 'Austin, TX'
+  social:
+    -
+      name: Pinterest
+      url: 'https://www.pinterest.com/e_abernathy/'
+      icon: pinterest
+    -
+      name: Twitter
+      url: 'https://twitter.com/everydayaccts'
+      icon: twitter
+    -
+      name: Instagram
+      url: 'https://instagram.com/emily_abernathy'
+      icon: instagram
+    -
+      name: Facebook
+      url: 'https://www.facebook.com/everydayaccounts/'
+      icon: facebook
+    -
+      name: BlogLovin
+      url: 'https://www.bloglovin.com/blogs/everyday-accounts-11840161'
+      icon: bloglovin
