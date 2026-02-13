@@ -6,7 +6,7 @@ WORKDIR /app
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y
+RUN apt-get update && apt-get install -y git
 
 # pcntl and sockets required by spatie fork
 RUN install-php-extensions mbstring exif gd fileinfo pdo_sqlite pcntl sockets
@@ -63,6 +63,10 @@ FROM base AS production
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 ENV SERVER_NAME=:80
 
+# Copy entrypoint script before switching user
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
 USER ${USER}
 
 COPY --chown=$USER:$WWWGROUP . /app
@@ -77,6 +81,9 @@ RUN mkdir -p /app/storage/logs \
     /app/storage/framework/cache \
     /app/storage/framework/sessions \
     /app/storage/framework/views \
-    /app/bootstrap/cache
+    /app/bootstrap/cache \
+    /app/database
 
 RUN php /app/artisan package:discover --no-interaction
+
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]

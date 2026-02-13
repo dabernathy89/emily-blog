@@ -60,8 +60,10 @@ Views use Statamic's **Antlers** templating language (`.antlers.html` files in `
 ## Docker
 
 - `docker-compose.dev.yml` — local development (port 3000)
-- `docker-stack.yml` — production Docker Swarm deployment with three services: dynamic CMS, static site (nginx), and WordPress legacy images server
+- `docker-stack-cms.yml` — production Docker Swarm deployment (Traefik, Mailpit, Statamic CMS)
+- `docker-stack.yml` — alternative stack configuration (not currently used)
 - `Dockerfile` — multi-stage build (FrankenPHP base, dev with Node 22, production optimized)
+- `docker-entrypoint.sh` — production entrypoint script (SQLite setup, migrations, queue worker, git auth)
 
 ## Statamic CLI
 

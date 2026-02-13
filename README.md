@@ -50,7 +50,7 @@ The CMS runs on a local VM via Docker Swarm with Traefik and Let's Encrypt TLS.
 
 ### 1. Create Docker secrets
 
-Create a `.env.production` file with your production environment variables, then store both secrets:
+Create a `.env.production` file with your production environment variables (`APP_URL` must use `https://`), then store both secrets:
 
 ```bash
 # App environment
@@ -76,11 +76,10 @@ docker save statamic-cms:latest | gzip | ssh user@vm 'gunzip | docker load'
 
 ### 3. Deploy the stack
 
-All `docker` commands that target the VM use `--context emilyblog`.
+All `docker` commands that target the VM use `--context emilyblog`. The stack file reads `CMS_DOMAIN` and `ACME_EMAIL` from `.env` automatically.
 
 ```bash
-CMS_DOMAIN=admin.everydayaccountsblog.com ACME_EMAIL=you@example.com \
-  docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
+docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
 ```
 
 ### Verify
@@ -94,20 +93,20 @@ docker --context emilyblog stack ps statamic
 
 To deploy code/content changes, rebuild the image and repeat steps 2-3.
 
-Docker secrets are immutable and can't be removed while in use. To rotate a secret, detach it from the service first, then remove/recreate/reattach:
+Docker secrets are immutable. To rotate one, detach it, remove/recreate, then redeploy the stack:
 
 ```bash
 # Update .env
 docker --context emilyblog service update --secret-rm env_file statamic_statamic
 docker --context emilyblog secret rm env_file
 docker --context emilyblog secret create env_file .env.production
-docker --context emilyblog service update --secret-add source=env_file,target=/app/.env,uid=33,gid=33,mode=0440 statamic_statamic
+docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
 
 # Update Cloudflare token
 docker --context emilyblog service update --secret-rm cf_api_token statamic_traefik
 docker --context emilyblog secret rm cf_api_token
 echo -n "new-token" | docker --context emilyblog secret create cf_api_token -
-docker --context emilyblog service update --secret-add cf_api_token statamic_traefik
+docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
 ```
 
 ## Static Site Deployment
