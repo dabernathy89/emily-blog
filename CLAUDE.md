@@ -61,9 +61,10 @@ Views use Statamic's **Antlers** templating language (`.antlers.html` files in `
 
 - `docker-compose.dev.yml` — local development (port 3000)
 - `docker-stack-cms.yml` — production Docker Swarm deployment (Traefik, Mailpit, Statamic CMS)
-- `docker-stack.yml` — alternative stack configuration (not currently used)
 - `Dockerfile` — multi-stage build (FrankenPHP base, dev with Node 22, production optimized)
 - `docker-entrypoint.sh` — production entrypoint script (SQLite setup, migrations, queue worker, git auth)
+
+**Deployment:** The CMS runs on a local VM with Docker Swarm. Static site is deployed to Cloudflare Pages via GitHub Actions. Media is served from Cloudflare R2. See `DEPLOYMENT-SETUP.md` for details.
 
 ## Statamic CLI
 

@@ -270,10 +270,17 @@ Phase 4: VM & Workflow
 ├── 4.1  ✓ Set up VM with Docker (Swarm mode initialized)
 ├── 4.2  ✓ Create CMS-only Docker stack (docker-stack-cms.yml) — Traefik + FrankenPHP, Let's Encrypt DNS challenge via Cloudflare
 ├── 4.3  ✓ Build image locally, transfer via docker save/load, deploy to VM
-├── 4.4  Configure Statamic Git Integration for auto-commits + push ← NEXT
+├── 4.4  ✓ Configure Statamic Git Integration for auto-commits + push
+│         • Created docker-entrypoint.sh (git auth, SQLite setup, queue worker, migrations)
+│         • Updated Dockerfile (added git, entrypoint script, database directory)
+│         • Updated docker-stack-cms.yml (github_token secret, statamic-database volume)
+│         • Configured .env.production (STATAMIC_GIT_ENABLED=true, QUEUE_CONNECTION=database)
 ├── 4.5  ✓ Set up GitHub Actions workflow (build SSG → deploy to CF Pages, with incremental deploys)
-├── 4.6  Document the content → deploy workflow
-└── 4.7  Retire old docker-stack.yml, nginx configs, and WordPress remnants
+├── 4.6  ✓ Document the content → deploy workflow (see DEPLOYMENT-SETUP.md)
+└── 4.7  ✓ Retire old docker-stack.yml, nginx configs, and WordPress remnants
+          • Removed docker-stack.yml (replaced by docker-stack-cms.yml)
+          • Removed nginx-wp-content.conf (legacy image serving replaced by R2)
+          • Updated CLAUDE.md to reflect current architecture
 ```
 
 Phases 1 and 2 can overlap. Phase 3 depends on Phase 1 being complete. Phase 4 can begin alongside Phase 3.
