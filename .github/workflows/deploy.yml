@@ -70,6 +70,14 @@ jobs:
           aws s3 sync s3://emily-blog-assets/ssg-snapshot/ storage/app/static/ \
             --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
 
+      - name: Remove deleted articles from snapshot
+        if: steps.changes.outputs.mode == 'incremental' && steps.changes.outputs.deleted != ''
+        run: |
+          for url_path in ${{ steps.changes.outputs.deleted }}; do
+            rm -rf "storage/app/static${url_path}"
+            echo "Removed: storage/app/static${url_path}"
+          done
+
       - name: Generate static site (incremental)
         if: steps.changes.outputs.mode == 'incremental'
         run: php please ssg:generate --workers=2 ${{ steps.changes.outputs.urls }}
