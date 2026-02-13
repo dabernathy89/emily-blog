@@ -1,0 +1,31 @@
+feeds:
+  -
+    type: feed
+    enabled: true
+    sites: all
+    title: 'Everyday Accounts Blog'
+    handle: blog
+    description: 'A lifestyle and travel blog by Emily Abernathy'
+    routes:
+      atom: /feed/atom
+      rss: /feed
+    collections:
+      - articles
+    taxonomies: []
+    show: all
+    mappings:
+      title_mode: default
+      summary_mode: custom
+      summary:
+        - excerpt
+      content_mode: disabled
+      image_mode: disabled
+      author_mode: disabled
+      copyright_mode: disabled
+default_title:
+  - title
+default_summary:
+  - excerpt
+default_image_enabled: false
+default_author_fallback_name: 'Emily Abernathy'
+default_author_enabled: false
