@@ -72,11 +72,11 @@ jobs:
 
       - name: Generate static site (incremental)
         if: steps.changes.outputs.mode == 'incremental'
-        run: php please ssg:generate ${{ steps.changes.outputs.urls }}
+        run: php please ssg:generate --workers=2 ${{ steps.changes.outputs.urls }}
 
       - name: Generate static site (full)
         if: steps.changes.outputs.mode == 'full'
-        run: php please ssg:generate
+        run: php please ssg:generate --workers=2
 
       - name: Sync build assets to R2
         run: |
