@@ -1,23 +1,32 @@
 # Content Sync Setup
 
-This guide covers the automated content-to-GitHub pipeline: Statamic Git Integration, the queue worker, and the SQLite database that supports it.
+This guide covers the automated content-to-GitHub pipeline: the GitHub API sync service, the queue worker, and the SQLite database that supports it.
 
 For general CMS deployment (building, transferring, and deploying the Docker image), see the [CMS Deployment section in README.md](README.md#cms-deployment-vm).
+
+## How It Works
+
+Content sync uses the GitHub Git Data API instead of the git CLI. No git binary or `.git` directory is needed in production. When content changes in the CP, a queued job compares local files against the remote tree and commits only the differences via the API.
 
 ## What `docker-entrypoint.sh` Automates
 
 On container startup, the entrypoint script handles:
 
-1. **Git Authentication** — reads `github_token` Docker secret, configures git credentials
-2. **Git Repository** — initializes repo and sets remote if `.git` doesn't exist
-3. **SQLite Database** — creates `database/production.sqlite` if it doesn't exist
-4. **Migrations** — runs `php artisan migrate --force`
-5. **Queue Worker** — starts `php artisan queue:work` in the background
-6. **Graceful Shutdown** — traps SIGTERM/SIGINT to stop the queue worker cleanly
+1. **SQLite Database** — creates `database/production.sqlite` if it doesn't exist
+2. **Migrations** — runs `php artisan migrate --force`
+3. **Queue Worker** — starts `php artisan queue:work` in the background
+4. **Graceful Shutdown** — traps SIGTERM/SIGINT to stop the queue worker cleanly
 
 ## Prerequisites
 
-Before deploying with content sync enabled, you need one additional Docker secret beyond what's described in the README.
+Add the following to your production `.env`:
+
+```
+GITHUB_SYNC_ENABLED=true
+GITHUB_SYNC_REPOSITORY=dabernathy89/emily-blog
+GITHUB_SYNC_BRANCH=main
+GITHUB_SYNC_TOKEN=ghp_your_token_here
+```
 
 ### Create a GitHub Personal Access Token
 
@@ -31,82 +40,52 @@ Before deploying with content sync enabled, you need one additional Docker secre
    - **Permissions**: Contents — Read and write
 3. Copy the token immediately (`github_pat_...`)
 
-**Classic Token (Alternative):**
-
-1. Go to https://github.com/settings/tokens
-2. Generate new token (classic):
-   - **Scopes**: `repo`
-   - **Expiration**: 90 days
-3. Copy the token (`ghp_...`)
-
-### Create the Docker Secret
-
-```bash
-echo -n "YOUR_GITHUB_TOKEN" | docker --context emilyblog secret create github_token -
-```
-
-Then rebuild and redeploy per the README.
-
 ## Content Update Flow
 
 ```
 Editor saves in Statamic CP
         │
         ▼
-Statamic fires Saved event
+Statamic fires content event (e.g. EntrySaved)
         │
         ▼
-Git Integration queues commit job (database queue)
+ContentGitSubscriber appends to cache, dispatches delayed job (2 min)
         │
         ▼
-Queue worker commits + pushes to GitHub
+SyncContentToGitHub job compares local files vs remote tree
+        │
+        ▼
+Creates atomic commit via GitHub Git Data API
         │
         ▼
 GitHub Actions triggers (push to main)
         │
         ▼
-Incremental or full SSG build
-        │
-        ▼
 Deploy to Cloudflare Pages
 ```
+
+## Deploying
+
+Run `./deploy.sh` to build, transfer, and deploy. The script uses `docker service update --force` because Swarm won't restart a service when the image tag (`latest`) hasn't changed — local images have no registry digest to compare, so Swarm needs the explicit force flag to pick up the new image.
 
 ## Verify Content Sync
 
 After deploying:
 
 ```bash
-docker --context emilyblog service logs statamic_statamic -f
+docker --context emilyblog service logs statamic_statamic --since 5m
 ```
 
-You should see:
-- "Configuring git authentication..."
-- "Running database migrations..."
-- "Queue worker started with PID: ..."
-- "Starting FrankenPHP..."
-
-Test by editing an article in the CP and checking `dabernathy89/emily-blog` for a new commit.
+Test by editing an article in the CP. After the 2-minute dispatch delay, check `dabernathy89/emily-blog` for a new commit.
 
 ## Rotating the GitHub Token
 
-Docker secrets are immutable. To rotate:
+Update `GITHUB_SYNC_TOKEN` in your production `.env` and redeploy.
+
+If the token expires, content editing in the CP still works — only the GitHub sync will fail. Check logs:
 
 ```bash
-# Detach secret from service
-docker --context emilyblog service update --secret-rm github_token statamic_statamic
-
-# Remove and recreate
-docker --context emilyblog secret rm github_token
-echo -n "NEW_TOKEN" | docker --context emilyblog secret create github_token -
-
-# Redeploy
-docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
-```
-
-If the token expires, content editing in the CP still works — only the git push will fail silently. Check logs:
-
-```bash
-docker --context emilyblog service logs statamic_statamic 2>&1 | grep -i git
+docker --context emilyblog service logs statamic_statamic --since 30m 2>&1 | grep -i "github\|sync"
 ```
 
 ## Troubleshooting

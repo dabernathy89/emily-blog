@@ -16,14 +16,14 @@ Statamic 5 blog on Laravel 12, migrated from WordPress. Dual-architecture deploy
          │  (content editing)       │        │  images.everydayaccounts │
          └──────────────────────────┘        │       blog.com           │
                     │                        │  (media assets)          │
-                    │ git push               └──────────────────────────┘
+                    │ GitHub API               └──────────────────────────┘
                     ▼                                    ▲
               ┌──────────┐   GitHub Actions              │
               │  GitHub  │──────────────────►  ssg:generate + deploy
               └──────────┘
 ```
 
-**Content workflow:** Edit in Statamic CP → flat files committed to git → GitHub Actions builds static site → deploys to Cloudflare Pages.
+**Content workflow:** Edit in Statamic CP → queued job syncs flat files via GitHub API → GitHub Actions builds static site → deploys to Cloudflare Pages.
 
 ## Development
 
@@ -91,7 +91,7 @@ docker --context emilyblog stack ps statamic
 
 ### Updating
 
-To deploy code/content changes, rebuild the image and repeat steps 2-3.
+Run `./deploy.sh` to build, transfer, and deploy in one step. The script forces a service restart because Swarm won't pick up a new local image under the same `latest` tag without it.
 
 Docker secrets are immutable. To rotate one, detach it, remove/recreate, then redeploy the stack:
 

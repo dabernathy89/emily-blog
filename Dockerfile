@@ -6,8 +6,6 @@ WORKDIR /app
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y git
-
 # pcntl and sockets required by spatie fork
 RUN install-php-extensions mbstring exif gd fileinfo pdo_sqlite pcntl sockets
 
@@ -18,6 +16,9 @@ RUN apt-get -y autoremove \
 RUN chown -R $USER:$WWWGROUP /app
 
 FROM base AS dev
+
+RUN apt-get update && apt-get install -y git \
+    && apt-get -y autoremove && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENV NODE_VERSION=22.16.0
 
@@ -63,9 +64,6 @@ FROM base AS production
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 ENV SERVER_NAME=:80
 
-# Ensure www-data home directory exists and is writable (for git config)
-RUN mkdir -p /var/www && chown $USER:$WWWGROUP /var/www
-
 # Copy entrypoint script before switching user
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
@@ -87,6 +85,8 @@ RUN mkdir -p /app/storage/logs \
     /app/bootstrap/cache \
     /app/database
 
-RUN php /app/artisan package:discover --no-interaction
+RUN php /app/artisan package:discover --no-interaction \
+    && php /app/artisan event:cache \
+    && php /app/artisan route:cache
 
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]

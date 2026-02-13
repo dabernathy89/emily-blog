@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Listeners\ContentGitSubscriber;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 use Statamic\Facades\Entry;
 use Statamic\StaticSite\SSG;
@@ -31,5 +33,7 @@ class AppServiceProvider extends ServiceProvider
                 ->map(fn ($path) => '/'.$path)
                 ->all();
         });
+
+        Event::subscribe(ContentGitSubscriber::class);
     }
 }

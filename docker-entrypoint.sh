@@ -3,30 +3,6 @@ set -e
 
 echo "Starting Statamic CMS container..."
 
-# Configure git if credentials are provided
-if [ -f "/run/secrets/github_token" ]; then
-    echo "Configuring git authentication..."
-    GITHUB_TOKEN=$(cat /run/secrets/github_token)
-    git config --global credential.helper store
-    echo "https://${GITHUB_TOKEN}@github.com" > ~/.git-credentials
-    git config --global user.name "${STATAMIC_GIT_USER_NAME:-Statamic CMS}"
-    git config --global user.email "${STATAMIC_GIT_USER_EMAIL:-cms@example.com}"
-elif [ -n "$GITHUB_TOKEN" ]; then
-    echo "Configuring git authentication from env..."
-    git config --global credential.helper store
-    echo "https://${GITHUB_TOKEN}@github.com" > ~/.git-credentials
-    git config --global user.name "${STATAMIC_GIT_USER_NAME:-Statamic CMS}"
-    git config --global user.email "${STATAMIC_GIT_USER_EMAIL:-cms@example.com}"
-fi
-
-# Initialize git repo if not already initialized
-if [ ! -d "/app/.git" ]; then
-    echo "Initializing git repository..."
-    cd /app
-    git init
-    git remote add origin "${GITHUB_REPO_URL:-}" || true
-fi
-
 # Create database directory if it doesn't exist
 if [ ! -d "/app/database" ]; then
     echo "Creating database directory..."
@@ -38,6 +14,10 @@ if [ ! -f "/app/database/production.sqlite" ]; then
     echo "Creating SQLite database file..."
     touch /app/database/production.sqlite
 fi
+
+# Cache config (.env is mounted as a Docker secret at runtime)
+echo "Caching configuration..."
+php artisan config:cache
 
 # Run database migrations
 echo "Running database migrations..."

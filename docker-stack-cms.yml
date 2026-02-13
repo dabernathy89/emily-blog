@@ -50,8 +50,6 @@ services:
 
   statamic:
     image: statamic-cms:latest
-    environment:
-      - GITHUB_REPO_URL=https://github.com/dabernathy89/emily-blog.git
     volumes:
       - statamic-database:/app/database
     secrets:
@@ -60,7 +58,6 @@ services:
         uid: "33"   # www-data
         gid: "33"
         mode: 0440
-      - github_token
     networks:
       - traefik-public
     deploy:
@@ -88,6 +85,4 @@ secrets:
   env_file:
     external: true
   cf_api_token:
-    external: true
-  github_token:
     external: true
