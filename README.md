@@ -76,7 +76,7 @@ docker save statamic-cms:latest | gzip | ssh dabernathy@192.168.100.151 'gunzip 
 
 ### 3. Deploy the stack
 
-All `docker` commands that target the VM use `--context emilyblog`. The stack file reads `CMS_DOMAIN` and `ACME_EMAIL` from `.env` automatically.
+All `docker` commands that target the VM use `--context emilyblog`.
 
 ```bash
 docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic

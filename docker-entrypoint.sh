@@ -43,11 +43,6 @@ fi
 echo "Running database migrations..."
 php artisan migrate --force --no-interaction
 
-# Create queue jobs table if not exists
-echo "Ensuring queue table exists..."
-php artisan queue:table --no-interaction || true
-php artisan migrate --force --no-interaction
-
 # Start queue worker in background
 echo "Starting queue worker..."
 php artisan queue:work --daemon --tries=3 --timeout=90 --sleep=3 --max-jobs=1000 &
@@ -64,8 +59,8 @@ shutdown() {
     exit 0
 }
 
-# Trap termination signals
-trap shutdown SIGTERM SIGINT
+# Trap termination signals (POSIX sh uses TERM/INT, not SIGTERM/SIGINT)
+trap shutdown TERM INT
 
 # Start FrankenPHP
 echo "Starting FrankenPHP..."

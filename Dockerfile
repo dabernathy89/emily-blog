@@ -63,6 +63,9 @@ FROM base AS production
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 ENV SERVER_NAME=:80
 
+# Ensure www-data home directory exists and is writable (for git config)
+RUN mkdir -p /var/www && chown $USER:$WWWGROUP /var/www
+
 # Copy entrypoint script before switching user
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
