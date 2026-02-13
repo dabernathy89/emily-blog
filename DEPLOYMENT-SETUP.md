@@ -1,256 +1,129 @@
-# Automated Deployment Setup
+# Content Sync Setup
 
-This guide covers the automated SQLite database creation, queue worker startup, and content sync to GitHub.
+This guide covers the automated content-to-GitHub pipeline: Statamic Git Integration, the queue worker, and the SQLite database that supports it.
 
-## What's Automated
+For general CMS deployment (building, transferring, and deploying the Docker image), see the [CMS Deployment section in README.md](README.md#cms-deployment-vm).
 
-The `docker-entrypoint.sh` script now handles:
+## What `docker-entrypoint.sh` Automates
 
-1. **SQLite Database**: Creates `/app/database/production.sqlite` if it doesn't exist
-2. **Migrations**: Runs all database migrations on startup
-3. **Queue Worker**: Starts `php artisan queue:work` in the background
-4. **Git Authentication**: Configures git credentials for pushing to GitHub
-5. **Graceful Shutdown**: Properly terminates queue worker on container stop
+On container startup, the entrypoint script handles:
 
-## Deployment Checklist
+1. **Git Authentication** — reads `github_token` Docker secret, configures git credentials
+2. **Git Repository** — initializes repo and sets remote if `.git` doesn't exist
+3. **SQLite Database** — creates `database/production.sqlite` if it doesn't exist
+4. **Migrations** — runs `php artisan migrate --force`
+5. **Queue Worker** — starts `php artisan queue:work` in the background
+6. **Graceful Shutdown** — traps SIGTERM/SIGINT to stop the queue worker cleanly
 
-### 1. Create GitHub Personal Access Token
+## Prerequisites
 
-#### Option A: Fine-Grained Token (Recommended)
+Before deploying with content sync enabled, you need one additional Docker secret beyond what's described in the README.
+
+### Create a GitHub Personal Access Token
+
+**Fine-Grained Token (Recommended):**
 
 1. Go to https://github.com/settings/tokens?type=beta
-2. Click "Generate new token"
-3. Configure the token:
+2. Generate new token:
    - **Token name**: `Statamic CMS Production`
-   - **Expiration**: 90 days (or custom - see rotation section below)
-   - **Description**: `Automated content pushes from Statamic CMS`
-   - **Repository access**: Only select repositories → Choose `dabernathy89/emily-blog`
-   - **Permissions**:
-     - Repository permissions → Contents: **Read and write**
-4. Click "Generate token"
-5. **IMPORTANT**: Copy the token immediately (starts with `github_pat_...`)
-   - You won't be able to see it again
-   - Store it temporarily in a secure location
+   - **Expiration**: 90 days (set a calendar reminder to rotate)
+   - **Repository access**: Only select repositories > `dabernathy89/emily-blog`
+   - **Permissions**: Contents — Read and write
+3. Copy the token immediately (`github_pat_...`)
 
-#### Option B: Classic Token (Legacy)
+**Classic Token (Alternative):**
 
 1. Go to https://github.com/settings/tokens
-2. Click "Generate new token (classic)"
-3. Configure:
-   - **Note**: `Statamic CMS Production`
+2. Generate new token (classic):
+   - **Scopes**: `repo`
    - **Expiration**: 90 days
-   - **Scopes**: Check `repo` (full control of private repositories)
-4. Click "Generate token"
-5. Copy the token (starts with `ghp_...`)
+3. Copy the token (`ghp_...`)
 
-### 2. Create Docker Secrets
-
-On your Docker Swarm server:
+### Create the Docker Secret
 
 ```bash
-# Create the github_token secret
-echo "YOUR_GITHUB_TOKEN_HERE" | docker secret create github_token -
-
-# Update the env_file secret with your updated .env.production
-docker secret create env_file .env.production
-
-# Verify secrets were created
-docker secret ls
+echo -n "YOUR_GITHUB_TOKEN" | docker --context emilyblog secret create github_token -
 ```
 
-**Note**: If `env_file` secret already exists, you'll need to remove the service first, remove the old secret, create a new one, then redeploy (see Token Rotation section).
+Then rebuild and redeploy per the README.
 
-### 3. Update Docker Stack Configuration
+## Content Update Flow
 
-The `docker-stack-cms.yml` is already configured with:
-- Repository: `https://github.com/dabernathy89/emily-blog.git`
-- Secrets: `github_token` and `env_file` (mounts as `/app/.env`)
-- Volume: `statamic-database` for SQLite persistence
-
-### 4. Build and Deploy
-
-```bash
-# Build the production image
-docker build --target production -t your-registry/statamic-cms:latest .
-
-# Push to registry
-docker push your-registry/statamic-cms:latest
-
-# Update the image name in docker-stack.yml
-# Then deploy the stack
-docker stack deploy -c docker-stack-cms.yml statamic
+```
+Editor saves in Statamic CP
+        │
+        ▼
+Statamic fires Saved event
+        │
+        ▼
+Git Integration queues commit job (database queue)
+        │
+        ▼
+Queue worker commits + pushes to GitHub
+        │
+        ▼
+GitHub Actions triggers (push to main)
+        │
+        ▼
+Incremental or full SSG build
+        │
+        ▼
+Deploy to Cloudflare Pages
 ```
 
-### 5. Verify Setup
+## Verify Content Sync
 
-Check the container logs to confirm everything started:
+After deploying:
 
 ```bash
-docker service logs statamic_statamic -f
+docker --context emilyblog service logs statamic_statamic -f
 ```
 
 You should see:
 - "Configuring git authentication..."
 - "Running database migrations..."
-- "Starting queue worker..."
 - "Queue worker started with PID: ..."
 - "Starting FrankenPHP..."
 
-### 6. Test Content Sync
+Test by editing an article in the CP and checking `dabernathy89/emily-blog` for a new commit.
 
-1. Log into your Statamic control panel
-2. Edit an article and save it
-3. Wait a few seconds for the queue to process
-4. Check your GitHub repo for a new commit from "dabernathy89"
+## Rotating the GitHub Token
 
-## How It Works
+Docker secrets are immutable. To rotate:
 
-### Content Update Flow
+```bash
+# Detach secret from service
+docker --context emilyblog service update --secret-rm github_token statamic_statamic
 
-1. Editor saves content in Statamic CP → Statamic fires `Saved` event
-2. Statamic Git Integration queues a commit job → Job goes to `database` queue
-3. Queue worker processes job → Commits changes with user's name/email
-4. Git pushes to GitHub → Triggers GitHub Actions workflow
-5. GitHub Actions detects changes → Runs incremental or full SSG build
-6. GitHub Actions deploys to Cloudflare Pages → Site is updated
+# Remove and recreate
+docker --context emilyblog secret rm github_token
+echo -n "NEW_TOKEN" | docker --context emilyblog secret create github_token -
 
-### Database Persistence
+# Redeploy
+docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
+```
 
-The SQLite database is stored in a Docker volume (`statamic-database`), so it persists across container restarts.
+If the token expires, content editing in the CP still works — only the git push will fail silently. Check logs:
 
-### Queue Worker Restart
-
-The queue worker runs inside the container. If the container restarts, the entrypoint script automatically starts a new queue worker.
-
-## Token Rotation
-
-GitHub tokens should be rotated periodically for security. Here's how to rotate the token without downtime:
-
-### Step 1: Generate New Token
-
-Follow the [Create GitHub Personal Access Token](#1-create-github-personal-access-token) steps above to create a new token with the same permissions.
-
-### Step 2: Update Docker Secret
-
-Docker secrets are immutable, so you need to:
-
-1. **Create new secret with different name**:
-   ```bash
-   echo "NEW_GITHUB_TOKEN_HERE" | docker secret create github_token_v2 -
-   ```
-
-2. **Update docker-stack-cms.yml** to use new secret:
-   ```yaml
-   secrets:
-     - github_token_v2  # Changed from github_token
-   ```
-
-3. **Update docker-entrypoint.sh** to check for new secret name:
-   ```bash
-   if [ -f "/run/secrets/github_token_v2" ]; then
-       GITHUB_TOKEN=$(cat /run/secrets/github_token_v2)
-   ```
-
-4. **Redeploy the stack**:
-   ```bash
-   docker stack deploy -c docker-stack-cms.yml statamic
-   ```
-
-5. **Remove old secret** (after verifying new one works):
-   ```bash
-   docker secret rm github_token
-   ```
-
-### Alternative: Rolling Update Without Changing Secret Name
-
-If you want to keep the same secret name:
-
-1. **Remove the service** (this will cause brief downtime):
-   ```bash
-   docker service rm statamic_statamic
-   ```
-
-2. **Remove the old secret**:
-   ```bash
-   docker secret rm github_token
-   ```
-
-3. **Create new secret with same name**:
-   ```bash
-   echo "NEW_GITHUB_TOKEN_HERE" | docker secret create github_token -
-   ```
-
-4. **Redeploy the stack**:
-   ```bash
-   docker stack deploy -c docker-stack-cms.yml statamic
-   ```
-
-### Token Expiration Monitoring
-
-Set a calendar reminder 1 week before your token expires to rotate it proactively.
-
-If the token expires:
-- Content saves will still work in Statamic
-- Git commits will fail silently (queued jobs will error)
-- GitHub Actions won't trigger
-- Check logs: `docker service logs statamic_statamic | grep -i "git push"`
+```bash
+docker --context emilyblog service logs statamic_statamic 2>&1 | grep -i git
+```
 
 ## Troubleshooting
 
-### Git push fails
-
-Check the container logs for git errors. Common issues:
-- GitHub token expired or has wrong permissions
-- GitHub token secret not properly created
-
-Fix by recreating the Docker secret:
-
-```bash
-docker secret rm github_token
-echo "NEW_TOKEN" | docker secret create github_token -
-docker service update --force statamic_statamic
-```
-
 ### Queue jobs not processing
 
-Check if the queue worker is running:
+```bash
+# Check if queue worker is running
+docker --context emilyblog exec $(docker --context emilyblog ps -q -f name=statamic_statamic) ps aux | grep queue
+```
+
+### Database file permissions
+
+The SQLite database is in a Docker volume (`statamic-database`). If migrations fail, check ownership:
 
 ```bash
-docker exec -it $(docker ps -q -f name=statamic_statamic) ps aux | grep queue
+docker --context emilyblog exec $(docker --context emilyblog ps -q -f name=statamic_statamic) ls -la /app/database/
 ```
 
-Check queue jobs table:
-
-```bash
-docker exec -it $(docker ps -q -f name=statamic_statamic) php artisan queue:monitor
-```
-
-### Database migrations fail
-
-Check database file permissions:
-
-```bash
-docker exec -it $(docker ps -q -f name=statamic_statamic) ls -la /app/database/
-```
-
-The `www-data` user should own the database file and directory.
-
-## Environment Variables
-
-Key variables in `.env.production`:
-
-```env
-# Queue (database driver for persistence)
-QUEUE_CONNECTION=database
-
-# SQLite database
-DB_CONNECTION=sqlite
-DB_DATABASE=database/production.sqlite
-
-# Statamic Git Integration
-STATAMIC_GIT_ENABLED=true
-STATAMIC_GIT_PUSH=true
-STATAMIC_GIT_AUTOMATIC=true
-STATAMIC_GIT_USER_NAME="dabernathy89"
-STATAMIC_GIT_USER_EMAIL="dabernathy89@gmail.com"
-```
+The `www-data` user (uid 33) should own the file and directory.
