@@ -71,7 +71,7 @@ Build and transfer run against the **local** Docker daemon (no `--context`). The
 docker build --target production -t statamic-cms:latest .
 
 # Transfer to VM (no registry needed)
-docker save statamic-cms:latest | gzip | ssh user@vm 'gunzip | docker load'
+docker save statamic-cms:latest | gzip | ssh dabernathy@192.168.100.151 'gunzip | docker load'
 ```
 
 ### 3. Deploy the stack
