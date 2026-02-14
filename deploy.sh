@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
 
-docker --context default build --target production -t statamic-cms:latest .
+# Build locally for the VM's architecture. --builder default prevents
+# accidentally building on the VM if the active Docker builder is emilyblog.
+docker buildx build --builder default --platform linux/amd64 --target production --load -t statamic-cms:latest .
 docker save statamic-cms:latest | gzip | ssh dabernathy@192.168.100.151 'gunzip | docker load'
 docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
 

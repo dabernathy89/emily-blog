@@ -86,7 +86,6 @@ RUN mkdir -p /app/storage/logs \
     /app/database
 
 RUN php /app/artisan package:discover --no-interaction \
-    && php /app/artisan event:cache \
-    && php /app/artisan route:cache
+    && php /app/artisan event:cache
 
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
