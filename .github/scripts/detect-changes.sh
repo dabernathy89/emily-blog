@@ -11,7 +11,7 @@
 set -euo pipefail
 
 # Get files changed in this push
-CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+CHANGED=$(git diff --name-only ORIG_HEAD HEAD 2>/dev/null || echo "")
 
 # If we can't diff (e.g. first commit), fall back to full
 if [ -z "$CHANGED" ]; then
@@ -28,10 +28,10 @@ if [ -n "$NON_CONTENT" ]; then
 fi
 
 # Get added/modified articles (files to regenerate)
-ADDED_MODIFIED=$(git diff --diff-filter=AM --name-only HEAD~1 HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
+ADDED_MODIFIED=$(git diff --diff-filter=AM --name-only ORIG_HEAD HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
 
 # Get deleted articles (files to remove from snapshot)
-DELETED=$(git diff --diff-filter=D --name-only HEAD~1 HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
+DELETED=$(git diff --diff-filter=D --name-only ORIG_HEAD HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
 
 # Build URL list from added/modified articles
 # Format: 2013-11-09.my-blogging-challenge.md -> /2013/11/my-blogging-challenge
