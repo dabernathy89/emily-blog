@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: deploy-cf-pages
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,18 +19,20 @@ jobs:
       APP_URL: https://www.everydayaccountsblog.com
       ASSET_URL: ${{ vars.ASSET_URL }}
       STATAMIC_ASSET_URL: ${{ vars.STATAMIC_ASSET_URL }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      AWS_DEFAULT_REGION: auto
-      AWS_BUCKET: emily-blog-assets
-      AWS_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
-      AWS_USE_PATH_STYLE_ENDPOINT: true
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
+
+      - name: Merge main into cf-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout cf-pages
+          git config merge.ours.driver true
+          git merge origin/main --no-edit
 
       - name: Detect changes
         id: changes
@@ -64,12 +70,6 @@ jobs:
       - name: Generate app key
         run: php artisan key:generate
 
-      - name: Restore static site snapshot from R2
-        if: steps.changes.outputs.mode == 'incremental'
-        run: |
-          aws s3 sync s3://emily-blog-assets/ssg-snapshot/ storage/app/static/ \
-            --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
-
       - name: Remove deleted articles from snapshot
         if: steps.changes.outputs.mode == 'incremental' && steps.changes.outputs.deleted != ''
         run: |
@@ -86,20 +86,12 @@ jobs:
         if: steps.changes.outputs.mode == 'full'
         run: php please ssg:generate --workers=2
 
-      - name: Sync build assets to R2
+      - name: Commit and push static site
         run: |
-          aws s3 sync storage/app/static/build/ s3://emily-blog-assets/build/ \
-            --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com \
-            --delete
-
-      - name: Deploy to Cloudflare Pages
-        run: npx wrangler pages deploy storage/app/static/ --project-name=everyday-accounts-blog
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-
-      - name: Save static site snapshot to R2
-        run: |
-          aws s3 sync storage/app/static/ s3://emily-blog-assets/ssg-snapshot/ \
-            --endpoint-url https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com \
-            --delete
+          git add storage/app/static/ --force
+          if git diff --cached --quiet; then
+            echo "No changes to static site"
+          else
+            git commit -m "Deploy static site $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push origin cf-pages
+          fi
