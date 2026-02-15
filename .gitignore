@@ -29,5 +29,4 @@ yarn-error.log
 /database/*.sqlite
 /public/assets
 /storage/app/assets
-/storage/app/static
 .playwright-mcp
