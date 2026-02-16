@@ -78,11 +78,7 @@ COPY --from=node-build --chown=$USER:$WWWGROUP /app/public/build /app/public/bui
 # Copy vendor dependencies from composer stage
 COPY --from=composer-build --chown=$USER:$WWWGROUP /app/vendor /app/vendor
 
-RUN mkdir -p /app/storage/logs \
-    /app/storage/framework/cache \
-    /app/storage/framework/sessions \
-    /app/storage/framework/views \
-    /app/bootstrap/cache \
+RUN mkdir -p /app/bootstrap/cache \
     /app/database
 
 RUN php /app/artisan package:discover --no-interaction \
