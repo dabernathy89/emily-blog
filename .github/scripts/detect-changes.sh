@@ -36,6 +36,7 @@ DELETED=$(git diff --diff-filter=D --name-only ORIG_HEAD HEAD 2>/dev/null | grep
 # Build URL list from added/modified articles
 # Format: 2013-11-09.my-blogging-challenge.md -> /2013/11/my-blogging-challenge
 URLS=""
+ARCHIVE_MONTHS=""
 while IFS= read -r file; do
     [ -z "$file" ] && continue
     basename=$(basename "$file" .md)
@@ -44,10 +45,8 @@ while IFS= read -r file; do
     year="${date_part%%-*}"
     month=$(echo "$date_part" | cut -d- -f2)
     URLS="$URLS /${year}/${month}/${slug}"
+    ARCHIVE_MONTHS="$ARCHIVE_MONTHS ${year}/${month}"
 done <<< "$ADDED_MODIFIED"
-
-# Also regenerate index pages that list articles
-URLS="$URLS /articles /"
 
 # Build list of paths to delete from snapshot
 DELETED_PATHS=""
@@ -59,7 +58,16 @@ while IFS= read -r file; do
     year="${date_part%%-*}"
     month=$(echo "$date_part" | cut -d- -f2)
     DELETED_PATHS="$DELETED_PATHS /${year}/${month}/${slug}"
+    ARCHIVE_MONTHS="$ARCHIVE_MONTHS ${year}/${month}"
 done <<< "$DELETED"
+
+# Regenerate index pages, affected monthly archives, sitemap, and feeds
+URLS="$URLS /articles /"
+URLS="$URLS /sitemap.xml /feed /feed/atom"
+for ym in $(echo "$ARCHIVE_MONTHS" | tr ' ' '\n' | sort -u); do
+    [ -z "$ym" ] && continue
+    URLS="$URLS /${ym}"
+done
 
 echo "mode=incremental" >> "$GITHUB_OUTPUT"
 echo "urls=${URLS}" >> "$GITHUB_OUTPUT"
