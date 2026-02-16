@@ -72,6 +72,10 @@ USER ${USER}
 
 COPY --chown=$USER:$WWWGROUP . /app
 
+# Copy storage directory structure as a template for volume seeding.
+# storage/ is in .dockerignore so it must be copied explicitly.
+COPY --chown=$USER:$WWWGROUP storage /app/storage-init
+
 # Copy built assets from node stage
 COPY --from=node-build --chown=$USER:$WWWGROUP /app/public/build /app/public/build
 

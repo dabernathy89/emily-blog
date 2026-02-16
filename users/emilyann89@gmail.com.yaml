@@ -2,3 +2,7 @@ name: Emily
 super: true
 id: ce84ffbc-2478-4e40-a371-7078e48214ab
 password_hash: $2y$12$OpdnTeIg3h.nioEF3Q83a.X3iCGP7VCjlHg.4HkwavOD/id4UGoBG
+preferences:
+  collections:
+    articles:
+      view: list
