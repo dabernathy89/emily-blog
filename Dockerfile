@@ -72,17 +72,17 @@ USER ${USER}
 
 COPY --chown=$USER:$WWWGROUP . /app
 
+# Copy storage directory structure as a template for volume seeding.
+# storage/ is in .dockerignore so it must be copied explicitly.
+COPY --chown=$USER:$WWWGROUP storage /app/storage-init
+
 # Copy built assets from node stage
 COPY --from=node-build --chown=$USER:$WWWGROUP /app/public/build /app/public/build
 
 # Copy vendor dependencies from composer stage
 COPY --from=composer-build --chown=$USER:$WWWGROUP /app/vendor /app/vendor
 
-RUN mkdir -p /app/storage/logs \
-    /app/storage/framework/cache \
-    /app/storage/framework/sessions \
-    /app/storage/framework/views \
-    /app/bootstrap/cache \
+RUN mkdir -p /app/bootstrap/cache \
     /app/database
 
 RUN php /app/artisan package:discover --no-interaction \

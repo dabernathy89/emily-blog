@@ -52,6 +52,7 @@ services:
     image: statamic-cms:latest
     volumes:
       - statamic-database:/app/database
+      - statamic-storage:/app/storage
     secrets:
       - source: env_file
         target: /app/.env
@@ -75,6 +76,8 @@ volumes:
   mailpit-data:
     driver: local
   statamic-database:
+    driver: local
+  statamic-storage:
     driver: local
 
 networks:

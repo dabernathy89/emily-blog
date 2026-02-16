@@ -3,6 +3,12 @@ set -e
 
 echo "Starting Statamic CMS container..."
 
+# Seed storage volume from template on first run
+if [ ! -d "/app/storage/framework" ]; then
+    echo "Seeding storage directory from template..."
+    cp -a /app/storage-init/. /app/storage/
+fi
+
 # Create database directory if it doesn't exist
 if [ ! -d "/app/database" ]; then
     echo "Creating database directory..."
