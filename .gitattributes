@@ -6,6 +6,9 @@
 *.md diff=markdown
 *.php diff=php
 
+# Use "theirs" strategy for content when merging main into cf-pages
+content/** merge=theirs
+
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
