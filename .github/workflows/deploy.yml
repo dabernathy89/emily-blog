@@ -51,12 +51,23 @@ jobs:
         with:
           php-version: '8.4'
           extensions: mbstring, exif, gd, fileinfo, pcntl, sockets
+          tools: composer:v2
+          coverage: none
+          cache: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+
+      - name: Cache Composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: vendor
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
 
       - name: Install Composer dependencies
         run: composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
@@ -65,7 +76,15 @@ jobs:
         run: npm ci
 
       - name: Build frontend assets
+        if: steps.changes.outputs.mode == 'full'
         run: npm run build
+
+      - name: Restore frontend assets (incremental)
+        if: steps.changes.outputs.mode == 'incremental'
+        run: |
+          if git show origin/cf-pages:public/build/manifest.json > /dev/null 2>&1; then
+            git checkout origin/cf-pages -- public/build/
+          fi
 
       - name: Prepare environment
         run: cp .env.ssg .env
@@ -83,11 +102,11 @@ jobs:
 
       - name: Generate static site (incremental)
         if: steps.changes.outputs.mode == 'incremental'
-        run: php please ssg:generate --workers=2 ${{ steps.changes.outputs.urls }}
+        run: php please ssg:generate --workers=4 ${{ steps.changes.outputs.urls }}
 
       - name: Generate static site (full)
         if: steps.changes.outputs.mode == 'full'
-        run: php please ssg:generate --workers=2
+        run: php please ssg:generate --workers=4
 
       - name: Commit and push static site
         run: |
