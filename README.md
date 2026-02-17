@@ -25,6 +25,57 @@ Statamic 5 blog on Laravel 12, migrated from WordPress. Dual-architecture deploy
 
 **Content workflow:** Edit in Statamic CP → queued job syncs flat files via GitHub API → GitHub Actions builds static site → deploys to Cloudflare Pages.
 
+## Content Sync (Custom GitHub Integration)
+
+Since Statamic's built-in git automation requires a Pro license, we built a custom GitHub sync that uses the GitHub REST API to push content changes without needing git installed on the CMS server.
+
+### How It Works
+
+**Event Listener** (`ContentGitSubscriber`) — Listens for all Statamic content Saved/Deleted events:
+- Accumulates changes in cache with commit messages and authenticated user info
+- Dispatches a `SyncContentToGitHub` job with a 2-minute delay to batch rapid edits
+
+**Sync Job** (`SyncContentToGitHub`) — Runs uniquely (overlapping jobs collapse):
+1. Fetches the current branch tree from GitHub (paths + blob SHAs only, no file downloads)
+2. Compares local file SHAs against remote SHAs using git's blob hash algorithm
+3. Detects additions, modifications, and deletions
+4. Creates an atomic commit via GitHub API if changes exist
+
+**GitHub API Service** (`GitHubApiService`) — Commits entirely through REST API:
+- Creates blobs for changed files
+- Builds a new tree
+- Creates commit object with proper author attribution
+- Updates the branch ref
+
+No local git binary required. All SHA comparison is in-memory.
+
+### Configuration
+
+Set these in your production `.env` (CMS only):
+
+```bash
+GITHUB_SYNC_ENABLED=true
+GITHUB_SYNC_REPOSITORY=owner/repo
+GITHUB_SYNC_BRANCH=main
+GITHUB_SYNC_TOKEN=ghp_xxx  # needs repo write access
+GITHUB_SYNC_DISPATCH_DELAY=2  # minutes to batch edits
+GITHUB_SYNC_COMMITTER_NAME="Statamic CMS"
+GITHUB_SYNC_COMMITTER_EMAIL="cms@example.com"
+```
+
+Tracked paths: `content/`, `resources/blueprints/`, `resources/fieldsets/`, `resources/forms/`, `resources/users/`.
+
+### Deployment Flow
+
+```
+CP edit → event → cache → job (2min delay)
+  → diff local vs GitHub tree via API
+  → commit to main via GitHub API
+  → GitHub Actions deploys
+```
+
+The `cf-pages` branch (which holds generated static HTML) only exists on GitHub — it's created/updated by the GitHub Actions runner, never locally.
+
 ## Development
 
 ```bash
@@ -111,12 +162,18 @@ docker --context emilyblog stack deploy -c docker-stack-cms.yml statamic
 
 ## Static Site Deployment
 
-Handled automatically by GitHub Actions on push to `main`:
+Handled automatically by GitHub Actions (`.github/workflows/deploy.yml`) on push to `main`:
 
-1. Builds frontend assets (`npm run build`)
-2. Runs `php please ssg:generate`
-3. Syncs build assets to Cloudflare R2
-4. Deploys static HTML to Cloudflare Pages
+1. Merges `main` into `cf-pages` branch
+2. Detects changes (incremental vs full rebuild):
+   - **Incremental:** Only article markdown changed → regenerates affected URLs, archives, feeds, sitemap
+   - **Full:** Templates, config, or code changed → regenerates entire site
+3. Builds frontend assets (`npm run build`)
+4. Runs `php please ssg:generate` with detected URLs (or `--workers=2` for full)
+5. Commits static HTML to `cf-pages` branch
+6. Cloudflare Pages deploys from `cf-pages`
+
+The `cf-pages` branch holds only generated HTML and never exists locally — it's managed entirely by CI.
 
 ## Troubleshooting
 
