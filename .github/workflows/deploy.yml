@@ -76,15 +76,7 @@ jobs:
         run: npm ci
 
       - name: Build frontend assets
-        if: steps.changes.outputs.mode == 'full'
         run: npm run build
-
-      - name: Restore frontend assets (incremental)
-        if: steps.changes.outputs.mode == 'incremental'
-        run: |
-          if git show origin/cf-pages:public/build/manifest.json > /dev/null 2>&1; then
-            git checkout origin/cf-pages -- public/build/
-          fi
 
       - name: Prepare environment
         run: cp .env.ssg .env
