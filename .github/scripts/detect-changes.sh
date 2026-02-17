@@ -56,6 +56,7 @@ fi
 # Format: 2013-11-09.my-blogging-challenge.md -> /2013/11/my-blogging-challenge
 URLS=""
 ARCHIVE_MONTHS=""
+TAXONOMY_URLS=""
 while IFS= read -r file; do
     [ -z "$file" ] && continue
     basename=$(basename "$file" .md)
@@ -65,6 +66,14 @@ while IFS= read -r file; do
     month=$(echo "$date_part" | cut -d- -f2)
     URLS="$URLS /${year}/${month}/${slug}"
     ARCHIVE_MONTHS="$ARCHIVE_MONTHS ${year}/${month}"
+    # Add taxonomy archive pages from front matter
+    for taxonomy in category tag; do
+        terms=$(awk "/^${taxonomy}:/{found=1; next} found && /^  - /{line=\$0; gsub(/^[[:space:]]*- /, \"\", line); print line} found && /^[a-zA-Z]/{found=0}" "$file")
+        while IFS= read -r term; do
+            [ -z "$term" ] && continue
+            TAXONOMY_URLS="$TAXONOMY_URLS /${taxonomy}/${term}"
+        done <<< "$terms"
+    done
 done <<< "$ADDED_MODIFIED"
 
 # Build list of paths to delete from snapshot
@@ -78,6 +87,14 @@ while IFS= read -r file; do
     month=$(echo "$date_part" | cut -d- -f2)
     DELETED_PATHS="$DELETED_PATHS /${year}/${month}/${slug}"
     ARCHIVE_MONTHS="$ARCHIVE_MONTHS ${year}/${month}"
+    # Add taxonomy archive pages from front matter (regenerate, not delete)
+    for taxonomy in category tag; do
+        terms=$(awk "/^${taxonomy}:/{found=1; next} found && /^  - /{line=\$0; gsub(/^[[:space:]]*- /, \"\", line); print line} found && /^[a-zA-Z]/{found=0}" "$file")
+        while IFS= read -r term; do
+            [ -z "$term" ] && continue
+            TAXONOMY_URLS="$TAXONOMY_URLS /${taxonomy}/${term}"
+        done <<< "$terms"
+    done
 done <<< "$DELETED"
 
 # Regenerate index pages, affected monthly archives, sitemap, and feeds
@@ -86,6 +103,12 @@ URLS="$URLS /sitemap.xml /feed /feed/atom"
 for ym in $(echo "$ARCHIVE_MONTHS" | tr ' ' '\n' | sort -u); do
     [ -z "$ym" ] && continue
     URLS="$URLS /${ym}"
+done
+
+# Deduplicate and append taxonomy archive URLs
+for tu in $(echo "$TAXONOMY_URLS" | tr ' ' '\n' | sort -u); do
+    [ -z "$tu" ] && continue
+    URLS="$URLS $tu"
 done
 
 echo "mode=incremental" >> "$GITHUB_OUTPUT"
