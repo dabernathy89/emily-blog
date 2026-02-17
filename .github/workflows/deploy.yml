@@ -22,6 +22,12 @@ jobs:
       APP_URL: https://www.everydayaccountsblog.com
       ASSET_URL: ${{ vars.ASSET_URL }}
       STATAMIC_ASSET_URL: ${{ vars.STATAMIC_ASSET_URL }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ${{ vars.AWS_DEFAULT_REGION }}
+      AWS_BUCKET: ${{ vars.AWS_BUCKET }}
+      AWS_ENDPOINT: ${{ vars.AWS_ENDPOINT }}
+      AWS_USE_PATH_STYLE_ENDPOINT: ${{ vars.AWS_USE_PATH_STYLE_ENDPOINT }}
 
     steps:
       - name: Checkout
