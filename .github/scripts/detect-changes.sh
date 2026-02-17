@@ -3,6 +3,8 @@
 # Detect whether a push contains only article content changes (incremental)
 # or includes template/config changes (full rebuild required).
 #
+# Usage: detect-changes.sh [before_sha] [after_sha]
+#
 # Outputs to $GITHUB_OUTPUT:
 #   mode=incremental|full
 #   urls=<space-separated list of URLs to regenerate> (only when incremental)
@@ -10,8 +12,17 @@
 
 set -euo pipefail
 
+# Get the before and after commits from arguments
+BEFORE="${1:-}"
+AFTER="${2:-HEAD}"
+
 # Get files changed in this push
-CHANGED=$(git diff --name-only ORIG_HEAD HEAD 2>/dev/null || echo "")
+if [ -n "$BEFORE" ]; then
+    CHANGED=$(git diff --name-only "$BEFORE" "$AFTER" 2>/dev/null || echo "")
+else
+    # Fallback for when no SHAs provided (shouldn't happen in workflow)
+    CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+fi
 
 # If we can't diff (e.g. first commit), fall back to full
 if [ -z "$CHANGED" ]; then
@@ -28,10 +39,18 @@ if [ -n "$NON_CONTENT" ]; then
 fi
 
 # Get added/modified articles (files to regenerate)
-ADDED_MODIFIED=$(git diff --diff-filter=AM --name-only ORIG_HEAD HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
+if [ -n "$BEFORE" ]; then
+    ADDED_MODIFIED=$(git diff --diff-filter=AM --name-only "$BEFORE" "$AFTER" 2>/dev/null | grep '^content/collections/articles/' || true)
+else
+    ADDED_MODIFIED=$(git diff --diff-filter=AM --name-only HEAD~1 HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
+fi
 
 # Get deleted articles (files to remove from snapshot)
-DELETED=$(git diff --diff-filter=D --name-only ORIG_HEAD HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
+if [ -n "$BEFORE" ]; then
+    DELETED=$(git diff --diff-filter=D --name-only "$BEFORE" "$AFTER" 2>/dev/null | grep '^content/collections/articles/' || true)
+else
+    DELETED=$(git diff --diff-filter=D --name-only HEAD~1 HEAD 2>/dev/null | grep '^content/collections/articles/' || true)
+fi
 
 # Build URL list from added/modified articles
 # Format: 2013-11-09.my-blogging-challenge.md -> /2013/11/my-blogging-challenge
