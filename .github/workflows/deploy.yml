@@ -53,7 +53,6 @@ jobs:
           extensions: mbstring, exif, gd, fileinfo, pcntl, sockets
           tools: composer:v2
           coverage: none
-          cache: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
