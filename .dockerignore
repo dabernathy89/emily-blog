@@ -3,3 +3,7 @@ node_modules/
 storage/app/static/
 bootstrap/cache/*.php
 .git
+.env
+.env.production
+.env.local
+.env.*.local
