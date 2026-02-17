@@ -1,5 +1,5 @@
 vendor/
 node_modules/
-storage/
+storage/app/static/
 bootstrap/cache/*.php
 .git

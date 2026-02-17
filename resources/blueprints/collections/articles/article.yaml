@@ -99,9 +99,9 @@ tabs:
           -
             handle: tag
             field:
-              mode: typeahead
               taxonomies:
                 - tag
               type: terms
               display: Tags
+              create: true
               sortable: false
