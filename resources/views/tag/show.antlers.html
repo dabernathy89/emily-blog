@@ -3,7 +3,7 @@
     <h1 class="font-display text-4xl lg:text-5xl text-peach">{{ title }}</h1>
 </header>
 
-{{ entries paginate="10" as="posts" on_each_side="1" sort="date" order="desc" }}
+{{ entries paginate="10" as="posts" on_each_side="1" sort="date:desc" }}
     {{ posts }}
         <article class="mb-8 pb-8 border-b border-gray-100 last:border-0">
             {{ if featured_image }}
