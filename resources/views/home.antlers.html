@@ -1,4 +1,4 @@
-{{ collection:articles limit="10" as="articles" paginate="true" on_each_side="1" }}
+{{ collection:articles as="articles" paginate="10" on_each_side="1" }}
     {{ if no_results }}
         <p class="font-serif text-xl italic text-warm-gray">No posts yet — check back soon!</p>
     {{ /if }}
