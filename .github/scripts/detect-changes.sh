@@ -88,8 +88,9 @@ while IFS= read -r file; do
     DELETED_PATHS="$DELETED_PATHS /${year}/${month}/${slug}"
     ARCHIVE_MONTHS="$ARCHIVE_MONTHS ${year}/${month}"
     # Add taxonomy archive pages from front matter (regenerate, not delete)
+    # Use git show to read deleted file content from the BEFORE commit
     for taxonomy in category tag; do
-        terms=$(awk "/^${taxonomy}:/{found=1; next} found && /^  - /{line=\$0; gsub(/^[[:space:]]*- /, \"\", line); print line} found && /^[a-zA-Z]/{found=0}" "$file")
+        terms=$(git show "${BEFORE}:${file}" 2>/dev/null | awk "/^${taxonomy}:/{found=1; next} found && /^  - /{line=\$0; gsub(/^[[:space:]]*- /, \"\", line); print line} found && /^[a-zA-Z]/{found=0}")
         while IFS= read -r term; do
             [ -z "$term" ] && continue
             TAXONOMY_URLS="$TAXONOMY_URLS /${taxonomy}/${term}"
