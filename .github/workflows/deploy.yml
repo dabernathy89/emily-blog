@@ -35,15 +35,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Detect changes
-        id: changes
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "mode=full" >> "$GITHUB_OUTPUT"
-          else
-            bash .github/scripts/detect-changes.sh "${{ github.event.before }}" "${{ github.sha }}"
-          fi
-
       - name: Merge main into cf-pages
         run: |
           git config user.name "github-actions[bot]"
@@ -88,6 +79,15 @@ jobs:
 
       - name: Generate app key
         run: php artisan key:generate
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            bash .github/scripts/detect-changes.sh "${{ github.event.before }}" "${{ github.sha }}"
+          fi
 
       - name: Remove deleted articles from snapshot
         if: steps.changes.outputs.mode == 'incremental' && steps.changes.outputs.deleted != ''

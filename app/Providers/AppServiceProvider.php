@@ -3,8 +3,10 @@
 namespace App\Providers;
 
 use App\Listeners\ContentGitSubscriber;
+use App\Support\SsgLengthAwarePaginator;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
+use Statamic\Extensions\Pagination\LengthAwarePaginator as StatamicLengthAwarePaginator;
 use Statamic\Facades\Entry;
 use Statamic\StaticSite\SSG;
 
@@ -35,5 +37,17 @@ class AppServiceProvider extends ServiceProvider
         });
 
         Event::subscribe(ContentGitSubscriber::class);
+
+        if ($this->app->runningInConsole()) {
+            $this->app->extend(StatamicLengthAwarePaginator::class, function ($paginator) {
+                return $this->app->makeWith(SsgLengthAwarePaginator::class, [
+                    'items' => $paginator->getCollection(),
+                    'total' => $paginator->total(),
+                    'perPage' => $paginator->perPage(),
+                    'currentPage' => $paginator->currentPage(),
+                    'options' => $paginator->getOptions(),
+                ]);
+            });
+        }
     }
 }
