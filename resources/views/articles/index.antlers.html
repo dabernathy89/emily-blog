@@ -1,7 +1,7 @@
 <header class="mb-8">
     <h1 class="font-display text-4xl lg:text-5xl text-peach">{{ title }}</h1>
     {{ if content }}
-        <div class="content font-serif text-gray-700 mt-2">{{ content | widont }}</div>
+        <div class="content font-serif text-warm-brown mt-2">{{ content | widont }}</div>
     {{ /if }}
 </header>
 
@@ -25,7 +25,7 @@
             <p class="text-sm text-warm-gray font-sans mb-2">
                 {{ date format="F j, Y" }}
             </p>
-            <div class="font-serif text-gray-700 leading-relaxed">
+            <div class="font-serif text-warm-brown leading-relaxed">
                 {{ excerpt | widont ?? content | strip_tags | safe_truncate(200, '...') }}
             </div>
         </article>

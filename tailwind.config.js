@@ -20,6 +20,7 @@ export default {
                 'sage-light': '#c5d8cc',
                 'cream': '#fdf8f4',
                 'warm-gray': '#666666',
+                'warm-brown': '#5c3d2e',
             }
         }
     },

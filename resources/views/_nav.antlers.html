@@ -5,7 +5,7 @@
             {{ nav:main max_depth="3" }}
                 <div class="relative" @mouseenter="openDropdown = {{ count }}" @mouseleave="openDropdown = null">
                     <a href="{{ url }}"
-                       class="font-display text-lg text-white hover:text-cream px-4 py-2 inline-block no-underline">
+                       class="font-display text-xl text-warm-brown hover:text-warm-brown/80 px-4 py-2 inline-block no-underline">
                         {{ title }}
                         {{ if children }}
                             <svg class="inline-block w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
@@ -42,7 +42,7 @@
                                             {{ if children }}
                                                 <div class="flex flex-col gap-1">
                                                     {{ children }}
-                                                        <a href="{{ url }}" class="font-serif text-gray-700 hover:bg-cream hover:text-peach-dark no-underline py-1 px-2 rounded text-sm">{{ title }}</a>
+                                                        <a href="{{ url }}" class="font-serif text-warm-brown hover:bg-cream hover:text-peach-dark no-underline py-1 px-2 rounded text-sm">{{ title }}</a>
                                                     {{ /children }}
                                                 </div>
                                             {{ /if }}
@@ -62,7 +62,7 @@
                                  class="absolute left-0 top-full mt-0 bg-white rounded-b-lg shadow-lg min-w-48 z-50 py-2"
                                  x-cloak>
                                 {{ children }}
-                                    <a href="{{ url }}" class="block px-5 py-2 font-serif text-gray-700 hover:bg-cream hover:text-peach-dark no-underline">
+                                    <a href="{{ url }}" class="block px-5 py-2 font-serif text-warm-brown hover:bg-cream hover:text-peach-dark no-underline">
                                         {{ title }}
                                     </a>
                                 {{ /children }}
@@ -75,8 +75,8 @@
 
         {{# Mobile hamburger #}}
         <div class="lg:hidden flex items-center justify-between py-3">
-            <a href="/" class="font-display text-xl text-white no-underline">{{ settings:site_name ?? "Everyday Accounts" }}</a>
-            <button @click="showMobileNav = !showMobileNav" class="text-white p-2" aria-label="Toggle navigation">
+            <a href="/" class="font-display text-xl text-warm-brown no-underline">{{ settings:site_name ?? "Everyday Accounts" }}</a>
+            <button @click="showMobileNav = !showMobileNav" class="text-warm-brown p-2" aria-label="Toggle navigation">
                 <svg x-show="!showMobileNav" class="h-6 w-6 fill-current" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
                 <svg x-show="showMobileNav" class="h-6 w-6 fill-current" viewBox="0 0 20 20" x-cloak><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" /></svg>
             </button>
