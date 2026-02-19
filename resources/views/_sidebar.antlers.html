@@ -10,7 +10,7 @@
 {{ if settings:current_location }}
 <div class="bg-white rounded-lg shadow-sm p-6 mb-8 text-center">
     <h3 class="font-display text-xl text-peach-dark mb-2">Current Location</h3>
-    <p class="font-serif text-gray-700">{{ settings:current_location }}</p>
+    <p class="font-serif text-warm-brown">{{ settings:current_location }}</p>
 </div>
 {{ /if }}
 
@@ -34,7 +34,7 @@
     <ul class="list-none pl-0">
         {{ collection:articles limit="5" sort="date:desc" }}
             <li class="mb-3 pb-3 border-b border-gray-100 last:border-0 last:mb-0 last:pb-0">
-                <a href="{{ url }}" class="font-serif text-gray-700 hover:text-peach no-underline leading-snug block">
+                <a href="{{ url }}" class="font-serif text-warm-brown hover:text-peach no-underline leading-snug block">
                     {{ title }}
                 </a>
                 <span class="text-xs text-warm-gray font-sans">{{ date format="M j, Y" }}</span>
@@ -47,7 +47,7 @@
 <div class="bg-white rounded-lg shadow-sm p-6 mb-8">
     <h3 class="font-display text-xl text-peach-dark mb-4">Archives</h3>
     <select x-data @change="if ($el.value) window.location.href = $el.value"
-            class="w-full font-serif text-gray-700 border border-gray-200 rounded px-3 py-2 bg-white">
+            class="w-full font-serif text-warm-brown border border-gray-200 rounded px-3 py-2 bg-white">
         <option value="">Select Month</option>
         {{ collection:articles sort="date:desc" as="entries" }}
             {{ entries group_by="date|Y-m" }}
@@ -67,7 +67,7 @@
 <div class="bg-white rounded-lg shadow-sm p-6 mb-8">
     <h3 class="font-display text-xl text-peach-dark mb-4">Categories</h3>
     <select x-data @change="if ($el.value) window.location.href = $el.value"
-            class="w-full font-serif text-gray-700 border border-gray-200 rounded px-3 py-2 bg-white">
+            class="w-full font-serif text-warm-brown border border-gray-200 rounded px-3 py-2 bg-white">
         <option value="">Select Category</option>
         {{ taxonomy:category sort="title" }}
             {{ if entries_count > 0 }}
