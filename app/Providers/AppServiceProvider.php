@@ -3,12 +3,17 @@
 namespace App\Providers;
 
 use App\Listeners\ContentGitSubscriber;
+use App\Support\SsgGenerator;
 use App\Support\SsgLengthAwarePaginator;
+use Illuminate\Filesystem\Filesystem;
+use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 use Statamic\Extensions\Pagination\LengthAwarePaginator as StatamicLengthAwarePaginator;
 use Statamic\Facades\Entry;
+use Statamic\StaticSite\Generator;
 use Statamic\StaticSite\SSG;
+use Statamic\StaticSite\Tasks;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -17,7 +22,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->singleton(Generator::class, function ($app) {
+            return new SsgGenerator($app, $app[Filesystem::class], $app[Router::class], $app[Tasks::class]);
+        });
     }
 
     /**
